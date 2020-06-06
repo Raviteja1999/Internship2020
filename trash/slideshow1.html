@@ -1,0 +1,247 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+
+        
+        
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+
+    </head>
+    <style>
+       
+       
+       
+.slides {display: none;}
+img {vertical-align: middle;}
+
+.slide-container{
+  width:100%;
+} 
+.slides{
+  object-fit: cover;
+}
+.slides>img {
+  border:1px solid black;
+  scroll-behavior: smooth;
+  height: 300px;
+
+ 
+  
+   /* width: 100%; */
+  
+    
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.activedot {
+  background-color: #717171;
+}
+
+/* Next & previous buttons */
+
+/* .prevarrow{
+  cursor: pointer;
+  position:absolute;
+  user-select: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  top: 600px;
+  left: 20%;
+  width: auto;
+  padding: 16px;
+  
+
+}
+.postarrow {
+  cursor: pointer; 
+  position: absolute;
+  user-select: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  top: 600px;
+  right:20%;
+  width: auto;
+  padding: 16px;
+ 
+
+    
+} */
+/* On hover, add a black background color with a little bit see-through */
+/* .prevarrow:hover, .postarrow:hover {
+  background-color: rgba(3, 3, 3, 0.377)
+} */
+
+
+
+/* Fading animation 
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+*/
+
+/* .slides-container ul li{                           
+	-webkit-transition: all 0.3s cubic-bezier(1,.01,.32,1);
+	-moz-transition: all 0.3s cubic-bezier(1,.01,.32,1);
+	-o-transition: all 0.3s cubic-bezier(1,.01,.32,1);
+	-ms-transition: all 0.3s cubic-bezier(1,.01,.32,1);
+	transition: all 0.3s cubic-bezier(1,.01,.32,1);	
+}
+  */
+ 
+
+/* On smaller screens, decrease text size
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+} */
+
+    </style>
+
+    <body>
+
+
+
+        <div class="slide-containter"  style="text-align: center;">
+
+          <ul >
+            <li class="slides ">
+                <img src="img/slide1.jpg" alt="image1">
+                <img src="img/slide1.jpg" alt="image1">
+                
+            </li>
+
+            <li class="slides ">
+                <img src="img/slide2.jpg" alt="image2">
+               
+            </li>
+
+            <li class="slides ">
+                <img src="img/slide3.jpg" alt="image3">
+               
+            </li>
+
+            <li class="slides ">
+                <img src="img/slide4.jpg" alt="image4">
+                
+            </li>
+
+            <li class="slides ">
+                <img src="img/slide5.jpg" alt="image5">
+
+            </li>
+            </ul>
+           
+            <!-- <a class="prevarrow" onclick="chgslide(-1)">&#10094;</a>
+            <a class="postarrow" onclick="chgslide(1)">&#10095;</a> -->
+
+            <div style="text-align: center;">
+            <span class="dot" onclick="clickslide(1)"></span>
+            <span class="dot" onclick="clickslide(2)"></span>
+            <span class="dot" onclick="clickslide(3)"></span>
+            <span class="dot" onclick="clickslide(4)"></span>
+            <span class="dot" onclick="clickslide(5)"></span>
+        </div>
+        
+       
+        </div>
+        
+        <script>
+           var slideindex=0;
+           showslide();
+            
+            function showslide()     
+            {
+             var i;
+             var slides=document.getElementsByClassName("slides");
+             var dots=document.getElementsByClassName("dot");
+             for(i=0;i<slides.length;i++)
+             {
+                 slides[i].style.display ="none";
+             }
+             slideindex++;
+             if (slideindex > slides.length) {
+                 slideindex=1;
+             }
+             for(i=0;i<dots.length;i++)
+             {
+                dots[i].className = dots[i].className.replace(" activedot", "");
+             }
+             slides[slideindex-1].style.display="block";
+             dots[slideindex-1].className += " activedot";
+             setTimeout(showslide,3000);
+            }
+          
+            
+            function chgslide(n)  //different function for clicking the dots, arrows
+            {
+                showslideclick(slideindex=slideindex+n);
+            }
+            function clickslide(n)
+            {
+                showslideclick(slideindex=n);
+            }
+
+            
+            function showslideclick(n) {
+            var i;
+            var slides = document.getElementsByClassName("slides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length)
+                 {
+                 slideindex = 1
+                }    
+            if (n < 1)
+                {
+                 slideindex = slides.length
+                }
+            for (i = 0; i < slides.length; i++)
+                 {
+                slides[i].style.display = "";  
+                 }
+            for (i = 0; i < dots.length; i++)
+             {
+                dots[i].className = dots[i].className.replace(" activedot", "");
+              }
+            slides[slideindex-1].style.display = "block";  
+            dots[slideindex-1].className += " activedot";
+            }
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+<!--       
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+      
+    </head>
+    <body>
+      
+        <button type="button" class="btn btn-primary" id=btn1 value=1  onclick="reply(this.id,this.value)">btn1</button>
+        <button type="button" class="btn btn-primary" id=btn2 value=2 onclick="reply(this.id,this.value)">btn2</button>
+        <button type="button" class="btn btn-primary" id=btn3>btn3</button>
+        
+
+        <div id=displaycontent></div>
+    </body>
+
+
+</html>
+<script>
+
+$(document).ready(function(){
+    $('html').click(function() {
+  //Hide the menus if visible
+});
+})
+
+        var btn;
+        var value;
+       function reply(clickid,clickvalue){
+            btn = clickid;
+            value= clickvalue;
+          console.log(btn,value);
+          
+            calling();
+        
+        }
+                        
+
+           function calling(){
+               
+            var display = document.getElementById("displaycontent");
+            
+           // var btn= document.getElementById("btn1");
+           
+
+            // btn.addEventListener("click",function(){
+            //     var request=new XMLHttpRequest();
+            // request.open('GET','1.js');
+
+            // request.onload=function(){
+            // var ourdata =JSON.parse(request.responseText) ;
+            //     displayinbody(ourdata);
+            // };
+            // request.send();
+
+            // });
+
+            var request=new XMLHttpRequest();
+             request.open('GET',value+'.js');
+
+             request.onload=function(){
+             var ourdata =JSON.parse(request.responseText) ;
+                 displayinbody(ourdata);
+             };
+             request.send();
+
+             
+             function displayinbody(data){
+        var details='';
+        
+       for(i=0;i<data.length;i++){
+           details += "name" + "<t> :"+data[i].name;
+       }
+
+
+       // display.insertAdjacentHTML('beforeend',details);
+       document.getElementById("displaycontent").innerHTML=details;
+    }
+           }
+         
+
+
+    // function displayinbody(data){
+    //     var details='';
+        
+    //    for(i=0;i<data.length;i++){
+    //        details += "name" + "<t> :"+data[i].name;
+    //    }
+
+
+    //     display.insertAdjacentHTML('beforeend',details);
+       
+    // }
+
+
+    
+</script>
+
+

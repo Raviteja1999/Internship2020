@@ -1,0 +1,342 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+
+        
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+
+      
+    </head>
+
+    <style>
+        
+        .nav{
+            
+          
+            background-color: #199ECC ;
+        }
+         .nav-link{
+            cursor : pointer;
+            position: relative;
+            display:block;
+            color: white;
+            border-left: 1px black solid;
+            
+   
+        }
+        .content
+	    {
+            display:none;
+            position: absolute;
+            min-width: 250px; 
+            box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            font-size:20px;
+            z-index: 1;
+            background-color: black ;
+    }
+    
+       
+    .nav-link:hover .content 
+            {       
+              display:block;
+            }
+        .directlinks{
+            color: white;
+        }
+/*sidebar  navigation styling*/
+        .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #17B6B3 ;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        }
+
+        .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+        color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        }
+
+        #main {
+        transition: margin-left .5s;
+        padding: 16px;
+        }
+
+        @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+        }
+
+
+
+    </style>
+
+      <body>
+
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Location Map</a>
+            <a href="#">Sitemap</a>
+            <a href="#">Organization Setup</a>
+            <a href="#">Cadre Strength</a>
+            <a href="#">Staff</a>
+            <a href="#">Vigilance</a>
+            <a href="#">Archives</a>
+            <a href="#">Contact</a>
+          </div>
+          
+          <div id="main">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; About</span>
+          </div>
+          
+          <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "200px";
+             // document.getElementById("main").style.marginLeft = "250px";
+              document.body.style.marginLeft = "200px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+             // document.getElementById("main").style.marginLeft= "0";
+              document.body.style.marginLeft = "0";
+                              
+            }
+            </script>
+
+    <div class="containter">
+
+       
+        <nav class="nav justify-content-center">
+
+          
+
+            
+
+            <li> <a class="nav-link active" href="#">Home</a></li>
+
+            <li><div class="nav-link"> 
+                <span><b>For Farmers</b><i class="fa fa-caret-down"></i></span>
+                
+                <div class="content">
+                    <p><a href='for_pstOfFarmers.php'><span class="directlinks">List of Farmers</span> </a></p> 
+                    <p><a href='files/success.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Success Stories</span></a></p>
+                    <p><a href='for_origin.php'><span class="directlinks">Origin</span></a></p> 
+                    <p><a href='for_types.php'><span class="directlinks">Type Of Tobacco</span></a></p>
+                    <p><a href='for_morphology.php'><span class="directlinks">Morphology</span></a></p> 
+                    <p><a href='for_soil.php'><span class="directlinks">Soils & Cpmate</span></a></p>	
+                    <p><a href='for_nursery.php'><span class="directlinks">Nursery</span></a></p>
+                    <p><a href='files/agronomy.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Agronomic practices</span></a></p>
+                    <p><a href='for_curing.php'><span class="directlinks">Curing & Grading</span></a></p>
+                    <p><a href='for_controlPests.php'><span class="directlinks">Management of Insect Pests</span></a></p>
+                    <p><a href='for_controlDisease.php'><span class="directlinks">Management of Diseases</span></a></p>
+                    <p><a href='for_quality.php'><span class="directlinks">Quapty Parameter</span> </a></p>
+                    <p><a href='for_tobaccoEconomy.php'><span class="directlinks">Tobacco in Indian Economy</span></a></p>
+                </div>
+                </div>
+            </li>
+            
+            <li><div class="nav-link">
+                <span><b>Research</b></span>
+            <div class="content">
+                <p><a href='files/RESEARCH.pdf' target="_blank" title="opens a PDF file in new window" ><span class="directlinks">Research achievements</span></a></p>
+                <p><a href='files/projects1.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">On-going projects</span></a></p>
+                <p><a href='home_research_external.php'><span class="directlinks">Extenllay Funded Projects</span></a></p>
+                <p ><a href='files/technology.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Technologies</span></a></p>
+                    <p ><a href='files/varieties.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Varieties</span></a></p>
+                    <p ><a href='files/colobration.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Collaborations</span></a></p>
+                    <p ><a href='home_research_publications.php'><span class="directlinks">Publications</span></a></p>
+                <p ><a href='files/ainrp.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">AINP on Tobacco</span></a></p>
+                    <p ><a href='files/award.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Award Winners</span></a></p>
+                    <p ><a href='home_research_patents.php'><span class="directlinks">Patents</span></a></p>
+            
+            </div>
+            </div>
+            </li>
+
+            <li><div class="nav-link">
+                <span><b>Announcements</b></span>
+            <div class="content">
+                <p><a href='press/index.html'><span class="directlinks">Press Release</span></a></p>
+                <p><a href='circular.php'><span class="directlinks">Circulars</span></a></p>
+                <p><a href='employment.php'><span class="directlinks">Employment</span> </a></p>
+                <p><a href='announcement_ria.php'><span class="directlinks">Right to Information Act</span></a></p>
+            
+            </div>
+            </div>
+            </li>
+
+            <li><div class="nav-link">
+                <span><b>Downloads</b></span>
+            <div class="content">
+                <p><a href='download_tenders.php'><span class="directlinks">Quotations</span></a></p>
+                <p><a href='application_forms.php'><span class="directlinks">Application forms</span></a></p>
+                <p><a href='download_doccument.php'><span class="directlinks">Documents</span></a></p>
+                <p><a href='gallery/index.html'><span class="directlinks">Gallery</span></a></p>
+                    <p><a href='office_orders.php'><span class="directlinks">Office Orders</span></a></p>
+            
+            </div>
+            </div>
+            </li>
+
+            <li><div class="nav-link">
+                <a href="related_sites.php"><span class="directlinks"><b>Related Sites</b></span> </a>
+            
+            </div>
+            </li>
+
+            <li><div class="nav-link">
+                <span><b>Staff</b></span>
+            <div class="content">
+                <p><a href='staff_director.php'><span class="directlinks">Directors</span></a></p>
+                <p><a href='staff_scientist10.php'><span class="directlinks">Scientists</span></a></p>
+                <p><a href='staff_technical.php'><span class="directlinks">Technical</span></a></p>
+                <p><a href='staff_admin.php'><span class="directlinks">Administration</span></a></p>
+                <p ><a href="staff_support.php"><span class="directlinks">Skilled and Supporting Staff</span> </a></p>
+            </div>
+            </div>
+            </li>
+
+            <li><div class="nav-link">
+                <span><b>Service</b></span>
+            <div class="content">
+                
+                <p> <a href="https://play.google.com/store/apps/details?id=com.icar.ctri&hl=en"><span class="directlinks"><b>Mobile App</b></span> </a>
+                </p>   
+                    <p><a href='home_service_extension.php' target="_blank" style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span>Extension</span></a></p>
+                    
+                    <p><a href='home_service_consultency.php' target="_blank" style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span>Consultancy</span></a></p> 
+                    
+                    <p><a href='home_service_analytical.php' style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span>Analytical</span></a></p>        					
+                    
+                    <p><a href='home_service_training.php' target="_blank" style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span>Training</span></a></p>        			
+                    
+                    <p><a href='home_service_database.php' target="_blank" style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span>Databases</span></a></p> 
+                    
+                    <p><a href='files/citizen.pdf' target="_blank" style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'" title="opens a PDF file in new window"><span>Citizen Charter</span></a></p>  
+                    
+                    <p><a href='files/fms.pdf' target="_blank" style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'" title="opens a PDF file in new window"><span>FMS/MIS Numbers </span></a></p>  
+                    
+                    <p><a href='files/calendar.pdf' target="_blank" style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'" title="opens a PDF file in new window"><span> Hopday pst </span></a></p>  
+                  
+                        
+            
+            </div>
+                </div>
+            </li>
+
+            <li><div class="nav-link">
+                <span><b>Research Stations</b></span>
+            <div class="content">
+
+                <p><a href='jeelugumilli.php' style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"> <span>Jeelugumilli,A.P.</span></a></p>  
+                
+                <p><a href='kandukuru.php' style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"> <span>Kandukuru,A.P.</span></a></p> 
+                
+                <p><a href='guntur.php' style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"> <span>Guntur,A.P.</span></a></p>
+                
+                <p><a href='jeddangi.php' style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span> Kalavacherla,A.P.</span></a></p> 
+                
+                <p><a href='kvkkandukur.php' style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span> KVK-Kandukur,A.P.</span></a></p> 
+                
+                <p><a href='hunsur.php' style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"> <span>Hunsur,Karnataka</span></a></p>
+                
+                <p><a href='vedasandur.php' style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span> Vedasandur,Tamilnadu</span></a></p>
+                
+                <p><a href='dinhata.php' style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span>Dinhata,West Bengal</span></a></p>	
+        
+    
+            
+            </div>
+                </div>
+            </li>
+
+            <li><div class="nav-link">
+                <span><b>Facilities</b></span>
+            <div class="content">
+                <p><a href='home_facalities_equipment.php' style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span>Special Equipment</span></a></p>	
+        
+                <p><a href='home_facalities_guest.php' style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span>Guest House</span></a></p>
+                
+                <p><a href='files/seminar.pdf' target="_blank" style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'" title="opens a PDF file in new window"><span>Seminar Hall</span></a></p>
+                
+                <p><a href='files/visit.pdf' target="_blank" style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'" title="opens a PDF file in new window"><span>Visiting charges</span></a></p>
+                
+                <p><a href='panel_hospital.php' target="_blank" style="color:#330066" onMouseOver="this.style.color='#579EB4'"  onmouseout="this.style.color='#330066'"><span>Panel Hospitals</span></a></p>
+            
+       
+            
+            </div>
+                </div>
+            </li>
+
+            <li><div class="nav-link">
+                <span><b>Other links </b></span>
+            <div class="content">
+                
+                <p><a href='http://ctrirm.attendance.gov.in' style="color:#330066" title="external website that opens in a new window" >AEBAS</a></p>
+                <p><a href='http://icarerp.iasri.res.in' style="color:#330066" title="external website that opens in a new window">FMS/MIS LOGIN</a></p>
+            
+            <p><a href='http://pms.icar.gov.in/dgm.aspx' style="color:#330066" title="external website that opens in a new window">PMS LOGIN</a></p>
+                <p><a href='https://mail.icar.gov.in/' style="color:#330066" title="external website that opens in a new window" >ICAR E-MAIL</a></p>
+                <p ><a href='https://jgateplus.com/' style="color:#330066" title="external website that opens in a new window">CeRA</a></p>
+                   <p ><a href='http://genderandclimatechangenicra.org' style="color:#330066" title="external website that opens in a new window">CTRI-NICRA</a></p>
+            
+             <p ><a href='http://krishi.icar.gov.in/' style="color:#330066" title="external website that opens in a new window">KRISHI</a></p>
+                
+              
+            </div>
+                </div>
+            </li>
+
+            
+
+            <li><div class="nav-link">
+               <a href='ica_final/index.php' target="_blank"><span class="directlinks"><b>SAIF</b></span></a>
+            
+            </div>
+            </li>
+         
+          
+        </nav>
+    </div>
+              
+              
+      
+
+     </body>
+     <br><br><br>
+</html>
+
+
+
+

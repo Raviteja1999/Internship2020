@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+     
+     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+      <style>
+          body {margin:0;font-family:Arial }
+
+.topnav {
+  overflow: hidden;
+  background-color: #1A5F7E;
+
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+  
+}
+
+.active {
+  background-color: rgb(4, 25, 34);
+  color: white;
+  font-weight: bold;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown1  {
+  float:left;
+  overflow: hidden;
+}
+
+.dropdown1 .dropbtn1 {
+  font-size: 15px; 
+  font-weight: bold;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+  
+  
+ 
+  
+}
+
+.dropdown1-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(37, 37, 37);
+  min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+   z-index: 1; 
+   
+   
+}
+
+.dropdown1-content a {
+  float: none;
+  color:white;
+  padding: 5px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom:1px dotted white;
+  font-size: 14px;
+  font-weight: bold;
+  
+
+}
+
+.topnav a:hover, .dropdown1:hover .dropbtn1 {
+  background-color:  #17B6B3 ;
+  color: white;
+  
+}
+
+.dropdown1-content a:hover {
+  background-color: black;
+  color: white;
+}
+
+.dropdown1:hover .dropdown1-content {
+  display: block;
+
+ 
+  
+}
+      </style>
+      <body>
+
+            <div class="topnav  " id="myTopnav" >
+
+
+                 
+        <div style="margin-left:3%; margin-right:3%;">
+
+                <a class="nav-link active" href="#">Home
+                    <!-- <svg class="bi bi-house" width="2em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 00.5.5h9a.5.5 0 00.5-.5V7h1v6.5a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 012 13.5zm11-11V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 011.414 0l6.647 6.646a.5.5 0 01-.708.708L8 2.207 1.354 8.854a.5.5 0 11-.708-.708L7.293 1.5z" clip-rule="evenodd"/>
+              </svg> -->
+            </a>
+
+            <div class="dropdown1">
+                
+                <button class="dropbtn1">About
+                </button>
+                    <div class="dropdown1-content transition-ease-in">
+
+                        
+                        <a href='home_about.php' target="_blank"><span class="directlinks">About Institution</span></a>
+                        <a href='mandate.php' target="_blank"><span class="directlinks">Mandate</span></a>
+                       
+                        <a href='location.php'><span class="directlinks">Location Map</span> </a> 
+                        <a href='site.php' target="_blank"><span class="directlinks">Sitemap</span></a>
+                        <a href='organisation.php'><span class="directlinks">Org Setup</span></a> 
+                        
+                        <a href='home_au.php'><span class="directlinks">Divisions/Units</span></a>
+
+                        <a href='files/staff.pdf'><span class="directlinks">Cadre Strength</span></a>
+                        <a href='home_earlier.php'><span class="directlinks">Our Directors</span></a>
+
+                        <a href='home_staff.php'><span class="directlinks">Staff</span></a> 
+                        <a href='vigilance.php'><span class="directlinks">Vigilance</span></a>	
+                        <a href='archieve.php'><span class="directlinks">Archieve</span></a>
+                        <a href='https://india.gov.in/'><span class="directlinks">National Portal</span></a>
+
+                       <!--it is the last content in the dropdown hence it is not having a dotted border-->
+                       
+                        <a href='contact.php' style="border-bottom:none"><span class="directlinks" >Contact</span></a>
+                       
+                       
+                        
+
+                    </div>
+                    
+                
+            </div>
+            
+
+              <div class="dropdown1">
+                <button class="dropbtn1">For Farmers
+                    
+                </button>
+                <div class="dropdown1-content">
+                    <a href='for_pstOfFarmers.php'><span class="directlinks">List of Farmers</span> </a> 
+                    <a href='files/success.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Success Stories</span></a>
+                    <a href='for_origin.php'><span class="directlinks">Origin</span></a> 
+                    <a href='for_types.php'><span class="directlinks">Type Of Tobacco</span></a>
+                    <a href='for_morphology.php'><span class="directlinks">Morphology</span></a> 
+                    <a href='for_soil.php'><span class="directlinks">Soils & Cpmate</span></a>	
+                    <a href='for_nursery.php'><span class="directlinks">Nursery</span></a>
+                    <a href='files/agronomy.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Agronomic practices</span></a>
+                    <a href='for_curing.php'><span class="directlinks">Curing & Grading</span></a>
+                    <a href='for_controlPests.php'><span class="directlinks">Management of Insect Pests</span></a>
+                    <a href='for_controlDisease.php'><span class="directlinks">Management of Diseases</span></a>
+                    <a href='for_quality.php'><span class="directlinks">Quapty Parameter</span> </a>
+                 
+                  <!--it is the last content in the dropdown hence it is not having a dotted border-->
+                       
+                    <a href='for_tobaccoEconomy.php' style="border-bottom:none"><span class="directlinks">Tobacco in Indian Economy</span></a>
+              
+                </div>
+            </div>
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Research
+               
+                </button>
+                <div class="dropdown1-content">
+                   <a href='discoverjournalarticles.html' target="_blank"  ><span class="directlinks">Discover Journal Articles</span></a>
+                   
+                   <a href='files/RESEARCH.pdf' target="_blank" title="opens a PDF file in new window" ><span class="directlinks">Research achievements</span></a>
+                   <a href='files/projects1.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">On-going projects</span></a>
+                   <a href='home_research_external.php'><span class="directlinks">Extenllay Funded Projects</span></a>
+                   <a href='files/technology.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Technologies</span></a>
+                   <a href='files/varieties.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Varieties</span></a>
+                   <a href='files/colobration.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Collaborations</span></a>
+                   <a href='home_research_publications.php'><span class="directlinks">Publications</span></a>
+                   <a href='files/ainrp.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">AINP on Tobacco</span></a>
+                       <a href='files/award.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Award Winners</span></a>
+                      
+                      
+                        <!--it is the last content in the dropdown hence it is not having a dotted border-->
+                        <a href='home_research_patents.php' style="border-bottom:none"><span class="directlinks">Patents</span></a>
+                
+                </div>
+            </div> 
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Announcements
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href='press/index.html'><span class="directlinks">Press Release</span></a>
+                    <a href='circular.php'><span class="directlinks">Circulars</span></a>
+                    <a href='employment.php'><span class="directlinks">Employment</span> </a>
+                   
+                   <!--it is the last content in the dropdown hence it is not having a dotted border-->
+                    <a href='announcement_ria.php' style="border-bottom:none"><span class="directlinks">Right to Information Act</span></a>
+                
+                </div>
+            </div> 
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Downloads 
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href='download_tenders.php'><span class="directlinks">Quotations</span></a>
+                    <a href='application_forms.php'><span class="directlinks">Application forms</span></a>
+                    <a href='download_doccument.php'><span class="directlinks">Documents</span></a>
+                    <a href='gallery/index.html'><span class="directlinks">Gallery</span></a>
+                    
+                    <!--it is the last content in the dropdown hence it is not having a dotted border-->
+                    <a href='office_orders.php' style="border-bottom:none"><span class="directlinks">Office Orders</span></a>
+                </div>
+            </div> 
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Staff 
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href='staff_director.php'><span class="directlinks">Directors</span></a>
+                    <a href='staff_scientist10.php'><span class="directlinks">Scientists</span></a>
+                    <a href='staff_technical.php'><span class="directlinks">Technical</span></a>
+                    <a href='staff_admin.php'><span class="directlinks">Administration</span></a>
+                   
+                   <!--it is the last content in the dropdown hence it is not having a dotted border-->
+                    <a href="staff_support.php" style="border-bottom:none"><span class="directlinks">Skilled and Supporting Staff</span> </a>
+           
+                </div>
+            </div> 
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Services
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href="https://play.google.com/store/apps/details?id=com.icar.ctri&hl=en"><span class="directlinks">Mobile App</span> </a>
+                     
+                       <a href='home_service_extension.php'><span>Extension</span></a>
+                        
+                       <a href='home_service_consultency.php'><span>Consultancy</span></a> 
+                        
+                       <a href='home_service_analytical.php'><span>Analytical</span></a>        					
+                        
+                       <a href='home_service_training.php'><span>Training</span></a>        			
+                        
+                       <a href='home_service_database.php'><span>Databases</span></a> 
+                        
+                       <a href='files/citizen.pdf' title="opens a PDF file in new window"><span>Citizen Charter</span></a>  
+                        
+                       <a href='files/fms.pdf' title="opens a PDF file in new window"><span>FMS/MIS Numbers </span></a>  
+                        
+                      
+                      <!--it is the last content in the dropdown hence it is not having a dotted border-->
+                       <a href='files/calendar.pdf' style="border-bottom:none" title="opens a PDF file in new window"><span> Hopday pst </span></a>  
+                      
+                           
+                </div>
+            </div> 
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Research Stations
+               
+                </button>
+                <div class="dropdown1-content">
+                   <a href='jeelugumilli.php'> <span>Jeelugumilli,A.P.</span></a>  
+                
+                   <a href='kandukuru.php'> <span>Kandukuru,A.P.</span></a> 
+                    
+                   <a href='guntur.php'> <span>Guntur,A.P.</span></a>
+                    
+                   <a href='jeddangi.php'><span> Kalavacherla,A.P.</span></a> 
+                    
+                   <a href='kvkkandukur.php'><span> KVK-Kandukur,A.P.</span></a> 
+                    
+                   <a href='hunsur.php'> <span>Hunsur,Karnataka</span></a>
+                    
+                   <a href='vedasandur.php'><span> Vedasandur,Tamilnadu</span></a>
+                   
+                   <!--it is the last content in the dropdown hence it is not having a dotted border-->
+                   <a href='dinhata.php' style="border-bottom:none"><span>Dinhata,West Bengal</span></a>	
+            
+                </div>
+            </div> 
+
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Facilities 
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href='home_facalities_equipment.php'><span>Special Equipment</span></a>	
+        
+                    <a href='home_facalities_guest.php'><span>Guest House</span></a>
+                    
+                    <a href='files/seminar.pdf' title="opens a PDF file in new window"><span>Seminar Hall</span></a>
+                    
+                    <a href='files/visit.pdf' title="opens a PDF file in new window"><span>Visiting charges</span></a>
+                    
+                  
+                    <!--it is the last content in the dropdown hence it is not having a dotted border-->
+                    <a href='panel_hospital.php' style="border-bottom:none"><span>Panel Hospitals</span></a>
+                
+           
+                </div>
+            </div>
+
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Other Links
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href='http://ctrirm.attendance.gov.in' title="external website that opens in a new window" >AEBAS</a>
+                    <a href='http://icarerp.iasri.res.in' title="external website that opens in a new window">FMS/MIS LOGIN</a>
+                
+                <a href='http://pms.icar.gov.in/dgm.aspx' title="external website that opens in a new window">PMS LOGIN</a>
+                    <a href='https://mail.icar.gov.in/' title="external website that opens in a new window" >ICAR E-MAIL</a>
+                    <a href='https://jgateplus.com/' title="external website that opens in a new window">CeRA</a>
+                       <a href='http://genderandclimatechangenicra.org' title="external website that opens in a new window">CTRI-NICRA</a>
+                
+                      <!--it is the last content in the dropdown hence it is not having a dotted border-->
+                       <a href='http://krishi.icar.gov.in/' title="external website that opens in a new window "  style="border-bottom:none">KRISHI</a>
+               
+                </div>
+            </div>
+
+
+            <a href='ica_final/index.php' target="_blank"><span class="directlinks"><b>SAIF</b></span></a>
+            
+            
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+          </div>
+            </div> <!--Top nav end-->
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+} 
+</script>
+
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link name="text/css" href="navigationstyling.css" rel="stylesheet">
+
+     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+      <body>
+
+            <div class="topnav" id="myTopnav">
+
+
+                <div id="mysidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+                    <a href="#">Location Map</a>
+                    <a href="#"> Sitemap</a>
+                    <a href="#">Org Setup</a>
+                    <a href="#">Cadre Strength</a>
+                    <a href="#">Staff</a>
+                    <a href="#">Vigilance</a>
+                    <a href="#">Archives</a>
+                    <a href="#">Contact</a>
+                  </div>
+
+                <div id="sidenavmain">
+                    <a href="#"   onclick="opennav()"> <i class="fa fa-arrow-circle-right" style="height: 1.5px;"><b> About</b></i></a>
+                </div>
+
+                <script>
+                    function opennav()
+                    {
+                        document.getElementById("mysidenav").style.width="165px";
+                        document.getElementById("mysidenav").style.transition="0.5s";
+                      //  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                       // document.body.style.marginLeft="80px";
+                       document.getElementById("mycarouselcontrolprev").style.marginLeft ="165px";
+                    }
+                    function closenav()
+                    {
+                        document.getElementById("mysidenav").style.width="0";
+                       // document.body.style.backgroundColor="white";
+                        //document.body.style.marginLeft="0";
+                        document.getElementById("mycarouselcontrolprev").style.marginLeft ="0";
+                    }
+                    
+                </script>
+                
+                <a class="nav-link active" href="#">Home
+                    <!-- <svg class="bi bi-house" width="2em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 00.5.5h9a.5.5 0 00.5-.5V7h1v6.5a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 012 13.5zm11-11V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 011.414 0l6.647 6.646a.5.5 0 01-.708.708L8 2.207 1.354 8.854a.5.5 0 11-.708-.708L7.293 1.5z" clip-rule="evenodd"/>
+              </svg> -->
+            </a>
+
+              <div class="dropdown1">
+                <button class="dropbtn1">For Farmers
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href='for_pstOfFarmers.php'><span class="directlinks">List of Farmers</span> </a> 
+                    <a href='files/success.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Success Stories</span></a>
+                    <a href='for_origin.php'><span class="directlinks">Origin</span></a> 
+                    <a href='for_types.php'><span class="directlinks">Type Of Tobacco</span></a>
+                    <a href='for_morphology.php'><span class="directlinks">Morphology</span></a> 
+                    <a href='for_soil.php'><span class="directlinks">Soils & Cpmate</span></a>	
+                    <a href='for_nursery.php'><span class="directlinks">Nursery</span></a>
+                    <a href='files/agronomy.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Agronomic practices</span></a>
+                    <a href='for_curing.php'><span class="directlinks">Curing & Grading</span></a>
+                    <a href='for_controlPests.php'><span class="directlinks">Management of Insect Pests</span></a>
+                    <a href='for_controlDisease.php'><span class="directlinks">Management of Diseases</span></a>
+                    <a href='for_quality.php'><span class="directlinks">Quapty Parameter</span> </a>
+                    <a href='for_tobaccoEconomy.php'><span class="directlinks">Tobacco in Indian Economy</span></a>
+              
+                </div>
+            </div>
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Research
+               
+                </button>
+                <div class="dropdown1-content">
+                   <a href='discoverjournalarticles.html' target="_blank"  ><span class="directlinks">Discover Journal Articles</span></a>
+                   
+                   <a href='files/RESEARCH.pdf' target="_blank" title="opens a PDF file in new window" ><span class="directlinks">Research achievements</span></a>
+                   <a href='files/projects1.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">On-going projects</span></a>
+                   <a href='home_research_external.php'><span class="directlinks">Extenllay Funded Projects</span></a>
+                   <a href='files/technology.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Technologies</span></a>
+                   <a href='files/varieties.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Varieties</span></a>
+                   <a href='files/colobration.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Collaborations</span></a>
+                   <a href='home_research_publications.php'><span class="directlinks">Publications</span></a>
+                   <a href='files/ainrp.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">AINP on Tobacco</span></a>
+                       <a href='files/award.pdf' target="_blank" title="opens a PDF file in new window"><span class="directlinks">Award Winners</span></a>
+                       <a href='home_research_patents.php'><span class="directlinks">Patents</span></a>
+                
+                </div>
+            </div> 
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Announcements
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href='press/index.html'><span class="directlinks">Press Release</span></a>
+                    <a href='circular.php'><span class="directlinks">Circulars</span></a>
+                    <a href='employment.php'><span class="directlinks">Employment</span> </a>
+                    <a href='announcement_ria.php'><span class="directlinks">Right to Information Act</span></a>
+                
+                </div>
+            </div> 
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Downloads 
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href='download_tenders.php'><span class="directlinks">Quotations</span></a>
+                    <a href='application_forms.php'><span class="directlinks">Application forms</span></a>
+                    <a href='download_doccument.php'><span class="directlinks">Documents</span></a>
+                    <a href='gallery/index.html'><span class="directlinks">Gallery</span></a>
+                        <a href='office_orders.php'><span class="directlinks">Office Orders</span></a>
+                </div>
+            </div> 
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Staff 
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href='staff_director.php'><span class="directlinks">Directors</span></a>
+                    <a href='staff_scientist10.php'><span class="directlinks">Scientists</span></a>
+                    <a href='staff_technical.php'><span class="directlinks">Technical</span></a>
+                    <a href='staff_admin.php'><span class="directlinks">Administration</span></a>
+                    <a href="staff_support.php"><span class="directlinks">Skilled and Supporting Staff</span> </a>
+           
+                </div>
+            </div> 
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Services
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href="https://play.google.com/store/apps/details?id=com.icar.ctri&hl=en"><span class="directlinks">Mobile App</span> </a>
+                     
+                       <a href='home_service_extension.php'><span>Extension</span></a>
+                        
+                       <a href='home_service_consultency.php'><span>Consultancy</span></a> 
+                        
+                       <a href='home_service_analytical.php'><span>Analytical</span></a>        					
+                        
+                       <a href='home_service_training.php'><span>Training</span></a>        			
+                        
+                       <a href='home_service_database.php'><span>Databases</span></a> 
+                        
+                       <a href='files/citizen.pdf' title="opens a PDF file in new window"><span>Citizen Charter</span></a>  
+                        
+                       <a href='files/fms.pdf' title="opens a PDF file in new window"><span>FMS/MIS Numbers </span></a>  
+                        
+                       <a href='files/calendar.pdf' title="opens a PDF file in new window"><span> Hopday pst </span></a>  
+                      
+                           
+                </div>
+            </div> 
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Research Stations
+               
+                </button>
+                <div class="dropdown1-content">
+                   <a href='jeelugumilli.php'> <span>Jeelugumilli,A.P.</span></a>  
+                
+                   <a href='kandukuru.php'> <span>Kandukuru,A.P.</span></a> 
+                    
+                   <a href='guntur.php'> <span>Guntur,A.P.</span></a>
+                    
+                   <a href='jeddangi.php'><span> Kalavacherla,A.P.</span></a> 
+                    
+                   <a href='kvkkandukur.php'><span> KVK-Kandukur,A.P.</span></a> 
+                    
+                   <a href='hunsur.php'> <span>Hunsur,Karnataka</span></a>
+                    
+                   <a href='vedasandur.php'><span> Vedasandur,Tamilnadu</span></a>
+                    
+                   <a href='dinhata.php'><span>Dinhata,West Bengal</span></a>	
+            
+                </div>
+            </div> 
+
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Facilities 
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href='home_facalities_equipment.php'><span>Special Equipment</span></a>	
+        
+                    <a href='home_facalities_guest.php'><span>Guest House</span></a>
+                    
+                    <a href='files/seminar.pdf' title="opens a PDF file in new window"><span>Seminar Hall</span></a>
+                    
+                    <a href='files/visit.pdf' title="opens a PDF file in new window"><span>Visiting charges</span></a>
+                    
+                    <a href='panel_hospital.php'><span>Panel Hospitals</span></a>
+                
+           
+                </div>
+            </div>
+
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Other Links
+               
+                </button>
+                <div class="dropdown1-content">
+                    <a href='http://ctrirm.attendance.gov.in' style="color:#330066" title="external website that opens in a new window" >AEBAS</a>
+                    <a href='http://icarerp.iasri.res.in' style="color:#330066" title="external website that opens in a new window">FMS/MIS LOGIN</a>
+                
+                <a href='http://pms.icar.gov.in/dgm.aspx' style="color:#330066" title="external website that opens in a new window">PMS LOGIN</a>
+                    <a href='https://mail.icar.gov.in/' style="color:#330066" title="external website that opens in a new window" >ICAR E-MAIL</a>
+                    <a href='https://jgateplus.com/' style="color:#330066" title="external website that opens in a new window">CeRA</a>
+                       <a href='http://genderandclimatechangenicra.org' style="color:#330066" title="external website that opens in a new window">CTRI-NICRA</a>
+                
+                 <a href='http://krishi.icar.gov.in/' style="color:#330066" title="external website that opens in a new window">KRISHI</a>
+               
+                </div>
+            </div>
+
+
+            <a href='ica_final/index.php' target="_blank"><span class="directlinks"><b>SAIF</b></span></a>
+            
+            
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div> <!--Top nav end-->
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+} 
+</script>
+
+</body>
+</html>

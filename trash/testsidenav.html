@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+    </head>
+    <style>
+        
+#sidemenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #17B6B3 ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: hidden;
+
+  /* animation-name: "sidebar";
+  animation-direction: alternate;
+  animation-duration: 3s; */
+
+}
+
+
+/* @keyframes sidebar {
+   0%{
+       left: 0;
+    }
+    100%{
+        left:200px;
+    }
+} */
+
+#sidemenu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+    </style>
+    <body>
+        <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="profile()">Profile</span>
+        </div>
+
+        <div id="sidemenu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closemenu()">&times;</a>
+            <a href="">item1</a>
+            <a href="">item1</a>
+            <a href="">item1</a>
+            <a href="">item1</a>
+        </div>
+       
+    </body>
+    
+</html>
+
+<script>
+    function profile(){
+       document.getElementById("sidemenu").style.width = "200px";
+        document.getElementById("main").style.marginRight="200px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+    function closemenu(){
+        document.getElementById("sidemenu").style.width="0px";
+        document.getElementById("main").style.marginRight="0px";
+        document.body.style.backgroundColor = "white";
+        
+    }
+</script>

@@ -1,0 +1,26 @@
+
+.jumbotron{
+  position: relative;  
+  margin: 10px;
+  padding-top: 10px;
+ padding-bottom: 40px;
+}
+
+.grid-container
+{
+ float:right;
+ margin-right:50px;
+}
+ 
+ .grid-container>div
+ {
+   padding-left: 10px;
+ }
+
+.container >div{
+  padding-left: 20px;
+}
+
+
+
+    
