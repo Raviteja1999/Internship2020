@@ -28,8 +28,8 @@
         color:black;
         transition: 0.5s;
       
-       
-
+        overflow:auto;
+        
     }
 
     .row1{
