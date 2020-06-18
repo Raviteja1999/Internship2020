@@ -102,14 +102,14 @@
             
         </div> 
 
-        <!-- <div class="col-lg-3">
+         <div class="col-lg-3">
             <div class='staff'>
 
                 <div class='staff'>
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='../uploads/staff/13.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Dr. U. Sreedhar</b></a></td></tr>
+                    <tr><td rowspan='3' align='center'><img src='uploads/staff/13.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Dr. U. Sreedhar</b></a></td></tr>
         
                     <tr><td style='font-size:12px;'>Head, Division of Crop Protection</td></tr>
         
@@ -120,7 +120,7 @@
         </div>
 
         
-    </div> -->
+    </div> 
 
 
         <!-- <button   id="profile1" value=1 class="btn btn-link" onclick="profile(this.id,this.value)">Profile</button>
@@ -194,7 +194,7 @@
         }
         
             
-        request.open('GET','profile'+callvalue+'.json');
+        request.open('GET','profile'+ callvalue+'.json');  //change at this line
         request.onload=function(){
             var obtaineddata= JSON.parse(request.responseText);
             displayprofilefunction(obtaineddata);
