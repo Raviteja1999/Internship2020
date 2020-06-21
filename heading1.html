@@ -15,6 +15,7 @@
        
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
        
      </head>
 
@@ -33,15 +34,9 @@
    box-shadow: 0px 0px 20px rgba(0,0,0,1);
    }
 
-body {	
-		/* background:url(img/body.jpg) repeat;
-
- color: rgb(104, 237, 255); 
-
- 
-  overflow-wrap: break-word; */
-  overflow:scroll;
-} 
+    body{
+          overflow: hidden;
+   }
       
       .alig{
        padding:3px;  
@@ -71,25 +66,30 @@ body {
             width:100%;
             background: white;
         }
-        .crop>img {
-         width:100%;
+       
+        .croppic>img{
+          width:100%;
+          height:100%;
+         
         }
-      .carousel.carousel-fade .carousel-item {
+
+
+    /* .croppic.carousel.carousel-fade.carousel-item {
     display: block;
     opacity: 0;
     transition: opacity ease-out 0.5s;
     left: 0;
     top: 0;
     position: absolute;
-}
-.carousel.carousel-fade .carousel-item.active {
+} 
+ .croppic.carousel.carousel-fade.carousel-item.active {
     opacity: 1 !important;
-}
-.carousel.carousel-fade .carousel-item:first-child {
+} 
+ .croppic.carousel.carousel-fade.carousel-item:first-child {
     top: auto;
     position: relative;
     transition: opacity ease-out 1s;
-}
+} */
 
 
 
@@ -167,21 +167,14 @@ body {
               <div class="ctrilogotitle col-lg-8 text-center  "style=" float:none;  padding:0;" ><img src="img/heading2.jpg" alt="img" style=" height:150px"></div> 
             
            <div class="croppic col-lg-2 "style=" float:none; padding:0;">
-             <div id="carouselId" class="carousel carousel-fade" data-ride="carousel" >
+           
                
-               <div class="carousel-inner" role="listbox">
-                 <div class="carousel-item crop active">
-                  <img src="img/field crop.JPG" alt="CTRI Office" style="height:150px;">
-                 </div>
-                 <div class="carousel-item crop">
-                  <img src="img/slide1.jpg" alt="CTRI Office" style="height:150px;">
-                 </div>
-                 <div class="carousel-item crop">
-                  <img src="img/slide2.jpg" alt="CTRI Office" style="height:150px;">
-                 </div>
-               </div>
-              
-             </div>
+             <img class="crops w3-animate-fading" src="img/slide1.jpg" style="width:100%">
+             <img class="crops w3-animate-fading" src="img/slide2.jpg" style="width:100%">
+             <img class="crops w3-animate-fading" src="img/slide3.jpg" style="width:100%">
+             <img class="crops w3-animate-fading" src="img/slide4.jpg" style="width:100%">
+
+
             </div>
             </div>
          
@@ -190,7 +183,25 @@ body {
     
     </body>   
 </html>
+<script>
+var index =0;
+sliderfade ();
 
+function sliderfade()
+{
+var element = document.getElementsByClassName("crops");
+    for( i=0;i<element.length;i++){
+      element[i].style.display = "none";
+    }
+    index++;
+    if(index>element.length){
+      index=1;
+    }
+    element[index-1].style.display ="block";
+    setTimeout(sliderfade,5000);
+}
+
+</script>
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript"> 

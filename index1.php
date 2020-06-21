@@ -1,4 +1,9 @@
-
+<?php
+       include "heading1.html";
+      echo "<br>";
+      include "navfinal.html";
+      echo "<br>"
+      ?>
 <!DOCTYPE html>
 <html lang="">
     <head>
@@ -23,7 +28,6 @@
         <style>
             /* slideshow content styling*/
             .carousel-item{
- 
             background: white;
             }
             .carousel-item>img{
@@ -96,12 +100,7 @@
     </style>
 
       <body>
-      <?php
-      include "heading1.html";
-      echo "<br>";
-      include "navfinal.html";
-      echo "<br>"
-      ?>
+  
 <!-- slideshow content -->
 
 
@@ -241,7 +240,6 @@
      
 <?php
 include "footer.php";
-
 ?>
      </body>
 
