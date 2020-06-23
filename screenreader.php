@@ -15,6 +15,17 @@ include "navfinal.html";
 
        
     </head>
+    <style>
+        #content{
+            text-align:center;
+            margin-left:10%;
+            margin-right:10%;
+            
+        }
+        table,tr,td{
+            border:2px solid black;
+        }
+    </style>
     <body>
     
         

@@ -36,15 +36,18 @@
 
     body{
           overflow: hidden;
+
+         /*  background-image: linear-gradient(to right, #e0ffff,white,#e0ffff );*/   
+   
    }
       
       .alig{
-       padding:3px;  
+      padding:3px;  
       background-color: #d1d1d1;
       opacity: 1;
-       margin-top: 10px;
-       margin-left: 10px;
-       margin-right: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
       height:45px;
       font-size: 11px;
       
@@ -70,6 +73,7 @@
         .croppic>img{
           width:100%;
           height:100%;
+         
          
         }
 
@@ -143,14 +147,45 @@
           </div>
           
  
-          <div class="col-lg-1" id="theme">
-             <div class="row mx-auto">
-                <a href="darktheme.php" class="style-switcher custom-style style-black">Dark theme</a>
-              </div>
+          <div class="col-lg-2" id="theme">
+
+            <span class=""  style="padding:0" >
+              <button class="btn btn-link style-black" style="font-size: 12px;" value =1 onclick=select_theme(this.value)>Dark</button>
+            </span>
+
+            <span class="" style="padding:0" >
+              <button class="btn btn-link style-white" style="font-size: 12px;" value =0 onclick=select_theme(this.value)>Original</button>
+            </span>
+
+            
+
+              <script>
+                function select_theme(value){
+                 var theme=value;
+
+                 console.log(theme);
+                 
+                  if(theme == 1){
+              
+                    
+                    document.body.style.backgroundColor="black";
+                    document.body.style.color = "white"; 
+                    document.body.style.backgroundImage="none";
+
+
+                  }
+                  else{
+                       document.body.style.backgroundImage="linear-gradient(to right, #e0ffff,white,#e0ffff )";  
+                    document.body.style.color = "black"; 
+                  }
+
+               
                 
-              <div  class="row mx-auto">
-                <a href="#" class="style-switcher custom-style style-white">Original theme</a>
-              </div>
+                }
+
+              </script>
+                
+              
           </div>
         
         </div>
@@ -166,7 +201,7 @@
             
               <div class="ctrilogotitle col-lg-8 text-center  "style=" float:none;  padding:0;" ><img src="img/heading2.jpg" alt="img" style=" height:150px"></div> 
             
-           <div class="croppic col-lg-2 "style=" float:none; padding:0;">
+           <div class="croppic col-lg-2 "style=" float:none; padding:0;background:white;">
            
                
              <img class="crops w3-animate-fading" src="img/slide1.jpg" style="width:100%">
