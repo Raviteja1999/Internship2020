@@ -17,46 +17,194 @@
        
     </head>
     <style>
-        ul#navId li {
-        padding-right: 50px;
-        } 
+        
+      
+        .dropdown:hover>.dropdown-menu {
+        display: block;
+        background-color:black;
+       
+        }
+       
+        .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+            pointer-events: none;
+        }
+      
     </style>
-    <body >
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs r" id="navId">
-            <li class="nav-item">
-                <a href="#tab1Id" class="nav-link active">Active</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#tab2Id">Action</a>
-                    <a class="dropdown-item" href="#tab3Id">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#tab4Id">Action</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a href="#tab5Id" class="nav-link">Another link</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link disabled">Disabled</a>
-            </li>
+    <body>
 
-            <li>
-                <div class="dropdown">
-                    <a class=" dropdown-toggle" type=link data-toggle="dropdown">Dropdown Example
-                    <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">HTML</a></li>
-                      <li><a href="#">CSS</a></li>
-                      <li><a href="#">JavaScript</a></li>
-                    </ul>
+        <nav class=" navbar navbar-default  navbar-expand-lg">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navcollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+             </div>
+            
+                <div class="collapse navbar-collapse" id="navcollapse">
+            <ul class="nav navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span>About</span> </a>
+                    <div class="dropdown-menu" style="max-width:100px;">
+                    <a  class="dropdown-item" href=> Location Map</a>
+                    <a  class="dropdown-item" href=> Sitemap</a>
+                    <a class="dropdown-item"  href=>Org Setup</a>
+                    <a  class="dropdown-item" href=>Cadre Strength</a>
+                    <a  class="dropdown-item" href=>Staff</a>
+                    <a  class="dropdown-item" href=>Vigilance</a>
+                    <a class="dropdown-item"  href=>Archives</a>
+                    <a  class="dropdown-item" href=>Contact</a>
                   </div>
             </li>
-        </ul>
+            <li class="nav-item">
+                <a href="#tab1Id" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+             
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">For Farmers</a>
+                <div class="dropdown-menu" >
+                  
+                <a class="dropdown-item" href='for_pstOfFarmers.php'>List of Farmers</a>
+                <a class="dropdown-item" href='success.pdf'>Success Stories</a>
+                <a class="dropdown-item" href='for_origin.php'>Origin</a>
+                <a class="dropdown-item" href='for_types.php'>Type of Tobacco</a>
+                <a class="dropdown-item" href='for_morphology.php'>Morphology</a>
+                <a class="dropdown-item" href='for_soil.php'>Soils and Climate</a>
+                <a class="dropdown-item" href='for_nursery.php'>Nursery</a>
+                <a class="dropdown-item" href='agronomy.pdf'>Agronomic Practices</a>
+                <a class="dropdown-item" href='for_curing.php'>Curing & Grading</a>
+                <a class="dropdown-item"  href='for_controlPests.php'>Management of Insect Pests</a>
+                <a class="dropdown-item" href='for_controlDisease.php'>Management of Diseases</a>
+                <a class="dropdown-item" href='for_quality.php'>Quality Parameter</a>
+                <a class="dropdown-item" href='for_tobaccoEconomy.php'>Tobacco in Indian Economy</a>
         
-        <!-- Tab panes -->
+                    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Research</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href='discoverjournalarticles.html' >Discover Journal Articles</a>
+                        <a class="dropdown-item" href='RESEARCH.pdf' >Research Achievements</a>
+                        <a class="dropdown-item" href='projects1.pdf' >On-going Projects</a>
+                        <a class="dropdown-item" href='home_research_external.php'>Externally Funded Projects</a>
+                        <a class="dropdown-item" href='technology.pdf' >Technologies</a>
+                        <a class="dropdown-item" href='varieties.pdf'>Varieties</a>
+                        <a class="dropdown-item" href='colobration.pdf'>Collaborations</a>
+                        <a class="dropdown-item" href='home_research_publications.php'>Publications</a>
+                        <a class="dropdown-item" href='files/ainrp.pdf'>AINP on Tobacco</a>
+                        <a class="dropdown-item" href='award.pdf'>Award Winners</a>
+                        <a class="dropdown-item" href='home_research_patents.php'>Patents</a>
+                    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Announcements</a>
+                    <div class="dropdown-menu" style="width:220px;">
+                    <a class="dropdown-item" href='press/index.html'>Press Release</a>
+                    <a class="dropdown-item" href='circular.php'>Circulars</a>
+                    <a class="dropdown-item" href='employment.php'>Employement</a>
+                    <a class="dropdown-item" href='announcement_ria.php'>Right to Information Act</a>
+        
+                    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Downloads</a>
+                    <div class="dropdown-menu" style="width:160px;">
+                    <a class="dropdown-item" href='download_tenders.php'>Quotations</a>
+                    <a class="dropdown-item" href='application_forms.php'>Application Forms</a>
+                    <a class="dropdown-item" href='download_doccument.php'>Documents</a>
+                    <a class="dropdown-item" href='gallery/index.html'>Gallery</a>
+                    <a class="dropdown-item" href='office_orders.php'>Office Orders</a>
+        
+                    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Staff</a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href='staff_director.php'>Directors</a>
+                    <a class="dropdown-item" href='staff_scientist10.php'>Scientists</a>
+                    <a class="dropdown-item" href='staff_technical.php'>Technical</a>
+                    <a class="dropdown-item" href='staff_admin.php'>Administration</a>
+                    <a class="dropdown-item" href="staff_support.php">Skilled and Supporting Staff</a>
+        
+                    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                    <div class="dropdown-menu" style="width:180px;" >
+                    <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.icar.ctri&hl=en">Mobile App</a>
+                    <a class="dropdown-item" href='home_service_extension.php'>Extension</a>
+                    <a class="dropdown-item" href='home_service_consultency.php'>Consultancy</a>
+                    <a class="dropdown-item" href='home_service_analytical.php'>Analytical</a>
+                    <a class="dropdown-item" href='home_service_training.php'>Training</a>
+                    <a class="dropdown-item" href='home_service_database.php'>Databases</a>
+                    <a class="dropdown-item" href='citizen.pdf'>Citizen Charter</a>
+                    <a class="dropdown-item" href='fms.doc'>FMS/MIS Numbers</a>
+                    <a class="dropdown-item" href='calendar.pdf'>Hopday Pst</a>
+        
+                    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Research Stations</a>
+                    <div class="dropdown-menu" style="width:200px;">
+                    <a class="dropdown-item" href='jeelugumilli.php'> <span>Jeelugumilli,A.P.</span></a>  
+                        
+                    <a class="dropdown-item" href='kandukuru.php'> <span>Kandukuru,A.P.</span></a> 
+        
+                    <a class="dropdown-item" href='guntur.php'> <span>Guntur,A.P.</span></a>
+        
+                    <a class="dropdown-item" href='jeddangi.php'><span> Kalavacherla,A.P.</span></a> 
+        
+                    <a class="dropdown-item" href='kvkkandukur.php'><span> KVK-Kandukur,A.P.</span></a> 
+        
+                    <a class="dropdown-item" href='hunsur.php'> <span>Hunsur,Karnataka</span></a>
+        
+                    <a class="dropdown-item" href='vedasandur.php'><span> Vedasandur,Tamilnadu</span></a>
+        
+                    <a class="dropdown-item" href='dinhata.php'><span>Dinhata,West Bengal</span></a>	
+                    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Facilities</a>
+                    <div class="dropdown-menu" style="width:150px;">
+        
+                    <a class="dropdown-item" href='home_facalities_equipment.php'><span>Special Equipment</span></a>	
+        
+                    <a class="dropdown-item" href='home_facalities_guest.php'><span>Guest House</span></a>
+        
+                    <a class="dropdown-item" href='files/seminar.pdf' title="opens a PDF file in new window"><span>Seminar Hall</span></a>
+        
+                    <a class="dropdown-item" href='files/visit.pdf' title="opens a PDF file in new window"><span>Visiting charges</span></a>
+        
+                    <a class="dropdown-item" href='panel_hospital.php'><span>Panel Hospitals</span></a>
+                    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other Links</a>
+                    <div class="dropdown-menu" style="width:150px;">
+                        <a class="dropdown-item" href='http://ctrirm.attendance.gov.in' style="color:#330066" title="external website that opens in a new window" >AEBAS</a>
+                        <a class="dropdown-item" href='http://icarerp.iasri.res.in' style="color:#330066" title="external website that opens in a new window">FMS/MIS LOGIN</a>
+        
+                    <a class="dropdown-item"  href='http://pms.icar.gov.in/dgm.aspx' style="color:#330066" title="external website that opens in a new window">PMS LOGIN</a>
+                        <a class="dropdown-item"  href='https://mail.icar.gov.in/' style="color:#330066" title="external website that opens in a new window" >ICAR E-MAIL</a>
+                        <a class="dropdown-item" href='https://jgateplus.com/' style="color:#330066" title="external website that opens in a new window">CeRA</a>
+                        <a class="dropdown-item" href='http://genderandclimatechangenicra.org' style="color:#330066" title="external website that opens in a new window">CTRI-NICRA</a>
+        
+                    <a class="dropdown-item" href='http://krishi.icar.gov.in/' style="color:#330066" title="external website that opens in a new window">KRISHI</a>
+        
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tab1Id" class="nav-link active">Payment</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#" class="nav-link active">SAIF</a>
+                    </li>
+                    </ul>
+        
+        <!-- Nav tabs
+               
+       
          <div class="tab-content">
             <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
             <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
@@ -70,11 +218,11 @@
                 e.preventDefault();
                 $(this).tab('show');
             });
-        </script>
+        </script> -->
 
-<a href="dtr.pdf" ><p style="color:red;"> Renewed the tenure of appointment of Dr. D. Damodar Reddy as Director, ICAR-CTRI, Rajahmundry
 
-    <a href="scholars.pdf" ><p style="color:red;">Grant of scholarships to the meritorius wards under Welfare Fund</p></a>
+
+<br>
    
     </body>
 

@@ -95,18 +95,20 @@
          
            <?php 
             $handle = fopen("counter.txt", "r");
-            if(!$handle){
-            echo "could not open the file" ;
-            }
-            else {
-              $counter = ( int ) fread ($handle,20) ;
-              fclose ($handle) ;
-              $counter++ ;
-              echo $counter ;
-            $handle =  fopen("counter.txt", "w" ) ;
-            fwrite($handle,$counter) ;
-            fclose ($handle) ;
-              }
+             if(!$handle){
+             echo "could not open the file" ;
+             }
+            // else {
+            //   $counter = ( int ) fread ($handle,20) ;
+            //   fclose ($handle) ;
+            //   $counter++ ;
+            //   echo $counter ;
+            // $handle =  fopen("counter.txt", "w" ) ;
+            // fwrite($handle,$counter) ;
+            // fclose ($handle) ;
+            //   }
+            $counter = (int) fread ($handle,20) ;
+            echo $counter;
             ?>    <span></span></span> </span>
             <br>
 
@@ -122,17 +124,7 @@
       document.getElementById("cpy").innerHTML=d;
       document.getElementById("upd").innerHTML=x;
 
-      /*window.onload=counter;
-
-      function counter()
-      {
-        var v = document.getElementById("vis");
-        var count=0;
-        count= $('#vis span').text();
-        count=count+1;
-      v.innerHTML = parseInt(count);
-      }
-      window.onload=counter();*/
+   
     </script>
 
     <!-- Copyright -->

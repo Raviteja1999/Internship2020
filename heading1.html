@@ -36,6 +36,7 @@
 
     body{
           overflow: hidden;
+          user-select:none;
 
          /*  background-image: linear-gradient(to right, #e0ffff,white,#e0ffff );*/   
    
@@ -76,7 +77,9 @@
          
          
         }
-
+        .goog-te-banner-frame{
+          visibility:hidden;
+        }
 
     /* .croppic.carousel.carousel-fade.carousel-item {
     display: block;
@@ -137,51 +140,80 @@
             <button class="btn btn-link" id="fontinc">A+</button>
           </div>
     
-          
-          <div class="slang col-lg-1.5" style="font-size: 13px; ">
+<!--     <div class="slang col" style="font-size: 13px; ">
             <select id ="lang">
               <option value="">Select Language</option>
               <option value="1">English</option>
               <option value="2">Hindi</option>
-            </select>
+            </select> 
+          </div> -->
+
+        <div id="google_translate_element" class=" col-lg-2">
+        
+        <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
           </div>
           
  
           <div class="col-lg-2" id="theme">
 
             <span class=""  style="padding:0" >
-              <button class="btn btn-link style-black" style="font-size: 12px;" value =1 onclick=select_theme(this.value)>Dark</button>
+              <button class="btn btn-link style-black" style="font-size: 12px;"  onclick=darktheme()>Dark</button>
             </span>
 
             <span class="" style="padding:0" >
-              <button class="btn btn-link style-white" style="font-size: 12px;" value =0 onclick=select_theme(this.value)>Original</button>
+              <button class="btn btn-link style-white" style="font-size: 12px;"  onclick=originaltheme()>Original</button>
             </span>
 
             
 
               <script>
-                function select_theme(value){
-                 var theme=value;
 
-                 console.log(theme);
+                      document.addEventListener('DOMContentLoaded', function() { 
+                        originaltheme();
+                    });
+
+
+                    function originaltheme(){
+                      document.body.style.backgroundImage="linear-gradient(to right, #e0ffff,white,#e0ffff )";  
+                     document.body.style.color = "black"; 
+                    }
+
+                    function darktheme(){
+                      document.body.style.backgroundColor="black";
+                     document.body.style.color = "white"; 
+                     document.body.style.backgroundImage="none";
+                    }
+
+
+                // function select_theme(value){
+                //  var theme=value;
+
+                //  console.log(theme);
                  
-                  if(theme == 1){
+                //   if(theme == 1){
               
                     
-                    document.body.style.backgroundColor="black";
-                    document.body.style.color = "white"; 
-                    document.body.style.backgroundImage="none";
+                //     document.body.style.backgroundColor="black";
+                //     document.body.style.color = "white"; 
+                //     document.body.style.backgroundImage="none";
 
 
-                  }
-                  else{
-                       document.body.style.backgroundImage="linear-gradient(to right, #e0ffff,white,#e0ffff )";  
-                    document.body.style.color = "black"; 
-                  }
+                //   }
+                //   else{
+                //        document.body.style.backgroundImage="linear-gradient(to right, #e0ffff,white,#e0ffff )";  
+                //     document.body.style.color = "black"; 
+                //   }
 
                
                 
-                }
+                // }
 
               </script>
                 
