@@ -34,9 +34,22 @@
    box-shadow: 0px 0px 20px rgba(0,0,0,1);
    }
 
+
+   /* :root{
+     --foreground: black;
+     --background:  white;
+   }
+
+   .darkmode{
+     --foreground:white;
+     --background:black;
+   } */
+
     body{
           overflow: hidden;
           user-select:none;
+          /* background : var(--background);
+          color:var(--foreground); */
 
          /*  background-image: linear-gradient(to right, #e0ffff,white,#e0ffff );*/   
    
@@ -112,12 +125,12 @@
 
           <div class="col-lg-1"></div>
 
-          <div class="col-lg-4 font-weight-bold">
+          <div class="col-lg-5 font-weight-bold">
             <div class="goi row  ">
               GOVERNMENT OF INDIA,
                MINISTRY OF AGRICULTURE AND FARMER'S WELFARE
             </div>
-            <div class="goi row  ">
+            <div class="goi row ">
               भारत सरकार | कृषि और किसान कल्याण मंत्रालय
             </div>
           </div>
@@ -164,56 +177,96 @@
           <div class="col-lg-2" id="theme">
 
             <span class=""  style="padding:0" >
-              <button class="btn btn-link style-black" style="font-size: 12px;"  onclick=darktheme()>Dark</button>
+              <button class="btn btn-link style-black  " id="dark" style="font-size: 12px;">Dark</button>
             </span>
 
             <span class="" style="padding:0" >
-              <button class="btn btn-link style-white" style="font-size: 12px;"  onclick=originaltheme()>Original</button>
+              <button class="btn btn-link style-white "  id ="original" style="font-size: 12px;">Original</button>
             </span>
 
             
 
               <script>
 
-                      document.addEventListener('DOMContentLoaded', function() { 
-                        originaltheme();
-                    });
+                let dark =localStorage.getItem('dark');
 
+                const darktoogle = document.querySelector('#dark');
 
-                    function originaltheme(){
-                      document.body.style.backgroundImage="linear-gradient(to right, #e0ffff,white,#e0ffff )";  
-                     document.body.style.color = "black"; 
-                    }
+                const originaltoogle =document.querySelector('#original');
 
-                    function darktheme(){
-                      document.body.style.backgroundColor="black";
+                function enabledarktheme()
+                {
+                 // document.body.classList.add("darkmode");
+
+                 document.body.style.backgroundColor="black";
                      document.body.style.color = "white"; 
                      document.body.style.backgroundImage="none";
-                    }
 
+                  localStorage.setItem('dark','enabled');
+                }
 
-                // function select_theme(value){
-                //  var theme=value;
-
-                //  console.log(theme);
-                 
-                //   if(theme == 1){
+                function disabledarktheme()
+                {
               
+                  // document.body.classList.remove("darkmode");
+
+                  document.body.style.backgroundImage="linear-gradient(to right, #e0ffff,white,#e0ffff )";  
+                    document.body.style.color = "black"
+
+                  localStorage.setItem('dark',null);
+
+                }
+
+                if (dark === 'enabled') {
+                    enabledarktheme();
+                  }
+                  if(dark !== 'enabled')
+                  {
+                    disabledarktheme();
+                  }
+
+                darktoogle.addEventListener( 'click',() =>{
+
+                  dark =localStorage.getItem('dark');
+
+                  if(dark !== 'enabled'){
                     
-                //     document.body.style.backgroundColor="black";
-                //     document.body.style.color = "white"; 
-                //     document.body.style.backgroundImage="none";
+                    enabledarktheme();
+                  
+                  }
+
+                });
+
+                 originaltoogle.addEventListener( 'click',() =>{
+
+                  dark =localStorage.getItem('dark');
+
+                  if(dark == 'enabled'){
+                   
+                    disabledarktheme();
+
+                  }
+
+                });
+                 
+
+                    //   document.addEventListener('DOMContentLoaded', function() { 
+                    //     originaltheme();
+                    // });
 
 
-                //   }
-                //   else{
-                //        document.body.style.backgroundImage="linear-gradient(to right, #e0ffff,white,#e0ffff )";  
-                //     document.body.style.color = "black"; 
-                //   }
+                    // function originaltheme(){
+                    //   document.body.style.backgroundImage="linear-gradient(to right, #e0ffff,white,#e0ffff )";  
+                    //  document.body.style.color = "black"; 
+                    // }
 
-               
-                
-                // }
+                    // function darktheme(){
+                    //   document.body.style.backgroundColor="black";
+                    //  document.body.style.color = "white"; 
+                    //  document.body.style.backgroundImage="none";
+                    // }
+
+
 
               </script>
                 

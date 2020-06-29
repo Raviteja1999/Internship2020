@@ -1,4 +1,9 @@
-
+<?php
+       include "heading1.html";
+      echo "<br>";
+      include "navfinal.html";
+      echo "<br>"
+      ?>
 <!DOCTYPE html>
 <html lang="">
     <head>
@@ -12,7 +17,9 @@
 
     </head>
     <body>
-      
+<!--       
+      title="opens a PDF file in new window"
+      title="external website that opens in a new window"
         
         <div id="google_translate_element"></div>
         
@@ -23,5 +30,10 @@
         </script>
         
         <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-        </body>
+      -->  
+      </body> 
+
+        <?php
+include "footerreader.php";
+?>
 </html>
