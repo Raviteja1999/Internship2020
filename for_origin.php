@@ -12,12 +12,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Title Page</title>
 
-        <!-- Bootstrap CSS -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
+    
     </head>
     <style>
-        
+
     .content{
         padding-left:15px;
         padding-right=15px;
