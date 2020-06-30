@@ -1,0 +1,30 @@
+[
+    {
+        "img":" uploads/staff/052.jpeg  ",
+        "name":"Anindita Paul  ",
+        "degree":" M. Sc. (Agricultural Chemicals), Ph.D (Continuing) ",
+        "designation":" Scientist",
+        "address":"  ICAR-Central Tobacco Research Institute, Bhaskar Nagar RAJAHMUNDRY - 533 105 ",
+        "phone":"  9643260697 ",
+        "email":" aninditapaul20@gmail.com ",
+        
+        "employment_record": [
+           "* Scientist - 2018 to Till date"
+        ],
+        "area_of_interst":"Nutraceuticals, Botaniclals, Pesticide residue analysis ",
+
+        "publications":[ 
+            "Saha A, Singh J,<b> Paul A,</b> Sarkar R (2019) Anthocyanin profiling: useful ness of LC-UV and LC-MS. Journal of AOAC International, 103:1-17 ",
+            "<b>Paul A,</b> Banerjee K, Goon A, Saha S (2018) Chemo-profiling of bioactive constituents present in pomegranate aril and seed grown in Indian condition and its bioaccessibility study. Journal of Food Science and Technology, 55 (7): 2488-2496. ",
+            "<b>Paul A, </b>Dutta A, Kundu A, Saha S (2018) Ellagitannin from Pomegranate Rind: Comparative Assessment of Extraction Techniques. Journal of Food Science and Technology (Review Submitted)"
+         ],
+
+        "awards":[
+           " <b>National Academy of Sciences India (NASI)- Springer Best Paper Award </b>during 89th Annual Session of The National Academy of Sciences India and Symposium on Science and Technology based Entrepreneurship Development , 21-23 December 2019 held at ICAR-NAARM, Hyderabad.",  
+            "<b> Best Poster Presenter Award </b>in 7th Horticultural Congress 2017 organized on 15-17th November 2016, IARI, New Delhi. ",
+            " Shortlisted and<b> Presented for Young Scientist’s Award</b> in 104th Indian Science Congress hosted by SV University, Tirupati from 3-7 January 2017. ",
+             "Presented <b>Gold Medal</b> Presentation at 55th Convocation in Significant Post-Graduate Students’ Research (6th February, 2017), IARI, New Delhi."
+             
+        ]    
+    }
+]  

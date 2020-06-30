@@ -1,0 +1,50 @@
+[
+    {
+        "img":"  uploads/staff/6.jpeg ",
+        "name":"Dr. H. Ravisankar  ",
+        "degree":" M.Sc., Ph.D.(Computer Science & Engineering)",
+        "designation":"Principal Scientist",
+        "address":"Agricultural Knowledge Management Unit, ICAR-Central Tobacco Research Institute, Bhaskar Nagar, RAJAHMUNDRY - 533 105  ",
+        "phone":" 9849418571 ",
+        "email":"hravi.sankar@icar.gov.in ",
+
+        "employment_record": [
+        "* Lecturer, P.B. Siddhartha College of Arts & Science, Vijayawada - August, 1993 to October, 1994. ",
+        "* Tech. T.II. 3, CTRI, Rajahmundry - November, 1994 to November, 1997 ",
+        "* Scientist, CTRI, Rajahmundry December, 1997 to October, 2008",
+        "* Senior Scientist, CTRI, Rajahmundry October, 2008 to October, 2014",
+        "* Working as Principal Scientist and i/c, AKMU, CTRI, Rajahmundry - 31st October, 2014 to till date"
+        ],
+        "area_of_interst":"Data Mining, Data Base Management System, Expert System, Decision Support System ",
+
+        "publications":[ 
+           "<b> Ravisankar, H.,</b>  U.Sreedhar,  D. Damodar Reddy   and N. Srinivasa Rao (2019). A web based expert system for identification and management of insect pests of tobacco.   Journal of Entomology and Zoology Studies 7(1): 803-807. ",
+            "<b>Ravisankar, H., </b> K. Sarala,  D. Damodar Reddy   and N. Srinivasa Rao (2018). Online Expert system on Indian Tobacco Varieties. International Journal of Current Microbiology and Applied Sciences. 7(1): 2320-2326.",
+            "<b>Ravisankar, H., </b>K. Sivaraju, K.Prabhakara Rao, K. Sarala and D. Damodar Reddy (2017). Computational Algorithm for prediction of miRNA in plants. International Journal of Applied Research on Information Technology and Computing 8(1):30-40.",
+            "<b>Ravisankar, H., </b>Naidu, V.S.G.R, Sivaraju, K., John Babu, B. and Sivarao, P.V.V.S. (2014). Expert system for dairy cattle management. Indian Journal of Animal Sciences 84 (8): 891–896.",
+            "<b>Ravisankar, H., </b>Gunneswararao, S. and Sreedhar, U. (2014). Expert system for identification of natural enemies of tobacco pests. Indian Journal of Plant Protection 42(4): 312-316.",
+            "<b>Ravisankar, H.,  </b>Sreedhar, U. and Sivaraju, K. (2014). Expert system for insect’s pests of agricultural crops. Indian Journal of Agricultural Sciences 84 (5): 607-11.",
+            "<b>Ravisankar, H., </b>Sivaraju, K. and Sumankalyani, K. (2012). Expert System for identification and management of tobacco diseases. Indian Journal of Plant Protection 40 (2): 95-98.",
+            "<b>Ravisankar, H., </b>Sarala, K. and Murthy, T.G.K. (2012). Knowledge based system for Rainfed Natu Tobacco Germplasm (Nicotiana tabacum). Indian Journal of Agricultural Sciences 82 (8): 54-57.",
+            "<b>Ravisankar, H., </b>Siva Raju, K., Krishnamurthy, V. and  Raju, C.A. (2010). Expert system for identification and management of abiotic stresses in Tobacco. Indian Journal of Agricultural Sciences 80: 151-154.",
+            "<b>Ravisankar, H.,  </b>Anuradha, M., Chandrasekhararao, C., Nageswararao, K. And Krishnamurthy, V. (2009). Expert System for the diagnosis of nutrient deficiencies in flue-cured tobacco. Indian Journal of Agricultural Sciences 79 (1):  45-49."
+             
+            
+         ],
+
+        "awards":[
+          "  Outstanding Scientist Award - 2016, IJTA",
+           " Assoicate Fellow - 2015, AP Akedami of Sciences",
+            "Outstanding Scientist Award - 2015, VIFRA",
+            "Computational Biologist Award, SESR (2014)",
+            "Best Poster Presentation Award, ISEE (2013)",
+            "Best Poster Presentation Award, ISC (2005)",
+            "Sri K. Devappa Award, ISTS (2000)",
+            "Member – Doctoral Committee, Department of computer science, Adikavi Nannaya University, Rajahmundry (2013- till date)",
+            "Member – Editorial Board – International Journal of advanced computer engineering and communication technology.",
+            "Member –Editorial Board- International Journal of Research in Computer science",
+            "Senior Member – International Association of Computer Science and Technology",
+            "Member – Editorial Board - CTRI Newsletter (2012- till date)"
+        ] 
+    }
+]       

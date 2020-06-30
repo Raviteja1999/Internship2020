@@ -1,0 +1,44 @@
+[
+    {
+        "img":"uploads/staff/340.jpeg",
+        "name":"N. Johnson",
+        "degree":"M.Sc",
+        "designation":"Senior Technical Assistant",
+        "address":"Div. of Crop Chemistry and Soil Science, ICAR-Central Tobacco Research Institute, Rajahmundry-533105.",
+        "phone":"8790761459",
+        "email":" nalli._johnson@rediffmail.com",
+
+        "employment_record": [
+              
+            "Technician 1999 - 2004",
+            "Senior Technician 2004 - 2009",
+            "Technical Assistant  2009 - 2014",
+            "Senior Technical Assistant 2014 to till date."
+
+        ],
+
+        "area_of_interst":"",
+
+        "publications":[ 
+   
+            "C.V.N. Srihari, C.V. Narasimha Rao and <b>N. Johnson</b> (2013). Neutral Volatile Compounds in FCV Tobacco. Tobacco Research 39(1): 35-40, 2013",
+            "Rakesh Kumar Ghosh, Zareen S. Khan, C. V. N. Rao, Kaushik Banerjee , D. Damodar Reddy, T. G. K. Murthy, <b>Nalli Johnson</b>, Deb Prasad Ray (2014). Assessment of organochlorine pesticide residues in Indian flue-cured tobacco with gas chromatography-single quadrupole mass spectrometer. Environmental Monitoring and Assessment 186:5069–507",
+            "Zareen S. Khan, Rakesh Kumar Ghosh, Rushali Girame, Sagar C. Utture, Manasi Gadgil, Kaushik Banerjee, D. Damodar Reddy, <b>Nalli Johnson</b> (2014). Optimization of a sample preparation method for multiresidue analysis of pesticides in tobacco by single and multi-dimensional gas chromatography-mass spectrometry. Journal of Chromatography A 1343: 200–206",
+            "Rakesh Kumar Ghosh, C.V. Narasimha Rao, D. Damodar Reddy, <b>Nalli Johnson</b>, R. Athinarayanan and Deb Prasad Ray (2014). Determination and Uncertainty Analysis of Imidacloprid Residue in Flue Cured Leaf Matrix of NicotianaTabacum L. International Journal of Agriculture, Environment & Biotechnology 7(2): 347-354."
+                
+                
+        ],
+
+        "awards":[
+
+            "'ISTS Award for Best Paper Presentation' during XIV National Symposium on Tobacco held at CTRI, Rajahmundry from 20-22 December, 2011."   
+
+        ]
+
+        
+
+    
+
+      
+    }
+]  

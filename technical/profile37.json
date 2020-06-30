@@ -1,0 +1,40 @@
+[
+    {
+        "img":"uploads/staff/332.jpeg",
+        "name":"M.M. Ali",
+        "degree":"M.Sc.",
+        "designation":"Senior Technical Assistant",
+        "address":"C-4, CTRI Quarters, Krishi Vihar, Rajahmundry",
+        "phone":"9705364661",
+        "email":"mas2005@rediffmail.com",
+
+        "employment_record": [
+              
+            "Technician 1999 - 2004",
+            "Senior Technician 2004 - 2009",
+            "Technical Assistant 2009 - 2014",
+            "Senior Technical Assistant 2014 to till date."
+
+        ],
+
+        "area_of_interst":"",
+
+        "publications":[ 
+
+                
+                
+        ],
+
+        "awards":[
+
+                
+
+        ]
+
+        
+
+    
+
+      
+    }
+]  

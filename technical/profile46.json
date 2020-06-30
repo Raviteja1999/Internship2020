@@ -1,0 +1,38 @@
+[
+    {
+        "img":"uploads/staff/360.jpeg",
+        "name":"A. Suresh Babu",
+        "degree":"M.Sc.",
+        "designation":"Senior Technical Assistant",
+        "address":"D.No. 26-41-62/B, Venkata Krishna Colony 2nd lane, 4/8, AT Agraharam, Guntur - 522004",
+        "phone":"9441752689",
+        "email":"sureshbabuamruthaluri@gmail.com",
+
+        "employment_record": [
+              
+            "Technician 2001 - 2006",
+            "Senior Technician 2006 - 2011",
+            "Technical Assistant 2011 - till date."
+        ],
+
+        "area_of_interst":"",
+
+        "publications":[ 
+
+                
+                
+        ],
+
+        "awards":[
+
+                
+
+        ]
+
+        
+
+    
+
+      
+    }
+]  

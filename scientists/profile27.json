@@ -1,0 +1,34 @@
+[
+    {
+        "img":" uploads/staff/42.jpeg  ",
+        "name":"  Dr. Vallepu Venkateswarlu ",
+        "degree":"M.Sc. and Ph.D. ",
+        "designation":"Scientist",
+        "address":" Division of Crop Protection, ICAR-CTRI, Bhaskar Nagar, Rajahmundry (E.G. Dist.) Andhra Pradesh, Pin-533105. ",
+        "phone":"  8894459994 ",
+        "email":" venkiiari@gmail.com",
+        
+        "employment_record": [
+           "*  Scientist, ICAR-CPRI, Shimla from 26.12.2011 to 26.12.2016",
+           "*   Scientist, ICAR-CTRI, Rajahmundry from 27.12.2016 to till date"
+        ],
+        "area_of_interst":" ",
+
+        "publications":[ 
+            "<b>Venkateswarlu,V.,</b> Sharma, R. K., Chander, S. and Singh, S. D. (2011) Population Dynamics of Major Insect pests and their natural enemies on cabbage. Annals of Plant Protection Sciences. 19(2): 272-277.",
+            "<b>Venkateswarlu,V,</b> Sharma, RK and Sharma, K. (2011) Evaluation of Eco- Friendly Insecticides against major insect pests of cabbage. Pesticide Research journal. 23(2):172-180.",
+            "<b>Venkateswarlu, V.,</b> Sharma, R.K., Sinha, S.R., and Sharma, K. (2014) Management of insect pests in cabbage (Brassica oleracea var. capitata L.) with border cropping and biopesticides. Journal of Eco-friendly Agriculture. 9(2):161-165.",
+            "Baswaraj, R., <b>Venkateswarlu, V.,</b> Sridhar, J., Jeevalatha, A., Sharma, S. and Singh, B.P. 2014. RT-PCR detection of potato leaf roll virus (PLRV) in aphids from Northern and North-Eastern India. Indian Journal of Plant Protection, 42 (4): 430-436.",
+            "Sridhar J, <b>Venkateswarlu V,</b> Jeevalatha A, Malik K, Bhatnagar A and Singh BP (2016) Squash and tissue print protocols for quick detection of Tomato Leaf Curl NewDelhi Virus-potato in fresh and ethanol preserved single whitefly. Potato Journal.43 (1): 62-69.",
+            "<b>Venkateswarlu V,</b> Sridhar J, Baswaraj R, Jeevalatha A, Malik K, Bhatnagar A, Neelum K, Sanjeev Shrama, Nagesh M, Singh BP and Chakrabarti SK (2016) Uniplex and Duplex RT-PCR protocol for detection of PLRV and PVY in aphids from potato fields. Potato Journal. 43(2):146-152.",
+            "Jeevalatha A, Kaundal P, Kumar A, Guleria A, Sundaresha S, Pant RP, Sridhar J,<b> Venkateswarlu V,</b> Singh BP (2016) SYBR Green Based Duplex RT-QPCR Detection of a Begomovirus, Tomato Leaf Curl New Delhi Virus-Potato along with potato virus X and Potato Leaf roll Virus In Potato. Potato Journal. 43 (2):125-137."
+         ],
+
+        "awards":[
+            "<b>Received the Certificate of merit</b> (2013) : 94th FOCARS in National Academy of Agricultural Research and Management (NAARM), Hyderabad",
+            "<b>Best Poster presentation awarded </b>for team research work at National seminar on Problems of Potato-2014 organized by IPA, CPRI, Shimla.",
+            "<b>Best Oral presentation awarded </b>for team research work at International conference-2014 organized by ERA, MPUAT, Udaipur."
+            
+        ]    
+    }
+]  

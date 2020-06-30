@@ -1,4 +1,10 @@
-    <?php
+   
+   
+   
+   
+   
+   
+   <?php
         include "heading1.html";
         echo "<br>";
         include "navfinal.html";
@@ -63,7 +69,7 @@
         
         </body>
         <?php
-        include "footer.php";
+        include "footerreader.php";
         ?>
     </html>
 

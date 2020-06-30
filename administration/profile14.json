@@ -1,0 +1,22 @@
+[
+    {
+        "img":"uploads/staff/116.jpeg",
+        "name":"Smt. Rohini",
+        "degree":"PUC",
+        "designation":"Assistant",
+        "address":"CTRI Research Station, Hunsur",
+        "phone":"9731452490",
+        "email":"sreenivasrohini@gmail.com",
+        
+       	
+        
+        "employment_record": [
+            "* LDC 1987 - 1998",
+            "* UDC 1998 - 2010",
+            "* Assistant  2010 - till date "
+        ]
+       
+    }
+]  
+
+	

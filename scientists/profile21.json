@@ -1,0 +1,49 @@
+[
+    {
+        "img":" uploads/staff/34.jpeg  ",
+        "name":"  Dr. K. Prabhakara Rao  ",
+        "degree":"  M.Sc.(Ag.); Ph.D., PGDTMA",
+        "designation":"Scientist",
+        "address":"  Division of crop improvement, ICAR-Central Tobacco Research Institute, RAJAHMUNDRY -533 105, Andhra Pradesh",
+        "phone":" 7702664572 ",
+        "email":"prabhakarabt@yahoo.co.in ",
+    
+        "employment_record": [
+            "* Scientist 2010-till date",
+        
+            "* Senior Research Fellow 2006-2010",
+            
+            "* Junior Research Fellow 2004-2006"
+        ],
+        "area_of_interst":"TSNA in tobacco, Molecular diversity analysis, DNA barcoding and molecular pharming.. ",
+
+        "publications":[ 
+           "<b> Rao, K.P.,</b> Vani, G., Kumar, K., Wankhede, D.P., Mishra, M., Gupta, M., Sinha, A.K. (2011). Arsenic stress activates MAP kinase in rice roots and leaves. Archives of Biochemistry and Biophysics 506 (1): 73-82.",
+            "<b>Rao, K.P., </b>Richa, T., Kumar, K., Raghuram, B. and Sinha, A.K. (2010). In silico analysis reveals 75 members of mitogen activated protein kinase kinase kinase gene family in rice. DNA Research 17 (3): 139-153.",
+            "<b>Rao, K.P.,</b> Vani, G., Kumar, K. and Sinha, A.K. (2009). Rhythmic expression of Mitogen Activated Protein Kinase Activity in Rice. Molecules and Cells 28: 417-422.",
+            "<b>Rao, K.P., </b>Sarala, K. Murthy, T.G.K., Venugopala Rao, P.V.V. and Suma, M. (2012).  Application of Simple Sequence Repeat (SSR) markers in diversity analysis of tobacco types. Tobacco Research 38 (1): 29-33.",
+            "Kumar, K.,<b> Rao, K.P.,</b> Sharma, P. and Sinha, A.K.  (2008). Differential regulation of rice mitogen activated protein kinase kinase (MKK) by abiotic stress. Plant Physiology and Biochemistry 46: 891-897.",
+            "Kumar, K.,<b> Rao, K.P.,</b> Biswas, D. and Sinha, A.K. (2011). Rice WNK1 is regulated by abiotic stress and involved in internal circadian rhythm. Plant Signaling and Behavior 6 (3) (In press).",
+            "Hyun, T.K., Kumar, K., <b>Rao, K.P.,</b> Sinha, A.K. and Roitsch, T. (2011). Role of α-tocopherol in cellular signaling: α-tocopherol inhibits stress induced mitogen activated protein kinase activation. Plant Biotechnology Reports 5(1): 19-25.",
+            "Sarala K, <b>Prabhakara Rao, K. ,</b> Chandrasekhararao C, Damodar Reddy D and Bagyalakshmi K. 2018. Phenotyping tobacco recombinant inbred lines for solanesol. International Journal of Chemical Studies 6(3): 3643-3650.",
+            "Baghyalakshmi K, Sarala K,<b> Prabhakara Rao, K.</b> and Damodar Reddy D. 2019. Orobanche menace in crop plants: Host resistance as a potential tool to control. Journal of Pharmacognosy and Phytochemistry 8 (SP2): 93-102",
+            "D P Wankhede, Pallavi Singh, J Monika, <b>Prabhakara Rao, K. ,</b> S K Raina and Alok Krishna Sinha (2016) UV-B activates a group A mitogen activated protein kinase in Oryza sativa. J.Plant Biochem. Biotechnol. 25 (4): 392-399."
+         ],
+
+        "awards":[
+           " <b>Pran Vohra award</b>: 99th Indian science Congress Association (ISCA) meeting held during 3rd -7thJanuary 2012 at Bhubaneswar.",
+            "<b>Outstanding Scientist </b>: Awarded during 3rd Annual Anex-8 Research Meet-ARM 2017 held on November 11, 2017 at the Radha Regent Chennai City, India by Venus International Foundation.",
+            "<b>Young Scientist Award</b>: Awarded in 7th International conference on Agriculture, horticulture and Plant Sciences held at hotel Landmark, Shimla,H.P., India from 28th to 29th June 2018 organized by the Society of Tropical Agriculture, New Delhi, India.",
+            "<b>Best poster award</b>: Awarded for the poster presented during XVth National Symposium on Tobacco Approaches and strategies for augmenting tobacco farmers income held on 19th and 20th July 2019 at BVR Sree convention hall, Rajahmundry.",
+            "<b>Young Scientist Award</b>: Awarded during XVth National Symposium on Tobacco Approaches and strategies for augmenting tobacco farmers income held on 19th and 20th July 2019 at BVR Sree convention hall, Rajahmundry.",
+            "<b>Best FOCARS Trainee award </b>: 91st FOCARS (2010) in National Academy of Agricultural Research and Management (NAARM), Hyderabad",
+            "<b>Fellow of Society for Applied biotechnology (FASB)</b>: Recognized as Fellow of Society for Applied biotechnology (2012)",
+            "<b>Associate Fellow of Andhra Pradesh Akademi of Sciences</b>: Recognized for the outstanding contributions to Science & Technology in the A.P. Science Congress - 2016 held during 7-9 November, 2016 at P.B. Siddhartha Arts & Science College, Vijayawada",
+            "<b>DST-DAAD Fellowship</b>: Oct 2007-Nov 2007, Joint fellowship programme between Indian and German governments. ",
+            "<b>Senior Research Fellowship</b>: August 2006 – July 2009; Awarded by Council of Scientific and Industrial Research (CSIR), Govt. of India.",
+            "<b>Junior Research Fellowship</b>: August 2004-July 2006; Awarded by Council of Scientific and Industrial Research (CSIR), Govt. of India.",
+            "<b>National Eligibility Test (NET) December 2003</b>: Conducted jointly by University Grants Commission (UGC) and Council of Scientific and Industrial Research (CSIR), Govt. of India."
+            
+        ]    
+    }
+]  

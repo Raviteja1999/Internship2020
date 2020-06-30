@@ -1,0 +1,40 @@
+[
+    {
+        "img":"uploads/staff/342.jpeg",
+        "name":"M.S. Asokan",
+        "degree":"ITI Electrician",
+        "designation":"Senior Technical Assistant",
+        "address":"23-16-16/1, Lalitha Nagar, 5th Street, Sri Ram Nagar (PO), Rajahmundry-533105",
+        "phone":"9490600153",
+        "email":"asokanms1965@gmail.com",
+
+        "employment_record": [
+              
+            "Technician 1995 - 2000",
+            "Senior Technician 2000 - 2010",
+            "Technical Assistant 2010 - 2015",
+            "Senior Technical Assistant 2015 - till date."
+
+        ],
+
+        "area_of_interst":"",
+
+        "publications":[ 
+
+                
+                
+        ],
+
+        "awards":[
+
+                
+
+        ]
+
+        
+
+    
+
+      
+    }
+]  

@@ -1,0 +1,44 @@
+[
+    {
+        "img":"uploads/staff/17.jpeg",
+        "name":"Dr. S. Ramakrishnan",
+        "degree":"M.Sc.(Ag.), PhD.(Nematology)",
+        "designation":"Head, CTRI RS, Hunsur",
+        "address":"CTRI Research Station Hunsur-571105 Karnataka",
+        "phone":"9880054867",
+        "email":" ramkictri@yahoo.com",
+        
+
+        "employment_record": [
+               " Head i/c, ICAR-CTRI Regional Station, Hunsur, Karnataka since June 2013",
+                "* Principal Scientist (Nematology) since April 2012",
+                "* Senior Scientist (Nematology) – 2006 to 2012",
+                "* Scientist Sr. Scale (Nematology)- 2003 to 2006",
+                "* Scientist (Nematology)- 1997 to 2003",
+                "* Research Associate (Nematology) in ICAR-CTCRI, Trivandrum from 1994 to 1997"
+        ],
+        "area_of_interst": "� Developing bio-intensive root knot nematode management strategies in FCV tobacco. � Isolation, identification and formulation of newer strains of nematode antagonists for bio-control.",
+        "publications":[ 
+            "<b> Ramakrishnan, S.</b> and Mohandas, C. (1996). Nematicidal properties in aqueous extracts of Cassava. Journal of Root crops 22: 28-34.",
+            "Mohandas, C. and<b> Ramakrishnan, S. </b>(1996). Sweet potato variety-Sree Bhadra- a trap crop of root knot nematode. Journal of Root crops 22: 135-136.",
+           " Jayakumar, J. and<b> Ramakrishnan, S.</b> (2009). Evaluation of avermectin and its combination with nematicides and bio-agents against root knot nematode, Meloidogyneincognita in tomato. Journal of Biological Control 23: 317-319.",
+           "<b> Ramakrishnan, S.</b> and Rajendran, G. (2010). Evaluation of Pseudomonas fluorescens and Trichoderma viride as seed and soil treatment against root knot nematode infecting ground nut. Journal of Biological Control 24: 164-167.",
+           " Khan, A.A., <b>Ramakrishnan, S.</b>, Khan, M.R., Krishnamurthy, V. and Kausar, S. (2010). Nematode infestation in tobacco. In: Nematode Infestations.  Part II: Industrial Crops. The National Academy of Sciences, India. Allahabad . Pp. 58-81.",
+            "<b>Ramakrishnan, S.</b> and Nagesh, M. (2011). Evaluation of beneficial fungi in combination with organics against root knot nematode in FCV tobacco nurseries. Journal of Biological Control 25: 164-167.",
+            "Seema, M.,<b> Ramakrishnan, S.,</b> Sreenivas, S.S. and Devaki, N.S. (2011). Evaluation of Trichoderma viride formulations against soreshin disease in FCV tobacco nurseries. Journal of Biological Control 25: 335-336.",
+            "<b>Ramakrishnan, S.</b> and Sreenivas, S.S. (2012). Bio-management of fusarium wilt disease complex with Pseudomonas fluorescens and Aspergillus niger. Journal of Biological Control 26: 368-372.",
+            "<b>Ramakrishnan, S.</b> and Mahadevaswamy, M.M. (2012). Efficacy of vermicompost against root knot nematodes, Meloidogyne spp in FCV tobacco.  Indian Journal of Nematology 42: 143-145.",
+            "<b>Ramakrishnan, S.,</b> Sreenivas, S.S. and Shenoi, M.M. (2012). Bio-management of root knot nematode in FCV tobacco nursery of KLS.  Indian Journal of Nematology 42: 169-172."
+         ],
+
+        "awards":[
+         "<b>External Examiner</b> for PG thesis in Nematology of TNAU, Coimbatore.",
+        "<b>Councillor (South Zone),</b> Executive Council of Nematological Society of India from April 2011 to March 2013.",
+       "<b>Reviewer</b> for journals, Tobacco research, Indian journal of agricultural sciences, Indian journal of Nematology and Journal of Bio-pesticides.",
+       "<b> Fellowship</b>- Nematological Society of India (FNSI). Awarded by Nematological Society of India, New Delhi in the year 2010.",
+        "<b>Fellowship</b>-Plant Protection Association of India (FPPAI). Awarded by Plant Protection Association of India, Hyderabad in the year 2012.",
+        "<b>Member</b>, Scientific Advisory Committee of KVK, Suttur, Karnataka",
+        "<b>Member</b>, Inter agency Team, Field friend Team, Input Committee for Karnatala and Committee for cost of FCV tobacco cultivation in KLS of Tobacco Board, Ministry of Commerce."
+        ]    
+    }
+]  

@@ -31,7 +31,7 @@
             background: white;
             }
             .carousel-item>img{
-            height:300px;
+            height:350px;
             width:670px;
             }
 

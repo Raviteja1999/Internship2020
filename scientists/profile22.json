@@ -1,0 +1,31 @@
+[
+    {
+        "img":" uploads/staff/8.jpeg  ",
+        "name":"   Shri Sunil Mandi ",
+        "degree":"M.Sc.(Ag) ",
+        "designation":"Scientist",
+        "address":" CTRI Research station DINHATA, WEST BENGAL ",
+        "phone":"  08972994717 ",
+        "email":" mandi.sunil@gmail.com",
+     
+        "employment_record": [
+            "* Scientist 2013 - till date"
+        ],
+        "area_of_interst":" Weed science, Soil fertility and plant nutrition, Organic agriculture",
+
+        "publications":[ 
+           " Yashbir Singh Shivay and <b>Sunil Mandi,</b> 2020. Advances in understanding iron cycling in soils, uptake/use by plants and ways of optimising iron-use efficiency in crop production. In: Rengel, Z. (ed.), Achieving sustainable crop nutrition, Burleigh Dodds Science Publishing, Cambridge, UK. Pp. 1-31.",
+            "<b>Sunil Mandi,</b> Bikas Mandal, S. Kasturi Krishna and D. Damodar Reddy. 2019. Effect of integrated weed management on weed growth and yield of winter maize (Zea mays). Indian Journal of Agronomy 64 (3): 65-69.",
+            "Tapan Kumar Kisku, Ashim Datta, Nirmalendu Basak,<b> Sunil Mandi,</b> Sandip Hembram, Ratneswar Roy. 2017. Evaluation of saturated hydraulic conductivity from soil properties in an Inceptisol using different land cover and depths. Journal of Applied and natural Science 9(3): 1482-1488.",
+            "<b>Sunil Mandi,</b> D Damodar Reddy, K Sivaraju. 2017. Empirical model for prediction of motihari tobacco (Nicotiana rustica) leaf quality based on leaf nutrients and soil fertility. International Journal of Current Research 9(5): 51001-51005.",
+            "<b>Sunil Mandi,</b> Eajaz Ahmad Dar, Ashim Datta, Ram Pratap Singh, Manoj Kumar Singh. 2016 Growth and yield of transplanted rice as affected by different cultivars and weed management practices. Journal of Applied and Natural Science 8 (3): 1462 – 1466.",
+            "<b>Sunil Mandi,</b> S.Kasturi Krishna, D.Damodar Reddy, S.V. Krishna Reddy. 2015 Weed seeds stratification in contrasting soil texture on the bank of river Godavari. International Journal of agriculture, Environment and Biotechnology 8(3): 669-673."
+             
+         ],
+
+        "awards":[
+            "Reviewer : International Journal of Agriculture Sciences",
+            "JRF by ICAR,2008-2010"
+        ]    
+    }
+]  

@@ -1,0 +1,39 @@
+[
+    {
+        "img":"uploads/staff/400.jpeg",
+        "name":"A. Mutyam",
+        "degree":"B.Sc.",
+        "designation":"Senior Technician",
+        "address":"62-8-1, Bharma colony, Siddhardha nagar, Rajahmundry-533 106",
+        "phone":"99129 60992",
+        "email":"muthyam43veni@gmail.com",
+
+        "employment_record": [
+              
+            "SSS  1997 - 2008",
+            "Technician  2008 - 2013",
+            "Senior Technician  2013 - till date."
+
+        ],
+
+        "area_of_interst":"",
+
+        "publications":[ 
+
+                
+                
+        ],
+
+        "awards":[
+
+                
+
+        ]
+
+        
+
+    
+
+      
+    }
+]  

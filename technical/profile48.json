@@ -1,0 +1,40 @@
+[
+    {
+        "img":"uploads/staff/364.jpeg",
+        "name":"T. Srinivasa Rao",
+        "degree":"SSC",
+        "designation":"Technical Assistant",
+        "address":"C-4, CTRI Quarters, Jeelugumilli - 534456",
+        "phone":"9491711568",
+        "email":"",
+
+        "employment_record": [
+              
+            "SSS 1990 - 1995",
+            "Technician 1995 - 2000",
+            "Senior Technician 2000 - 2010",
+            "Technical Assistant 2010 - till date."
+
+        ],
+
+        "area_of_interst":"",
+
+        "publications":[ 
+
+                
+                
+        ],
+
+        "awards":[
+
+                
+
+        ]
+
+        
+
+    
+
+      
+    }
+]  

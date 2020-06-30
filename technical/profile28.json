@@ -1,0 +1,40 @@
+[
+    {
+        "img":"uploads/staff/308.jpeg",
+        "name":"B.V. Srinivas",
+        "degree":"SSC",
+        "designation":"Senior Technical Assistant",
+        "address":"CTRI, Rajahmundry",
+        "phone":"9177271783",
+        "email":"b.srinu395@gmail.com",
+
+        "employment_record": [
+              
+            "Technician 1993 - 1998",
+            "Senior Technician 1998 - 2008",
+            "Technical Assistant 2008 - 2013",
+            "Senior Technical Assistant 2013 - till date."
+
+        ],
+
+        "area_of_interst":"",
+
+        "publications":[ 
+
+                
+                
+        ],
+
+        "awards":[
+
+                
+
+        ]
+
+        
+
+    
+
+      
+    }
+]  

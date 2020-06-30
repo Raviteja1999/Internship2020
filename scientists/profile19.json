@@ -1,0 +1,31 @@
+[
+    {
+        "img":" uploads/staff/12.jpeg  ",
+        "name":"Dr. Nanda C.",
+        "degree":"Scientist ",
+        "designation":"Scientist",
+        "address":" Central Tobacco Research Institute, Research Station, Hunsur, Mysore (Dist), Karnataka-571105 ",
+        "phone":" 9480343075 ",
+        "email":" nanda.gpb@gmail.com",
+        
+        "employment_record": [
+            "* Working as Scientist since 2010"
+        ],
+        "area_of_interst":"Development of high yielding varieties/hybrids, multiple disease resistant varieties and generation of Scientific information useful for the effective breeding in Tobacco ",
+
+        "publications":[ 
+           " Prathibha V. H., Mohan Rao A., Ramesh S. and<b> Nanda, C.</b> 2013. Estimation of Fruit quality parameters in anthracnose infected chilli fruits. International J. of Agril. and food science and technol., 4:57-60. (ISSN 2249-3050)",
+            "<b>Nanda, C.,</b> Prasad, J.V. Swamy A.V.S.R. and Shekar Babu, A. V. 2014, Development of advanced breeding lines suitable for cultivation in Southern and Central Black soils of Andhra Pradesh. Tobacco Research, 40 (2):79-82. (NAAS 2.9 )",
+            "<b>Nanda, C..,</b> Prathibha V.H., Mohan Rao A. , Ramesh S., Shailaja Hittalmani and Sushma Pai., 2016. Tagging SSR markers associated with genomic regions controlling anthracnose resistance in chilli. Indian J. Hort. 73(3): 350-355. (NAAS 6.13)",
+            "<b>Nanda, C., </b>K. Sarala, S. Ramakrishnan and S. S. Sreenivas, 2018. Screening of FCV tobacco germplasm (N. tabaccum) for reaction to TMVbinfection and identification of resistant donors. Tobacco Research 44(2) : 68 - 73, 2018.",
+            "Prathibha V. H.,<b> Nanda, C..,</b> Mohan Rao A., Ramesh S. and Nagaraja N. R. 2018. Morphometric and molecular diversity among the isolates of Colletotrichum species causing anthracnose disease of chilli. J. of Experimental Biol and Agril Sci., 6(1): 124-130.",
+            "<b>Nanda, C., </b>P. Nagesh and S. S. Sreenivas, 2019. Studies on combining ability and heterosis for yield and its component traits in Flue Cured Virginia (FCV) Tobacco (Nicotiana tabaccum L.) Poster presented in XV National Symposium on Tobacco: Approaches and Strategies for Augmenting Tobacco Farmers Income-2019, held during 19 th and 20 th JULY 2019, RAJAHMUNDRY - (A.P.) INDIA (Poster presented, full paper sent for publication in Tobacco research Journal).",
+            "<b>Nanda, C.,</b> S. Ramakrishnan, M. Mahadevaswamy, K. Sarala and D. Damodar Reddy. 2018. Dissecting genetic basis of leaf yield in FCV Tobacco (Nicotiana tabaccum L.) under rain fed conditions of Karnataka. Poster presented in 1st National Genetics Congress, 2018 held during 14-16 December, 2018 at IARI, New Delhi (Poster presented)"
+          
+         ],
+
+        "awards":[
+        
+        ]    
+    }
+]  

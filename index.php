@@ -31,7 +31,7 @@
             background: white;
             }
             .carousel-item>img{
-            height:300px;
+            height:350px;
             width:670px;
             }
 
@@ -154,7 +154,7 @@
 
       <!-- message content  -->
      
-      
+     
       <div class="firstrow row">
                 
                 <marquee width="100%" direction="left" height="auto"  style="background-color:#138FA0;" >
