@@ -690,7 +690,12 @@ margin:0 ;
        <button  id="profile2" value=2  class="btn btn-link"  onclick="profile(this.id,this.value)">Profile</button> -->
 
   </div> 
+  </body>
 
+  <?php
+         include "footerreader.php";
+        ?> 
+        
 <div id="sidemenu">
     <div class="row1" id="tophead" >
    
@@ -702,6 +707,7 @@ margin:0 ;
   
    </div>
 
+  
    <br><br><br>
    <div id="content">
        <button class="btn btn-primary" style="float:right;" onclick="printdiv()">Print</button>
@@ -717,7 +723,7 @@ margin:0 ;
 
     </div>
 </div>
-</body>
+
 </html>
 
 <script>

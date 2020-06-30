@@ -2237,6 +2237,12 @@
 
    </div> 
 
+   </body>
+
+   <?php
+         include "footerreader.php";
+        ?> 
+
    <div id="sidemenu">
        <div class="row1" id="tophead" >
       
@@ -2265,7 +2271,7 @@
    </div>
  
 
-</body>
+
 </html>
 
 <script>

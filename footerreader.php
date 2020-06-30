@@ -45,11 +45,11 @@
       
         <div style="background-color:#199B98 ">
   
-        <div class="row1 row py-3 d-flex justify-content-center">
+        <div class="1strow row py-3 d-flex justify-content-center">
 
-        <div class="internallinks col-xg ml-4">
+        <!-- <div class="internallinks col-xg ml-4">
             <a href="#"><span class="linktxt">Terms and Conditions</span></a>
-          </div>
+          </div> -->
          
           <div class="internallinks col-xg ml-4" >
             <a href="#"><span class="linktxt">Disclaimer</span></a>
@@ -59,9 +59,9 @@
             <a href="#"><span class="linktxt">Web Policy</span></a>
           </div>
 
-          <div class="internallinks col-xg ml-4" >
+          <!-- <div class="internallinks col-xg ml-4" >
             <a href="#"><span class="linktxt">Login</span></a>
-          </div>
+          </div> -->
 
           <div class="internallinks col-xg ml-4" >
             <a href="#"><span class="linktxt">Help</span></a>

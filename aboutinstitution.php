@@ -65,6 +65,6 @@ include "navfinal.html";
      
     </body>
     <?php
-    include "footer.php";
+    include "footerreader.php";
     ?>
 </html>

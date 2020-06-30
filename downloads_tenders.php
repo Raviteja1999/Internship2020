@@ -15,9 +15,9 @@
       
     </head>
     <style>
-           .content{
+           /* .content{
                 padding:15px;
-           }
+           } */
 
     </style>
 

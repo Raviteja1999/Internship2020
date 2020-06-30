@@ -11,7 +11,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
    <title>Document</title>
-   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+   <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
 
 </head>
 <style>
@@ -604,6 +604,13 @@ margin:0 ;
 
   </div> 
 
+  </body>
+
+  <?php
+         include "footerreader.php";
+        ?> 
+
+
   <div id="sidemenu">
       <div class="row1" id="tophead" >
      
@@ -630,7 +637,7 @@ margin:0 ;
 
       </div>
   </div>
-</body>
+
 </html>
 
 <script>

@@ -704,9 +704,11 @@
 
         <!-- <button   id="profile1" value=1 class="btn btn-link" onclick="profile(this.id,this.value)">Profile</button>
         <button  id="profile2" value=2  class="btn btn-link"  onclick="profile(this.id,this.value)">Profile</button> -->
- 
+        
+    </body>
+
         <?php
-        // include "footerreader.php";
+         include "footerreader.php";
         ?> 
   
 
@@ -720,6 +722,8 @@
       </div>
      
       </div>
+
+      
 
       <br><br><br>
       <div id="content">
@@ -736,7 +740,7 @@
 
        </div>
    </div>
-</body>
+
 
 </html>
 
