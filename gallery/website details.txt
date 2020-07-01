@@ -1,0 +1,4 @@
+Host name: ctri.icar.gov.in
+User Name: ctri.icar.gov.in|ftp_ctri
+Password : cTr%1216
+ 

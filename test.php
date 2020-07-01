@@ -34,24 +34,8 @@
 
 
       
-    <!-- <div class="content">
-        </body>
-        </html><nav id="newnav">
-<ul  id="menu">
-<h3 style="color:white;">Home&gt;Staff&gt;Director</h3>
-</ul>
-</nav>
-<div style="margin-top:50px">
-<table width='1000'><tr><td align='left'>
-		
-		<div class='staff'>
-			<table border='0' height='50' width='320'>
-			<tr><td rowspan='3' align='center'><img src='uploads/staff/1.jpeg' height='60' width='60'/></td><td><a href='director.php'><b>Dr. D. DAMODAR REDDY</b></a></td></tr>
-			<tr><td>Director</td></tr>
-			<tr>  <td>ddreddy132@gmail.com</td></tr>
-			</table></div></td></tr></table></div>
-</div> -->
-
+    
+      
       </body> 
 
         <?php

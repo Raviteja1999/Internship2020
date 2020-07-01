@@ -47,21 +47,24 @@
   
         <div class="row1 row py-3 d-flex justify-content-center">
 
-        
-          <div class="internallinks col-xg ml-4" >
-            <a href="#"><span class="linktxt">Disclaimer</span></a>
+        <div class="internallinks col-xg ml-4" >
+            <a href="disclaimer.php"><span class="linktxt">Disclaimer</span></a>
           </div>
 
           <div class="internallinks col-xg ml-4" >
-            <a href="#"><span class="linktxt">Web Policy</span></a>
+            <a href="webpolicy.php"><span class="linktxt">Web Policy</span></a>
           </div>
 
+          <!-- <div class="internallinks col-xg ml-4" >
+            <a href="#"><span class="linktxt">Login</span></a>
+          </div> -->
+
           <div class="internallinks col-xg ml-4" >
-            <a href="#"><span class="linktxt">Help</span></a>
+            <a href="help.php" ><span class="linktxt">Help</span></a>
           </div>
           
           <div class="internallinks col-xg ml-4" >
-            <a href="#"><span class="linktxt">Privacy Policy</span></a>
+            <a href="privacypolicy.php"><span class="linktxt">Privacy Policy</span></a>
           </div>
 
           <div class="internallinks col-xg ml-4">

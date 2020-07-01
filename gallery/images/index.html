@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CTRI Rajahmundry</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+        <meta name="description" content="Responsive Image Gallery with jQuery" />
+        <meta name="keywords" content="jquery, carousel, image gallery, slider, responsive, flexible, fluid, resize, css3" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+		<noscript>
+			<style>
+				.es-carousel ul{
+					display:block;
+				}
+			</style>
+		</noscript>
+		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+					<div class="rg-image-nav">
+						<a href="#" class="rg-image-nav-prev">Previous Image</a>
+						<a href="#" class="rg-image-nav-next">Next Image</a>
+					</div>
+				{{/if}}
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</script>
+    </head>
+    <body>
+		<div class="container">
+			    <a href="../index.php">CTRI HOME<br>
+                    <img height="50px" width="50px" src="images/home.png">
+                    </a>
+		
+			
+			<div class="content">
+				
+				<div id="rg-gallery" class="rg-gallery">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>	
+<li><a href='#'><img src='images/thumbs/tree.jpg' data-large='images/tree.jpg' alt='tree' /></a></li>	
+<li><a href='#'><img src='images/thumbs/vig1.jpg' data-large='images/vig1.jpg' alt='vig1' /></a></li>	
+<li><a href='#'><img src='images/thumbs/vig2.jpg' data-large='images/vig2.jpg' alt='vig2' /></a></li>	
+
+<li><a href='#'><img src='images/thumbs/wf1.jpg' data-large='images/wf1.jpg' alt='wf1' /></a></li>			<li><a href='#'><img src='images/thumbs/wf2.jpg' data-large='images/wf2.jpg' alt='wf2' /></a></li>
+
+<li><a href='#'><img src='images/thumbs/19.jpg' data-large='images/19.jpg' alt='image19' /></a></li>			
+
+<li><a href='#'><img src='images/thumbs/sab6.jpg' data-large='images/sab6.jpg' alt='sab6' /></a></li>			<li><a href='#'><img src='images/thumbs/sbb4.jpg' data-large='images/sbb4.jpg' alt='sbb4' /></a></li>
+
+<li><a href='#'><img src='images/thumbs/sbb5.jpg' data-large='images/sbb5.jpg' alt='sbb5' /></a></li>			<li><a href='#'><img src='images/thumbs/sbb.jpg' data-large='images/sbb.jpg' alt='sbb' /></a></li>
+<li><a href='#'><img src='images/thumbs/sb11.jpg' data-large='images/sb11.jpg' alt='sb11' /></a></li>			<li><a href='#'><img src='images/thumbs/sb12.jpg' data-large='images/sb12.jpg' alt='sb12' /></a></li>
+<li><a href='#'><img src='images/thumbs/sb02.jpg' data-large='images/sb02.jpg' alt='sb02' /></a></li>			<li><a href='#'><img src='images/thumbs/sb01.jpg' data-large='images/sb01.jpg' alt='sb01' /></a></li>
+<li><a href='#'><img src='images/thumbs/sb1.jpg' data-large='images/sb1.jpg' alt='sb1' /></a></li>			<li><a href='#'><img src='images/thumbs/sb2.jpg' data-large='images/sb2.jpg' alt='sb2' /></a></li>
+<li><a href='#'><img src='images/thumbs/sb3.jpg' data-large='images/sb3.jpg' alt='sb3' /></a></li>			
+
+<li><a href='#'><img src='images/thumbs/sb4.jpg' data-large='images/sb4.jpg' alt='sb4' /></a></li>
+
+
+
+									
+<li><a href='#'><img src='images/thumbs/17.jpg' data-large='images/17.jpg' alt='image17' /></a></li>
+									
+<li><a href='#'><img src='images/thumbs/16.jpg' data-large='images/16.jpg' alt='image16' /></a></li>
+									
+<li><a href='#'><img src='images/thumbs/15.jpg' data-large='images/15.jpg' alt='image15' /></a></li>
+									
+									
+
+									
+
+						
+									
+								</ul>
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+				</div><!-- content -->
+		</div><!-- container -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+		<script type="text/javascript" src="js/gallery.js"></script>
+    </body>
+</html>
