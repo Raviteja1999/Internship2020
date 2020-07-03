@@ -68,7 +68,7 @@
           </div>
 
           <div class="internallinks col-xg ml-4">
-            <a href="#"><span class="linktxt">Contact</span></a>
+            <a href="contact.php"><span class="linktxt">Contact</span></a>
           </div>
 
 

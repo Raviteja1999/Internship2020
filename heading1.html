@@ -67,8 +67,17 @@
       
       }
 
-      .goi,.serh,.sreader,.sinc,.sdec,s.norm,.slang{
+      .goi,.serh,.sreader,.slang{
        padding-right: 5px   
+      }
+      .sfont>button{
+        background:none;
+        border:none;
+      }
+     
+      .sfont>button>img{
+        height:20px;
+        width:20px;
       }
 
       .sdec>button{
@@ -125,7 +134,7 @@
 
           <div class="col-lg-1"></div>
 
-          <div class="col-lg-5 font-weight-bold">
+          <div class="col-lg-4 font-weight-bold">
             <div class="goi row  ">
               GOVERNMENT OF INDIA,
                MINISTRY OF AGRICULTURE AND FARMER'S WELFARE
@@ -147,19 +156,13 @@
           </div>
 
            
-          <div class="sdec col-lg-1" >
-            <button  class="btn btn-link" id="fontdec" >A-</button>
-            <button class="btn btn-link" id="fontnorm">A</button>
-            <button class="btn btn-link" id="fontinc">A+</button>
+          <div class="sfont col-lg-2" >
+            <button  id="fontdec" ><img src="img/fontdec.png" title="font decrease"></button>
+            <button  id="fontnorm"><img src="img/A.png" title="font normal" style="height: 15px;"  ></button>
+            <button  id="fontinc"><img src="img/fontinc.png" title="font increase"></button>
           </div>
     
-<!--     <div class="slang col" style="font-size: 13px; ">
-            <select id ="lang">
-              <option value="">Select Language</option>
-              <option value="1">English</option>
-              <option value="2">Hindi</option>
-            </select> 
-          </div> -->
+
 
         <div id="google_translate_element" class=" col-lg-2">
         
@@ -360,26 +363,3 @@ var element = document.getElementsByClassName("crops");
 </script>
 
 
-
-<!-- body:before 
-{ 
-   content: "";
-   position: fixed;
-   top: -20px;
-   left: 0;
-   width: 100%;
-   height: 20px;
-   z-index: 100;
-   box-shadow: 0px 0px 20px rgba(0,0,0,1);
-   }
-
-body {	/*background:#000 url(../images/bg.jpg) top center fixed no-repeat;*/
-		background:url(images/bbackground.png) repeat top left;
-		/*background:#9efea0;*/
-     font-family:Arial, Helvetica, sans-serif;
-	font-size:12px; 
-	color:#024c68;
-    /*height:auto;*/
-    overflow-x: hidden;
-} -->
- 
