@@ -13,161 +13,304 @@ include "navfinal.html";
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Title Page</title>
 
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        
     </head>
+    <style>
+        .content{
+            padding:20px;
+        }
+    </style>
+
+    
     <body>
+
     
     <div class="content" >
 	
-<h3 style="color:blue; text-align:left;"><a href="index.php" style="color:blue;">Home</a>&gt;About Us&gt;Site Map</h3>		
+<h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;About Us&gt;Site Map</h5>		
 
-<input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right">
+<!-- <input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right"> -->
 <div id="content">
 
-<h1 style="text-align: center; ">
-	<span style="font-size:16px;"><span style="color: rgb(165, 42, 42); "><strong>SITE MAP</strong></span></span></h1>
-	
-
-        <p>
-            1.<strong>&nbsp;Home</strong><br />
-        <br>
-            2.&nbsp;<strong>About us</strong><br />
-
-            <a href='home_about.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About Institute</a><br/>
-                <a href='mandate.php'style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mandate</a><br/>
-                <a href='location.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location Map</a><br/>
-                <a href='site.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site Map</a><br/>
-                <a href='organisation.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Organisation Structure</a><br/>
-                <a href='home_au.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Divisions / Units </a><br/>
-                <a href='files/staff.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cadre Strength</a><br/>
-                <a href='home_staff.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Staff</a><br/>
-            <a href='home_earlier.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our Directors</a><br/>
-                <a href='vigilance.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vigilance</a><br/>
-                <a href='archieve.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Archives</a><br/>
-                <a href='https://india.gov.in/' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;National Portal</a><br/>
-
-                <br />
-            3.&nbsp;<strong>Research</strong><br />
-                <a href='files/RESEARCH.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Achievements</a><br/>
-                <a href='files/projects1.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On going projects</a><br/>
-                <a href='home_research_external.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Externally Funded Projects</a><br/>
-                <a href='files/technology.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technologies Develooped</a><br/>
-                <a href='files/varieties.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Varieties Develooped</a><br/>
-                <a href='files/colobration.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collaborations</a><br/>
-                <a href='home_research_publications.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Publications</a><br/>
-                <a href='files/ainrp.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AINRP on Tobacco</a><br/>
-                <a href='files/award.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Award Winners</a><br/>
-                <a href='home_research_patents.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patents</a><br/>
+<h2 style="text-align: center; ">
+	<span style="color: rgb(165, 42, 42); "><strong>SITE MAP</strong></span></h2>
+    
+    
+        <div class="row">
+        
 
 
-        <br />
-            4.&nbsp;<strong>Services</strong><br />
-            <a href='home_service_extension.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extension</a><br/>
-                <a href='home_service_consultency.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Consultancy</a><br/>
+            <div class="col">
+            <strong>About us</strong><br />
+            <div style="padding-left:2px">
 
-                <a href='home_service_analytical.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analytical</a><br/>
-                <a href='home_service_training.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Training</a><br/>
+            <a href='home.php' style="color:blue;">About Institute</a><br/>
+                <a href='mandate.php'style="color:blue;">Mandate</a><br/>
+                <a href='locationmap.php' style="color:blue;">Location Map</a><br/>
+                <a href='sitemap.php' style="color:blue;">Site Map</a><br/>
+                <a href='organizationsetup.php' style="color:blue;">Organisation Structure</a><br/>
+                <a href='divisions.php' style="color:blue;">Divisions / Units </a><br/>
+                <a href='files/staff.pdf' style="color:blue;">Cadre Strength</a><br/>
+                <a href='directors.php' style="color:blue;">Our Directors</a><br/>
+                <a href='staff.php' style="color:blue;">Staff</a><br/>
+                <a href='vigilance.php' style="color:blue;">Vigilance</a><br/>
+                <a href='archieve.php' style="color:blue;">Archives</a><br/>
+                <a href='https://india.gov.in/' style="color:blue;">National Portal</a><br/>
+                <a href='contact.php' style="color:blue;">contact</a><br/>
 
-                <a href='home_service_database.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Database</a><br/>
-                <a href='files/citizen.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Citizen Charater</a><br/>
-                <a href='files/fms.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FMS/MIS</a><br/>
 
-        <br />
-            5.&nbsp;<strong>Facilities</strong><br />
-            <a href='home_facalities_equipment.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Special Equipment</a><br/> 
-                <a href='home_facalities_guest.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guest House</a><br/>
-                <a href='files/seminar.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seminar Hall</a><br/>
-                <a href='files/visit.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visiting Charges</a><br/>
-                <a href='panel_hospital.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Panel Hospitals</a><br/>
+                <br >
 
-        <br />
-            6.&nbsp;<strong>Research Stations</strong><br />
-            <a href='jeelugumilli.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jeelugumilli</a><br/> 
-                <a href='kandukuru.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kandukuru</a><br/>
-                <a href='guntur.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guntur</a><br/>
-                <a href='jeddangi.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kalavacherla</a><br/>
-                <a href='hunsur.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hunsur</a><br/>
-                <a href='vedasandur.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vedasandur</a><br/>
-                <a href='dinhata.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dinhata</a><br/>
-        <br />
-            7.&nbsp;<strong>For Farmers</strong><br />
-            <a href='for_listOfFarmers.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of Farmers</a><br/> 
-                <a href='for_origin.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Origin of the Crop</a><br/>
-                <a href='files/success.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Success Stories</a><br/>
-                <a href='for_types.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Types of Tobacco</a><br/>
-                <a href='for_morphology.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Morphology</a><br/>
-                <a href='for_soil.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Soils and Climates</a><br/>
-                <a href='for_nursery.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nursery</a><br/>
-                <a href='files/agronomy.pdf' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agronomy</a><br/>
-                <a href='for_curing.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Curing & Grading</a><br/>
-                <a href='for_controlPests.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Control of Pests</a><br/>
-                <a href='for_controlDisease.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Control of Diseases</a><br/>
-                <a href='for_quality.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quality Parameter</a><br/>
-                <a href='for_tobaccoEconomy.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tobacco in Indian Economy</a><br/>
+            </div>
+            </div>
 
-                <br />
-            8.&nbsp;<strong>Announcements</strong><br />
-                <a href='press/index.html' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Press Release</a><br/>
-                <a href='circular.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Circulars</a><br/>
-                <a href='employment.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Employment </a><br/>
-                <a href='announcement_ria.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right to Information Act</a><br />
-        <br/>
 
-            9.&nbsp;<strong>Downloads</strong><br />
-                <a href='download_tenders.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tenders/Quotations</a><br/>
-                <a href='application_forms.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Application Forms</a><br/>
-                <a href='download_doccument.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Documents</a><br/>
-                <a href="gallery/index.html" style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gallery</a><br/>
+            <div class="col">
+            <strong>For Farmers</strong><br />
+            <div style="padding-left:2px">
+
+                  <a href='files/success.pdf' style="color:blue;" target="_blank" title="opens a PDF file in new window">Success Stories</a><br/>
+                    <a href='for_origin.php' style="color:blue;">Origin</a> <br/>
+                    <a href='for_types.php' style="color:blue;">Type Of Tobacco</a><br/>
+                    <a href='for_morphology.php'style="color:blue;">Morphology</a> <br/>
+                    <a href='for_soil.php' style="color:blue;">Soils & Cpmate</a>	<br/>
+                    <a href='for_nursery.php' style="color:blue;">Nursery</a><br/>
+                    <a href='files/agronomy.pdf' style="color:blue;" target="_blank" title="opens a PDF file in new window">Agronomic practices</a><br/>
+                    <a href='for_curing.php' style="color:blue;">Curing & Grading</a><br/>
+                    <a href='for_controlPests.php' style="color:blue;">Management of Insect Pests</a><br/>
+                    <a href='for_controlDiseases.php' style="color:blue;">Management of Diseases</a><br/>
+                    <a href='for_quality.php' style="color:blue;">Quality Parameter </a> <br/>
+                    <a href='for_tobaccoEconomy.php'style="color:blue;" >Tobacco in Indian Economy</a><br/>
+              
+
+
+                <br >
+
+            </div>
+            </div>
+
+
+            <div class="col">
+            <strong>Research</strong><br />
+            <div style="padding-left:2px">
+
             
-        <br/>
-            10.&nbsp;<strong>Vision 2050</strong><br /> 
+                <a href='files/RESEARCH.pdf' style="color:blue;">Research Achievements</a><br/>
+                <a href='files/projects1.pdf' style="color:blue;">On going projects</a><br/>
+                <a href='home_research_external.php' style="color:blue;">Externally Funded Projects</a><br/>
+                <a href='files/technology.pdf' style="color:blue;">Technologies Develooped</a><br/>
+                <a href='files/varieties.pdf' style="color:blue;">Varieties Develooped</a><br/>
+                <a href='files/colobration.pdf' style="color:blue;">Collaborations</a><br/>
+                <a href='home_research_publications.php' style="color:blue;">Publications</a><br/>
+                <a href='files/ainrp.pdf' style="color:blue;">AINRP on Tobacco</a><br/>
+                <a href='files/award.pdf' style="color:blue;">Award Winners</a><br/>
+                <a href='home_research_patents.php' style="color:blue;">Patents</a><br/>
 
-                <a href="files/vision.pdf" style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VISION 2050</a><br/> 
-        <br/>
-            11.&nbsp;<strong>Relates Sites</strong><br />
-                <a href="related_sites.php" style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RELATED SITES</a><br/>        
-                <br/>
-            12.&nbsp;<strong>FAQ'S</strong><br />
-                <a href="faq1.php" style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQ's</a><br/>
-                <br/>
-            13.&nbsp;<strong>STAFF</strong><br />	
-                <a href='staff_director.php'style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Director</a><br/>
-                <a href='staff_scientist.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scientists</a><br/>
-                <a href='staff_technical.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technical</a><br/>
-                <a href='staff_admin.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administration</a><br/>
-                <a href="staff_support.php" style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skilled Supporting Staff</a><br/>
-        <br/>
+                <br >
+
+            </div>
+            </div>
+
+
+            <div class="col">
+            <strong>Announcements</strong><br />
+            <div style="padding-left:2px">
+
+                <a href='press/index.html' style="color:blue;">Press Release </a><br/>
+                <a href='announcement_circular.php' style="color:blue;">Circulars</a><br/>
+                <a href='announcement_employment.php' style="color:blue;">Employment </a><br/>
+                <a href='announcement_ria.php' style="color:blue;">Right to Information Act</a>      <br/>
+ 
+
+                <br >
+
+            </div>
+            </div>
+
+            <div class="col">
+            <strong>Downloads</strong><br />
+            <div style="padding-left:2px">
+
+
+            <a href='downloads_tenders.php' style="color:blue;">Quotations</a><br/>
+                    <a href='downloads_application_forms.php' style="color:blue;">Application forms</a><br/>
+                    <a href='downloads_document.php' style="color:blue;">Documents</a><br/>
+                    <a href='gallery/index.html' style="color:blue;">Gallery </a><br/>
+                    <a href='downloads_office_orders.php'style="color:blue;">Office Orders</a>
             
-            14.&nbsp;<strong>Feedback</strong><br />	
-                <a href='feedback.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feedback</a><br/>
+ 
+
+                <br >
+
+            </div>
+            </div>
+
+            
+            <div class="col">
+            <strong>Staff</strong><br/>
+            <div style="padding-left:2px">
+
+
+                   <a href='staff_director.php'style="color:blue;">Directors</a><br/>
+                   <a href='staff_scientists.php'style="color:blue;">Scientists</a><br/>
+                   <a href='staff_technical.php'style="color:blue;">Technical</a><br/>
+                   <a href='staff_admin.php'style="color:blue;">Administration</a><br/>
+                   <a href="staff_skilledsupport.php" style="color:blue;">Skilled and Supporting Staff </a>
+           
+            
+ 
+
+                <br >
+
+            </div>
+            </div>
+
+
+        </div>
+<!-- end of first row1 -->
+
+        <div class="row">
+            <div class="col">
+
+            <strong>Services</strong><br/>
+            <div style="padding-left:2px">
+
+
+                   <a  href="https://play.google.com/store/apps/details?id=com.icar.ctri&hl=en"style="color:blue;">Mobile App</a><br/>
+                   <a href='service_extension.php'style="color:blue;">Extensions</a><br/>
+                   <a href='service_consultency.php'style="color:blue;">Consultancy</a><br/>
+                   <a href='service_analytical.php'style="color:blue;">Analytical</a><br/>
+                   <a href="service_training.php" style="color:blue;">Training </a><br/>
+                   <a href="service_database.php" style="color:blue;">Databases</a><br/>
+
+                     <a href='files/citizen.pdf' title="opens a PDF file in new window" style="color:blue;">Citizen Charter</a>  <br>
+                        
+                    <a href='files/fms.pdf' title="opens a PDF file in new window" style="color:blue;">FMS/MIS Numbers  </a> <br>
+                         
+                       
+                     <a href='files/calendar.pdf' title="opens a PDF file in new window" style="color:blue;"> Hopday pst </a>  <br>
+                       
+
+           
+            
+ 
+
+                <br >
+
+            </div>
+
+            </div>
+
+
+             <div class="col">
+
+            <strong>Research Stations</strong><br/>
+            <div style="padding-left:2px">
+
+         
+                   <a href='researchstat_jeelugumilli.php'style="color:blue;" >Jeelugumilli,A.P.</a>  <br/>
                 
-            <br/>
-            15.&nbsp;<strong>Help</strong><br />	
-            <a href='help.php' style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Help</a><br/>
-        <br/>	
-            16.&nbsp;<strong>Contact</strong><br />	
-            <a href="contact.php" style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact</a><br/>
+                   <a href='researchstat_kandukuru.php'style="color:blue;"> Kandukuru,A.P.</a> <br/>
+                    
+                   <a href='researchstat_guntur.php'style="color:blue;"> Guntur,A.P.</a><br/>
+                    
+                   <a href='researchstat_jeddangi.php'style="color:blue;"> Kalavacherla,A.P.</a> <br/>
+                    
+                   <a href='researchstat_kvkkandukur.php'style="color:blue;"> KVK-Kandukur,A.P.</a><br/> 
+                    
+                   <a href='researchstat_hunsur.php'style="color:blue;" >Hunsur,Karnataka</a><br/>
+                    
+                   <a href='researchstat_vedasandur.php'style="color:blue;"> Vedasandur,Tamilnadu</a><br/>
+                   
+                   <a href='researchstat_dinhata.php' style="color:blue;">Dinhata,West Bengal</a><br/>
+            
+ 
 
-        <br/>	
+                <br >
 
-        17.&nbsp;<strong>Web Policy</strong><br />	
-            <a href="webpolicy.php" style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Policy</a><br/>
-        <br/>
+            </div>
 
-        18.&nbsp;<strong>Disclaimer</strong><br />	
-            <a href="disclaimer.php" style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disclaimer</a><br/>
-        <br/>
+            </div>
 
 
-        19.&nbsp;<strong>Login</strong><br />	
-            <a href="login.php" style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login</a><br/>
-        <br/>
-        <p>
-            &nbsp;</p>
+             <div class="col">
+
+            <strong>Facilities</strong><br/>
+            <div style="padding-left:2px">
+
+         
+            <a href='facilities_equipment.php'style="color:blue;">Special Equipment</a>	<br/>
+        
+                <a href='facilities_guest.php'style="color:blue;">Guest House</a><br/>
+                
+                <a href='files/seminar.pdf' title="opens a PDF file in new window"style="color:blue;">Seminar Hall</a><br/>
+                
+                <a href='files/visit.pdf' title="opens a PDF file in new window"style="color:blue;">Visiting charges</a><br/>
+                
+
+                <a href='facilities_hospital.php' style="color:blue;">Panel Hospitals</a><br/>
+            
+
+                <br >
+
+            </div>
+
+            </div>
 
             
+            <div class="col">
+
+            <strong>Other Links</strong><br/>
+            <div style="padding-left:2px">
+
+         
+            <a href='http://ctrirm.attendance.gov.in' title="external website that opens in a new window" >AEBAS</a><br/>
+                    <a href='http://icarerp.iasri.res.in' title="external website that opens in a new window">FMS/MIS LOGIN</a><br/>
+                
+                <a href='http://pms.icar.gov.in/dgm.aspx' title="external website that opens in a new window">PMS LOGIN</a><br/>
+                    <a href='https://mail.icar.gov.in/' title="external website that opens in a new window" >ICAR E-MAIL</a><br/>
+                    <a href='https://jgateplus.com/' title="external website that opens in a new window">CeRA</a><br/>
+                       <a href='http://genderandclimatechangenicra.org' title="external website that opens in a new window">CTRI-NICRA</a><br/>
+                       <a href='http://krishi.icar.gov.in/' title="external website that opens in a new window "  >KRISHI</a><br/>
+      
+                <br >
+
+            </div>
+
+            </div>
+
+               <div class="col">
+
             
+            <div style="padding-left:2px">
+
+            <span  class="fa fa-arrow-circle-right"> <a href="payment.php"> <strong >  Payment  </strong></a></span > <br>
+            <span  class="fa fa-arrow-circle-right"><a href="ica_final/index.php"><strong >SAIF </strong></a></span> <br>
+
+            <span  class="fa fa-arrow-circle-right"><a href="disclaimer.php" ><strong>Disclaimer</strong></a></span><br>
+            <span  class="fa fa-arrow-circle-right">  <a href="webpolicy.php"><strong>Web Policy</strong></a></span><br>
+            <span  class="fa fa-arrow-circle-right"><a href="help.php" ><strong>Help</strong></a></span><br>
+            <span  class="fa fa-arrow-circle-right"> <a href="privacypolicy.php" ><strong>Privacy Policy</strong></a></span><br>
+            <span  class="fa fa-arrow-circle-right"><a href="contact.php" ><strong>Contact</strong></a></span><br>
+            
+
+        
+         
+
+           
+                <br >
+
+            </div>
+
+            </div>
+
+            <div class="col">
+                </div>
+
+        </div>
+
+
             
         <p>
             &nbsp;</p>

@@ -10,20 +10,28 @@ include "navfinal.html";
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
 
        
     </head>
+    <style>
+        .content{
+            padding:20px;
+        }
+        #content{
+            text-align:center;
+        }
+    </style>
     <body>
     
 
     <div class="content">
 	
-    <h3 style="color:blue; text-align:left;"><a href="index.php" style="color:blue;">Home</a>&gt;About Us&gt;Organisation Structure</h3>		
+    <h5 style="color:blue; text-align:left;"><a href="index.php" style="color:blue;">Home</a>&gt;About Us&gt;Organisation Structure</h5>		
     
-    <input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right">
+    <!-- <input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right"> -->
     <div id="content">
     
     <br>
@@ -33,7 +41,7 @@ include "navfinal.html";
     
     
        <br class="clear" />
-    
+    </div>
     </div><!-- Class Content End -->
     </body>
     <?php

@@ -15,19 +15,26 @@ include "navfinal.html";
 
        
     </head>
+
+    <style>
+        .content{
+            padding:20px;
+        }
+    </style>
+
     <body>
     
 
 	<div class="content">
 	
-<h3 style="color:blue; text-align:left;"><a href="index.php" style="color:blue;">Home</a>&gt;About Us&gt;MANDATE</h3>		
+<h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;About&gt;Mandate</h5>		
 
-<input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right">
+<input type="button" class="btn btn-primary" id="btn" value="Print" onclick="printDiv();" style="float:right">
 <div id="content">
 
 
-<h1 style="text-align: center; ">
-	<span style="font-size:16px;"><span style="color: rgb(165, 42, 42); "><strong>MANDATE</strong></span></span></h1>
+<h2 style="text-align: center; ">
+	<span style="color: rgb(165, 42, 42); "><strong>MANDATE</strong></span></h2>
 
 
 <p>Basic and strategic research on
@@ -59,4 +66,20 @@ capacity building.</p>
     <?php
     include "footerreader.php";
     ?>
+
+    <script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
 </html>

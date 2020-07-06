@@ -16,22 +16,30 @@ include "navfinal.html";
 
        
     </head>
+
+    <style>
+        .content{
+            padding:20px;
+        }
+       #content{
+           text-align:center;
+       }
+    </style>
     <body>
     <div class="content">
 	
-    <h3 style="color:blue; text-align:left;"><a href="index.php" style="color:blue;">Home</a>&gt;About Us&gt;Location Map</h3>		
+    <h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;About Us&gt;Location Map</h5>		
     
-    <input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right">
-    <div id="content">
+    <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printDiv();" style="float:right">
+    <div id="content" >
     
     
     <h2 style="text-align: center; ">
-        <span style="font-size:16px;"><span style="color: rgb(165, 42, 42); "><strong>LOCATION MAP</strong></span></span></h2>
+       <span style="color: rgb(165, 42, 42); "><strong>LOCATION MAP</strong></span></h2>
     <br>
     
     
-    <iframe width="950" height="350" 
-    src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=CTRI+rajahmundry&amp;sll=37.0625,-95.677068&amp;sspn=47.885545,93.076172&amp;t=m&amp;ie=UTF8&amp;hq=CTRI&amp;hnear=Rajahmundry,+East+Godavari,+Andhra+Pradesh,+India&amp;ll=17.026011,81.794243&amp;spn=0.028539,0.026381&amp;output=embed"></iframe><br>
+    <iframe width="1000px" height="350"  class="map" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=CTRI+rajahmundry&amp;sll=37.0625,-95.677068&amp;sspn=47.885545,93.076172&amp;t=m&amp;ie=UTF8&amp;hq=CTRI&amp;hnear=Rajahmundry,+East+Godavari,+Andhra+Pradesh,+India&amp;ll=17.026011,81.794243&amp;spn=0.028539,0.026381&amp;output=embed"></iframe><br>
         
       <p>
         &nbsp;</p>
@@ -48,4 +56,21 @@ include "navfinal.html";
     <?php
     include "footerreader.php";
     ?>
+
+<script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
+     
 </html>

@@ -14,6 +14,14 @@
 
       
     </head>
+    <style>
+        .content{
+            padding:20px;
+        }
+        #content{
+            text-align:center;
+        }
+    </style>
     <body>
 <!--       
       title="opens a PDF file in new window"
@@ -29,6 +37,24 @@
         
         <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
       -->  
+
+
+      <script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
+     
 
 
 
