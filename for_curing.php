@@ -9,7 +9,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
       
@@ -17,23 +17,31 @@
 
 
     <style>
-        p{
-            padding:10px;
-        }
-        #content{
-            line-height:1.5;
-        }
+    
+       
         .data{
             text-align:center;
         }
+
+        .content{
+       padding:20px;
+      word-spacing: 3px ;
+      line-height: 1.5;
+  }
         </style>
     </head>
     <body> 
 
 	<div class="content">
+     
+    <h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;For Farmers &gt;Curing & Grading</h5>		
+      <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printDiv();" style="float:right">
+
+      <div id="content">
+      
 	<h1 style="text-align: center;  "><span style="font-size:20px;"><span style="color: rgb(165, 42, 42); "><strong>TOBACCO CURING</strong></span></span></h1>
    
-    <div id="content">
+    
     <br>
     <p>
         In the case of tobacco, unlike in other crop plants, the farmer cannot get any return by merely producing the crop of the right type in the field. This has to be followed by successful curing. Curing is the process by which the harvested tobacco leaf is made ready for the market. Curing is essentially a drying process whereby most of the moisture in the harvested leaf is removed. However, this process of drying is conducted in such a way as to produce certain well-defined and desirable qualities in different types of tobacco. A bad leaf produced on field cannot be improved by curing; but a good leaf can be spoiled by bad and defective curing. The process of curing has an intimate bearing on the quality of the final produce. During the progress of curing, some important biochemical changes take place. The curing operations followed in India are dependent on several factors, such as tradition, convenience, market value of the crop, consideration of economic production, etc. Depending on the type of the tobacco, four principal methods of curing can be distinguished, namely, i) flue-curing, ii) air-curing, iii) fire-curing and iv) sun-curing. Though some of the characters that govern quality in tobacco are gene-controlled, a good curing management play a significant role in determining the quality of the commercial leaf. Harvesting, curing, bulking and preliminary pre-sale (farm) grading constitute some of the important aspects of post-harvest technology of tobacco.</p>
@@ -887,6 +895,24 @@
     
     </div><!-- Class Content End -->
 </body>
+
+
+<script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
+     
 
     
         <?php

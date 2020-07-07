@@ -9,7 +9,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
       
@@ -17,7 +17,7 @@
     <style>
     .content{
         line-height:1.4;
-        padding:10px;
+        padding:20px;
     }
     .generaltext{border:3px solid #FFB6C1;
         color:#63B8FF;
@@ -31,10 +31,14 @@
 	<div class="content">
 	
     
+    <h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;For Farmers &gt;Management of Diseases</h5>		
+      <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printdiv();" style="float:right">
+
+    <div id ="content">
+	
+
     
-    
-    
-    <h1 style="text-align: center; "><span style="font-size:20px;"><span style="color: rgb(165, 42, 42); "><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MANAGEMENT OF DISEASES</strong></span></span></h1>
+    <h3 style="text-align: center; "><span style="color: rgb(165, 42, 42); "><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MANAGEMENT OF DISEASES</strong></span></h3>
     
     <h5>
         <span style="color:#0000cd;"><span style="font-size:18px;"><strong><u>A. Diseases in Seed Beds</u></strong></span></span></h5>
@@ -190,7 +194,7 @@
         <tbody>
             <tr>
                 <td>
-                    <img height="132" src="img/ff_disease1.jpg" width="100" alt="disease1" /></td>
+                    <img height="132" src="images/ff_disease1.jpg" width="100" alt="disease1" /></td>
                 <td class="generaltext">
                     <i>It is a complete root parasite affecting the yield and quality of tobacco. The shoots emerge in clusters and their basal portion is attached to tobacco roots through which it draws nourishment and depletes the host resulting in yield loss of 24 to 52%. Affected plants become stunted, leaves turn pale and wilt. Initially leaf tips droop and as the attack intensifies, all the leaves wilt. High soil moisture due to irrigation or rain after planting, low soil temperature during winter months encourage heavy incidence of Orobanche.</i></td>
             </tr>
@@ -218,7 +222,7 @@
         <tbody>
             <tr>
                 <td>
-                    <img src="img/ff_disease4.jpg" style="width: 100px; height: 112px; float: left;"  alt="disease2" /></td>
+                    <img src="images/ff_disease4.jpg" style="width: 100px; height: 112px; float: left;"  alt="disease2" /></td>
                 <td class="generaltext">
                     <span style="font-size:18px;"><i>This virus is transmitted through whitefly. Different types of viruses cause different symptoms. With mild types the leaves show slight wrinkles and drooping. In case of severe types the leaves and stem curls and leaves become thick and shrinkled and unfit for curing. Sometimes enations are also seen on under side of the upper leaves.</li></span></td>
             </tr>
@@ -330,6 +334,23 @@
     </div><!-- Class Content End -->
     
 </body>
+
+<script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
+     
 
         <?php
 include "footerreader.php";

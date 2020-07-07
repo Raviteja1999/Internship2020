@@ -9,7 +9,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
     
@@ -17,18 +17,26 @@
     <style>
 
     .content{
-        padding-left:15px;
-        padding-right=15px;
+       padding:20px;
         word-spacing: 3px ;
-    line-height: 1.5;
+       line-height: 1.5;
     }
     </style>
     </head>
 
     <body>
     <div class="content">
-	<h1 style="text-align: center; ">
-        <span style="font-size:25px;"><span style="color: rgb(165, 42, 42); "><strong>ORIGIN OF THE CROP</strong></span></span></h1>
+
+    <h5 style="color:blue; text-align:left;"><a href="index.php" style="color:blue;">Home</a>&gt;For Farmers &gt;Origin of the Crop</h5>		
+    <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printdiv();" style="float:right">
+
+    <div id="content">
+
+    
+
+    <h3 style="text-align: center; ">
+    
+        <span style="color: rgb(165, 42, 42); "><strong>ORIGIN OF THE CROP</strong></span></h3>
     
     <p>
         The information available on the origin and history of tobacco goes generally from ambiguity and contradictions. Plant geneticists have established that tobacco&#39;s centre of origin i.e the meeting place between a species&#39; genetic origin and the area in which it was first cultivated, is located in the Peruvian/Ecuadoraen Andes. Estimates for its first date of cultivation range from 5000-3000 BC. According to one source, tobacco was in existence in Asia even during the 12th century, when it was not known elsewhere. It was not only used as an intoxicant but also as a cure for all kinds of ills and paying homage to deities. However, it was Christopher Columbus who discovered the narcotic qualities of tobacco by accident in the course of his American voyage in 1492. On landing in the Islands of Tobago, Columbus and his men were taken by surprise to find the natives either sniffing a powdered dry leaf with evident pleasure or smoking roughly made roll of dried-up leaves. On trying these themselves, Columbus and his men were satisfied with the intoxicant produced. They took along with them some quantity of dried leaves as well as that of the seeds and that was how tobacco got introduced into Europe.<br />
@@ -39,7 +47,7 @@
     Tobacco is said to have been introduced into India in the beginning of 17th century. As elsewhere in the world, it has thrived in spite of considerable neglect and social disapproval.<br />
     
         &nbsp;</p>
-    <h1 style="text-align: center; ">
+    <h3 style="text-align: center; ">
         <span style="color:#b22222 ;"><strong>History of Indian Tobacco</strong></span></h3>
     <ul>
         <li>
@@ -87,7 +95,11 @@
     
     </div>
         
+    </div>
+
+    
        <br class="clear" />
+
     
     </div><!-- Class Content End -->
 </body>
@@ -96,4 +108,20 @@
         <?php
 include "footerreader.php";
 ?>
+            <script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
+
 </html>

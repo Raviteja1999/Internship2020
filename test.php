@@ -37,7 +37,8 @@
         
         <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
       -->  
-
+      <h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;About Us &gt;Our Directors</h5>		
+      <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printDiv();" style="float:right">
 
       <script>
          function printdiv() 

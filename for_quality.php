@@ -9,7 +9,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
       
@@ -17,7 +17,7 @@
     
     <style>
 	.content{
-		padding:10px;
+		padding:20px;
 		line-height:1.4;
 	}
 	</style>
@@ -27,10 +27,12 @@
 
 	<div class="content">
 	
+	<h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;For Farmers &gt;Quality Parameters</h5>		
+      <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printdiv();" style="float:right">
 
+ <div id="content">
 
-
-<h1 style="text-align: center; "><span style="font-size:20px;"><span style="color: rgb(165, 42, 42); "><strong>QUALITY PARAMETERS</strong></span></span></h1>
+<h1 style="text-align: center; "><span style="color: rgb(165, 42, 42); "><strong>QUALITY PARAMETERS</strong></span></h1>
 
 <p style="text-align: justify;">
 	<span style="font-size:16px;">The concept of quality in flue-cured tobacco has attained a new dimension in the present days because of higher mobility in international market, ever growing sophistication among smokers taste and increasing automation in cigarette industry. While overall monetary return is a good enough criterion of quality to a farmer, visible quality like colour, is very important for marketing purposes; but to an industrialist, those manufacturing qualities which maximise profit are most desirable features provided tobacco possesses satisfactory smoking quality which inturn depends upon chemical composition of leaf material. Flue-cured tobacco quality thus is made up of many complex components, viz. physical, chemical, organoleptic and also economic attributes. Smoking quality plus manufacturing capacity equals the suitability of tobacco. So the quality characters of FCV tobacco are devided into visual characters, manufacturing characters and chemical characters.</span></p>
@@ -317,6 +319,22 @@
 
 
     </body>
+
+	<script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
 
         <?php
 include "footerreader.php";

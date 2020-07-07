@@ -9,7 +9,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
       
@@ -26,8 +26,9 @@
         margin-right:auto;
     }
     .content{
-        padding-left:15px;
-    }
+       padding:20px;
+     
+  }
     
     
     
@@ -35,6 +36,12 @@
     </head>
     <body>
     <div class="content">
+
+       
+    <h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;For Farmers &gt;Management of Insect Pests</h5>		
+      <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printdiv();" style="float:right">
+
+    <div id ="content">
 	 <h1 style="text-align: center; "><span style="font-size:18px;"><span style="color: rgb(165, 42, 42); "><strong>MANAGEMENT OF INSECT PESTS</strong></span></span></h1>
     
     <h5 style="">
@@ -54,7 +61,7 @@
         <tbody>
             <tr>
                 <td>
-                    <img height="110" src="img/ff_pests1.jpg" width="155"  alt="Pests1" /></td>
+                    <img height="110" src="images/ff_pests1.jpg" width="155"  alt="Pests1" /></td>
                 <td class="tabletext">
                    <i> The young caterpillars are light green with black head or black spots and mine on the leaf tissues. The well grown caterpillars are grey or dark brown with `V&#39; shaped white mark on the front portion of the black head. They feed voraciously along the veins of leaves and also cut the stems of small and tender seedlings. Hence they are also known as cut worms. There will be about 80 to 100% loss due to this pest.</i></td>
             </tr>
@@ -102,7 +109,7 @@
         <tbody>
             <tr>
                 <td style="width:95px;">
-                    <img height="110" src="img/ff_pests2.jpg" width="130" alt="pests2" /></td>
+                    <img height="110" src="images/ff_pests2.jpg" width="130" alt="pests2" /></td>
                 <td class="tabletext" style= "width:459%;">
                    <i> The stem borer is the larva of a tiny brown moth called <i>Scrobipalpa (Gnorimoschema) heliopa</i> Low. The tiny caterpillars bore inside the stem and midribs and feed on internal tissues. As a result swelling appears where the borer stays.Borer infested seedlings when planted in the field remain stunted and some times unusual  branching of the plant is seen.</i></td>
             </tr>
@@ -224,7 +231,7 @@
         <tbody>
             <tr>
                 <td style="width:112px;">
-                    <img height="112" src="img/ff_pests4.jpg" width="100" alt="pests4" /></td>
+                    <img height="112" src="images/ff_pests4.jpg" width="100" alt="pests4" /></td>
                 <td style="width:442px; border: 3px solid pink;  color:#63B8FF">
                    <i> If the infestation is still observed later, spraying is to be done only on aphid infested plants once in 8-10 days. A gap of one week is left between spray and harvesting of leaf to avoid excess pesticide residues in cured leaf. If more than one spray is required the insecticide is changed.</i> </td>
             </tr>
@@ -238,7 +245,7 @@
         <tbody>
             <tr>
                 <td>
-                    <img height="111" src="img/ff_pests5.jpg" width="155" alt="pests5" /></td>
+                    <img height="111" src="images/ff_pests5.jpg" width="155" alt="pests5" /></td>
                 <td class="tabletext">
                     <i>The incidence of capsule borer is observed during grand growth phase of the crop under favourable conditions, preferably after heavy rains in untopped fields. The incidence is seen from 30 days after planting. Generally one larva is seen on the terminal bud. Between  30 - 50 days it feeds on the terminal bud and then on the young leaves and causes loss to the crop. More than one borer per plant are seen after the flowering and then it feeds on the developing seed of the capsules.</i></td>
             </tr>
@@ -269,7 +276,7 @@
         <tbody>
             <tr>
                 <td style="width:112px; ">
-                    <img height="112" src="img/ff_pests6.jpg" width="100" alt="pests6" /></td>
+                    <img height="112" src="images/ff_pests6.jpg" width="100" alt="pests6" /></td>
                     <td style="width:442px; border: 3px solid pink;  color:#63B8FF">
                     
                    <i> There are strict regulations regarding the pesticide residues in tobacco through out the world. The residues must be within the prescribed limit. In all the tobacco growing countries DDT and other chlorinated hydrocarbon pesticides (except endosulphan) are banned for use on tobacco. Pesticides should not be used indiscriminately. The following are the recommended and banned pesticides on tobacco.</i></td>
@@ -351,6 +358,24 @@
     </div><!-- Class Content End -->
     
 </body>
+
+    
+<script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
+     
 
         <?php
 include "footerreader.php";

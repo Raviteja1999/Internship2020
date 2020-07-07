@@ -9,7 +9,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
       
@@ -17,7 +17,7 @@
    
     <style>
     .content{
-        padding:13px;
+        padding:20px;
         line-height:1.4;
         word-spacing:0.2em;
     }
@@ -25,8 +25,13 @@
     </head>
     <body>
     <div class="content">
+
+    <h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;For Farmers &gt;Indian Tobacco econamy</h5>		
+      <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printdiv();" style="float:right">
+
+ <div id="content">
 	    
-    <h1 style="text-align: center; "><span style="font-size:20px;"><span style="color: rgb(165, 42, 42); "><strong>TOBACCO IN INDIAN ECONOMY</strong></span></span></h1>
+    <h2 style="text-align: center; "><span style="color: rgb(165, 42, 42); "><strong>TOBACCO IN INDIAN ECONOMY</strong></span></h2>
     
     <p>
         Tobacco is one of the most economically significant agricultural crops in the world. It is a drought tolerant, hardy and short duration crop which can be grown on soils where other crops cannot be cultivated profitably. In India, Tobacco crop is grown in an area of 0.45 M ha (0.27% of the net cultivated area) producing ~ 750 M kg of tobacco leaf. India is the 2nd largest producer and exporter after China and Brazil respectively. The production of flue-cured Virginia (FCV) tobacco is about 300 million kg from an area of 0.20 M ha while 450 M kg non-FCV tobacco is produced from an area of 0.25 M ha. In the global scenario, Indian tobacco accounts for 10% of the area and 9% of the total production.</p>
@@ -50,12 +55,28 @@
         Adoption of recommended IPM strategies for pest management has considerably brought down the pesticide residue levels much below the International Guidance Residue Levels (GRLs), thus enhancing the acceptability and saleability of our tobacco in the international market. Refined fertilizer management practices developed and propagated by the Institute involving Integrated Nutrient Management (INM), withdrawal of potash application in northern and central black soils and reducing the phosphorus dose in NBS, NLS and KLS have contributed to considerable saving in foreign exchange and conserving soil health. The micro-irrigation and fertigation systems have resulted in considerable saving in water and nutrients thereby preventing percolation and leaching losses.</p>
     
     
-    
+    </div>
     
        <br class="clear" />
     
     </div><!-- Class Content End -->
 </body>
+
+<script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
 
         <?php
 include "footerreader.php";
