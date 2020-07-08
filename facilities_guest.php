@@ -9,15 +9,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
       
     </head>
     <style>
           .content{
-                padding:15px;
-          }
+       padding:20px;
+      word-spacing: 3px ;
+      line-height: 1.5;
+  }
 
     </style>
 
@@ -25,15 +27,13 @@
       
 <div class="content">
 	
-    <h3 style="color:blue; text-align:left;"><a href="index.php" style="color:blue;">Home</a>&gt;Facilities&gt;Guest house</h3>
-    <br>	
-        
-    <input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right">
-    <div id="content">
+<h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;Services &gt;Analytical</h5>		
+      <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printdiv();" style="float:right">
+<div id="content">
     
     
     <p style="text-align: center; ">
-    <span style="font-size:14px;"><span style="color: rgb(128, 0, 0); "><strong>GUEST HOUSE PER DAY PER BED CHARGES</strong> (</span></span><a href="files/guest.pdf">APPLICATION FORM</a>)&nbsp;</p>
+    <span style="color: rgb(128, 0, 0); "><strong>GUEST HOUSE PER DAY PER BED CHARGES</strong> (</span></span><a href="files/guest.pdf">APPLICATION FORM</a>)&nbsp;</p>
     
     
     <div class="table1" id="onborder">
@@ -83,6 +83,7 @@
         &nbsp;</p>
     
     </div>
+    </div>
         
        <br class="clear" />
     
@@ -92,6 +93,22 @@
 
 
      </body>
+
+     <script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
 
 
         <?php

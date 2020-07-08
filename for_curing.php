@@ -35,7 +35,7 @@
 	<div class="content">
      
     <h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;For Farmers &gt;Curing & Grading</h5>		
-      <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printDiv();" style="float:right">
+      <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printdiv();" style="float:right">
 
       <div id="content">
       

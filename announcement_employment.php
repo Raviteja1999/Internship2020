@@ -9,15 +9,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
       
     </head>
     <style>
-          .content{
-              padding:15px;
-          }
+     .content{
+       padding:20px;
+      word-spacing: 3px ;
+      line-height: 1.5;
+        }
     </style>
 
       <body>
@@ -25,44 +27,44 @@
        
 <div class="content">
 	
-    <h3 style="color:blue; text-align:left;"><a href="index.php" style="color:blue;">Home</a>&gt;Announcement&gt;Employment</h3>		
+    <h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;Announcement&gt;Employment</h5>		
     
-    <input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right">
+    <!-- <input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right"> -->
     <div id="content">
     <br>
     
     
     
-    <h1 style="text-align: center; "><span style="font-size:16px;"><span style="color: rgb(165, 42, 42); "><strong>EMPLOYMENT (ARCHIVES)</strong></span></span></h1><br />
+    <h3 style="text-align: center; "><span style="color: rgb(165, 42, 42); "><strong>EMPLOYMENT (ARCHIVES)</strong></span></h3><br />
     
     
-    <p><a href="files/afaco.pdf" <p style="font-color:blue;">Filling up of one post of AFAO on deputation / transfer / permanent absorption</a><br/>
+    <p><a href="files/afaco.pdf" style="font-color:blue;">Filling up of one post of AFAO on deputation / transfer / permanent absorption</a><br/>
     
-    <p><a href="files/written.pdf" <p style="font-color:blue;">Written Test and Interview for Young Professional Posts</a><br/>
+    <p><a href="files/written.pdf" style="font-color:blue;">Written Test and Interview for Young Professional Posts</a><br/>
     
-    <p><a href="files/afaco.pdf" <p style="font-color:blue;">Filling up of one post of Assistant Finance & Accounts Officer on deputation / transfer / permanent absorption </a><br/>
+    <p><a href="files/afaco.pdf" style="font-color:blue;">Filling up of one post of Assistant Finance & Accounts Officer on deputation / transfer / permanent absorption </a><br/>
     
-    <p><a href="files/ain.pdf" <p style="font-color:blue;">Walk-in-written test cum interview for Young Professional-II</a><br/>
+    <p><a href="files/ain.pdf" style="font-color:blue;">Walk-in-written test cum interview for Young Professional-II</a><br/>
     
     <p>
-      <a href="files/young.pdf" <p style="font-color:blue;">Walk-in-written test cum Interview for Young Professional I & II</p></a><br />
+      <a href="files/young.pdf" style="font-color:blue;">Walk-in-written test cum Interview for Young Professional I & II</p></a><br />
     
-    <a href="files/steno.pdf" <p style="font-color:blue;"><b> Acceptance letter for the post of Stenographer Grade III</b></p></a><br />
+    <a href="files/steno.pdf" style="font-color:blue;"><b> Acceptance letter for the post of Stenographer Grade III</b></p></a><br />
     
-    <a href="files/kvkpost.pdf" <p style="font-color:blue;"> <b> Applications are invited for contractual positions at KVK, Kalavacharla, Rajanagaram Mandal, East Godavari.
+    <a href="files/kvkpost.pdf" style="font-color:blue;"> <b> Applications are invited for contractual positions at KVK, Kalavacharla, Rajanagaram Mandal, East Godavari.
     </p></a><br/>
     
-    <a href="files/t1.pdf" <p style="font-color:blue;"> <b>Provisional Result (Select & Reserve List) of Technician (T-1) Examination-2016 conducted by A.S.R.B., New Delhi.
+    <a href="files/t1.pdf" style="font-color:blue;"> <b>Provisional Result (Select & Reserve List) of Technician (T-1) Examination-2016 conducted by A.S.R.B., New Delhi.
     </p></a><br/>
     
-    <a href="files/t1.pdf" <p style="font-color:blue;"> <b>Provisional Result (Select & Reserve List) of Technician (T-1) Examination-2016 conducted by A.S.R.B., New Delhi.
+    <a href="files/t1.pdf" style="font-color:blue;"> <b>Provisional Result (Select & Reserve List) of Technician (T-1) Examination-2016 conducted by A.S.R.B., New Delhi.
     </p></a><br/>
     
-    <a href="files/result.jpg" <p style="font-color:blue;"><b>Provisional Results of Lower Divison Clerks-2016 Examination Conducted by A.S.R.B., New Delhi
+    <a href="files/result.jpg" style="font-color:blue;"><b>Provisional Results of Lower Divison Clerks-2016 Examination Conducted by A.S.R.B., New Delhi
     </p></a><br/>
     
     
-    <a href="files/sr1.pdf"> <p style="font-color:blue;">Written Test and Interview Notification for Senior Research Fellow
+    <a href="files/sr1.pdf"> style="font-color:blue;">Written Test and Interview Notification for Senior Research Fellow
     </p></a><br />
     
     

@@ -15,9 +15,11 @@
       
     </head>
     <style>
-          .content{
-                padding:15px;
-          }
+           .content{
+       padding:20px;
+      word-spacing: 3px ;
+      line-height: 1.5;
+  }
           
     </style>
 
@@ -26,14 +28,13 @@
       
        <div class="content">
 	
-    <h3 style="color:blue; text-align:left;"><a href="index.php" style="color:blue;">Home</a>&gt;Facilities&gt;Panel Hospitals</h3>
-    <br>
-    <input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right">
-    <div id="content">
+       <h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;Services &gt;Analytical</h5>		
+      <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printdiv();" style="float:right">
+<div id="content">
             
     <br>
-    <strong><span style="font-size:14px;"><span style="color: rgb(128, 0, 0); ">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; AUTHORISED MEDICAL ATTENDANT FOR ICAR-CTRI, RAJAHMUNDRY</span></span></strong>
-    
+ <h3><strong><span style="color: rgb(128, 0, 0); ">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; AUTHORISED MEDICAL ATTENDANT FOR ICAR-CTRI, RAJAHMUNDRY</span></span></strong>
+    </h3>   
     <table border="1" >
         <tbody >
             <tr>
@@ -185,6 +186,21 @@
 
 
      </body>
+     <script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
 
         <?php
 include "footerreader.php";

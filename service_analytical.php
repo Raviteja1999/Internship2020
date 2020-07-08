@@ -9,28 +9,32 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
       
     </head>
     <style>
-    p{
-        padding:5px;
-    }
+   .content{
+       padding:20px;
+      word-spacing: 3px ;
+      line-height: 1.5;
+  }
     </style>
     </head>
     <body>
 
 
 <div class="content">
-	
-<input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right">
+
+<h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;Services &gt;Analytical</h5>		
+      <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printdiv();" style="float:right">
+
 <div id="content">
 
 
-<h1 style="text-align: center; ">
-	<span style="font-size:20px;"><span style="color: rgb(165, 42, 42); "><strong>ANALYTICAL SERVICES</strong></span></span></h1>
+<h3 style="text-align: center; ">
+	<span style="color: rgb(165, 42, 42); "><strong>ANALYTICAL SERVICES</strong></span></h3>
 
 <p>
 	&nbsp;</p>
@@ -60,6 +64,22 @@
 </div><!-- Class Content End -->
 
 </body>
+
+<script>
+         function printdiv() 
+       {
+
+       var divToPrint=document.getElementById('content');
+
+       var newWin=window.open('','Print-Window');
+
+       newWin.document.open();
+       newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+       newWin.document.close();
+       setTimeout(function(){newWin.close();},10);
+
+       }
+      </script>
         <?php
 include "footerreader.php";
 ?>
