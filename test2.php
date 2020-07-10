@@ -2,10 +2,9 @@
 <!DOCTYPE html>
 <html lang="">
     <head>
-         <meta charset="utf-8">
-         
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport"  content="width=1024"> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"  content="width=1024">
         <title>Title Page</title>
 
         
@@ -70,6 +69,9 @@
 
       .goi,.serh,.sreader,.slang{
        padding-right: 5px   
+      }
+      .goi{
+          font-size:9px;
       }
       .sfont>button{
         background:none;
