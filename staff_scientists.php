@@ -1,4 +1,4 @@
- 
+
 <?php
        include "heading1.html";
       echo "<br>";
@@ -17,6 +17,13 @@
 
 </head>
 <style>
+
+.photoprofile{
+ padding:3px; 
+ width:100px;
+ height:60px;
+
+}
     #sidemenu{
       height: 100%;
         width:0;
@@ -62,7 +69,7 @@
  float:none;
  margin:0 ;
 }
- 
+
     
     #displayprofile{
         color: black;
@@ -89,12 +96,13 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/25.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>Dr. (Mrs.) K. Sarala</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/25.jpeg' height='50' width='40'/></td> 
+                        <td><button id="profile" value= 1 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. (Mrs.) K. Sarala</button>  </td></tr>
             
                         <tr><td style='font-size:12px;'>Head, Division of Crop Improvement</td></tr>
             
                         <tr>  <td style='font-size:13px;'>ksarala@rediffmail.com</td></tr>
-                        <tr> <td><button   id="profile" value= 1 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                        <!-- <tr> <td><button id="profile" value= 1 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
             
                         </table>
                     </div>
@@ -108,18 +116,21 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/13.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>Dr. U. Sreedhar</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/13.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 2 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. U. Sreedhar</button>  </td></tr>
         
                     <tr><td style='font-size:12px;'>Head, Division of Crop Protection</td></tr>
         
                     <tr>  <td style='font-size:13px;'>usreedharctri@yahoo.com</td></tr>
-                    <tr> <td><button   id="profile" value=2 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value=2 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
         
                     </table>
                     </div>
               </div>
           </div>    
           
+
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -127,17 +138,22 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/17.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> Dr. S. Ramakrishnan</b></a></td></tr>
-            
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/17.jpeg' height='50' width='40'/></td>
+                        
+                        <td><button id="profile" value= 3 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. S. Ramakrishnan</button>  </td></tr>
+        
                         <tr><td style='font-size:12px;'>Head, CTRI RS, Hunsur</td></tr>
             
                         <tr>  <td style='font-size:13px;'>ramkictri@yahoo.com</td></tr>
-                        <tr> <td><button   id="profile" value= 3 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                        <!-- <tr> <td><button   id="profile" value= 3 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                          </table>
                     </div>
                </div>
         </div> 
         </div>
+
+        <br>
+
         <div class="row">
 
          <div class="col-lg-3">
@@ -147,12 +163,14 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/23.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'> Dr. C. Chandrasekhara Rao</b></a></td></tr>
-        
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/23.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 4 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. C. Chandrasekhara Rao</button>  </td></tr>
+                  
                     <tr><td style='font-size:12px;'>Head i/c, Division of Crop Chemistry & Soil Science</td></tr>
         
                     <tr>  <td style='font-size:13px;'>ccsrao30@rediffmail.com</td></tr>
-                    <tr> <td><button   id="profile" value= 4 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 4 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
 
                     </table>
               </div>
@@ -166,12 +184,14 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/26.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>  Dr. Y. Subbaiah</b></a></td></tr>
-        
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/26.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 5 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> Dr. Y. Subbaiah</button>  </td></tr>
+                   
                     <tr><td style='font-size:12px;'>Principal Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>yruvasubaiah@yahoo.com</td></tr>
-                    <tr> <td><button   id="profile" value= 5 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 5 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                   
                     </table>
                    </div>
@@ -186,18 +206,23 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/27.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'> Dr. D.V. Subhashini</b></a></td></tr>
-        
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/27.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 6 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> Dr. D.V. Subhashini</button>  </td></tr>
+                   
                     <tr><td style='font-size:12px;'>Principal Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>dv_subhashini@rediffmail.com</td></tr>
-                    <tr> <td><button   id="profile" value= 6 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 6 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                    
                     </table>
                    </div>
                 </div>
            </div> 
        </div>
+       
+       <br>
+
        <div class="row">
             <div class="col-lg-3">
                 <div class='staff'>
@@ -206,12 +231,15 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/21.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>Dr. S. Kasturi Krishna</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/21.jpeg' height='50' width='40'/></td>
+                        
+                        <td><button id="profile" value= 7 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. S. Kasturi Krishna</button>  </td></tr>
+                       
             
                         <tr><td style='font-size:12px;'>Head i/c, Division of Crop Production</td></tr>
             
                         <tr>  <td style='font-size:13px;'>krishnakasturi@rediffmail.com</td></tr>
-                        <tr> <td><button   id="profile" value= 7 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                        <!-- <tr> <td><button   id="profile" value= 7 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
             
 
 
@@ -227,12 +255,14 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/28.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Dr. M. Anuradha</b></a></td></tr>
-        
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/28.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 8 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. M. Anuradha</button>  </td></tr>
+            
                     <tr><td style='font-size:12px;'>Head, CTRI RS, Kandukur</td></tr>
         
                     <tr>  <td style='font-size:13px;'>radhama2k2@yahoo.co.in</td></tr>
-                    <tr> <td><button   id="profile" value= 8 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 8 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
    
 
 
@@ -249,12 +279,14 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/29.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Dr.M.M.Mahadevaswamy</b></a></td></tr>
-        
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/29.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 9 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr.M.M.Mahadevaswamy</button>  </td></tr>
+                   
                     <tr><td style='font-size:12px;'>Principal scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>mswamy_my@yahoo.co.in</td></tr>
-                    <tr> <td><button   id="profile" value= 9 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 9 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                     
 
 
@@ -263,6 +295,9 @@
                 </div>
            </div> 
        </div>
+
+       <br>
+       
        <div class="row">
             <div class="col-lg-3">
                 <div class='staff'>
@@ -271,12 +306,15 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/30.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> Dr S. V. KRISHNA REDDY</b></a></td></tr>
-            
+                        
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/30.jpeg' height='50' width='40'/></td>
+                        
+                        <td><button id="profile" value= 10 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr S. V. KRISHNA REDDY</button>  </td></tr>
+                       
                         <tr><td style='font-size:12px;'>Principal scientist</td></tr>
             
                         <tr>  <td style='font-size:13px;'>krishnakasturi@rediffmail.com</td></tr>
-                        <tr> <td><button   id="profile" value= 10 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                        <!-- <tr> <td><button   id="profile" value=  class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                        
 
 
@@ -292,12 +330,14 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/9.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>  Dr.M.Kumaresan</b></a></td></tr>
-        
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/9.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 11 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr.M.Kumaresan</button>  </td></tr>
+                  
                     <tr><td style='font-size:12px;'>Principal Scientist & Head i/c</td></tr>
         
                     <tr>  <td style='font-size:13px;'>kumaresanm325@gmail.com</td></tr>
-                    <tr> <td><button   id="profile" value= 11 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 11 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                   
 
                     </table>
@@ -312,12 +352,15 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/5.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'> Dr. Pedavalli Venkateswarlu </b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/5.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 12 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> Dr. Pedavalli Venkateswarlu</button>  </td></tr>
+                    
         
                     <tr><td style='font-size:12px;'>Principal Scientist & Head i/c</td></tr>
         
                     <tr>  <td style='font-size:13px;'>pvlu_65@yahoo.com</td></tr>
-                    <tr> <td><button   id="profile" value= 12 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 12 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                    
 
                     </table>
@@ -325,6 +368,9 @@
                 </div>
            </div> 
        </div>
+
+       <br>
+
        <div class="row">
             <div class="col-lg-3">
                 <div class='staff'>
@@ -333,12 +379,14 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/16.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>  Dr.L.K.Prasad</b></a></td></tr>
-            
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/16.jpeg' height='50' width='40'/></td>
+                        
+                        <td><button id="profile" value=13  class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr.L.K.Prasad</button>  </td></tr>
+                     
                         <tr><td style='font-size:12px;'>Principal Scientist</td></tr>
             
                         <tr>  <td style='font-size:13px;'>lkprasad123@gmail.com</td></tr>
-                        <tr> <td><button   id="profile" value= 13 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                        <!-- <tr> <td><button   id="profile" value= 13 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                       
 
 
@@ -354,11 +402,14 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/31.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Dr. K. Suman Kalyani</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/31.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 14 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. K. Suman Kalyani</button>  </td></tr>
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'>Dr. K. Suman Kalyani</b></a></td></tr> -->
         
                     <tr><td style='font-size:12px;'>Principal Scientist</td></tr>
                     <tr>  <td style='font-size:13px;'>sumankalyanik@yahoo.co.in</td></tr>
-                    <tr> <td><button   id="profile" value= 14 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 14 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                     
 
                     </table>
@@ -373,12 +424,16 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/7.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'> Dr. V. S. Gopal Rao Naidu</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/7.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 15 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. V. S. Gopal Rao Naidu</button>  </td></tr>
+
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'> Dr. V. S. Gopal Rao Naidu</b></a></td></tr> -->
         
                     <tr><td style='font-size:12px;'>Principal Scientist & Program Coordinator</td></tr>
         
                     <tr>  <td style='font-size:13px;'>naidudwsr@gmail.com</td></tr>
-                    <tr> <td><button   id="profile" value= 15 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 15 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                    
 
 
@@ -387,6 +442,9 @@
                 </div>
            </div> 
        </div>
+       
+       <br>
+
        <div class="row">
             <div class="col-lg-3">
                 <div class='staff'>
@@ -395,12 +453,16 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/6.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> Dr. H. Ravisankar</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/6.jpeg' height='50' width='40'/></td>
+                        
+                        <td><button id="profile" value= 16 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. H. Ravisankar</button>  </td></tr>
+
+                        <!-- <td><a href='sarala.php'><b style='font-size:15px;'> Dr. H. Ravisankar</b></a></td></tr> -->
             
                         <tr><td style='font-size:12px;'>Principal Scientist & OIC,AKMU & LIBRARY</td></tr>
             
                         <tr>  <td style='font-size:13px;'>hravi.sankar@icar.gov.in</td></tr>
-                        <tr> <td><button   id="profile" value= 16 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                        <!-- <tr> <td><button   id="profile" value= 16 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                        
                         </table>
                     </div>
@@ -414,12 +476,16 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/32.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Dr. G.Raghupathi Rao</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/32.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 17 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. G.Raghupathi Rao</button>  </td></tr>
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'>Dr. G.Raghupathi Rao</b></a></td></tr> -->
+
         
                     <tr><td style='font-size:12px;'>Senior Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>raghupathirao009@gmail.com</td></tr>
-                    <tr> <td><button   id="profile" value= 17 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 17 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                     
 
 
@@ -435,12 +501,15 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/33.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'> Dr. P.V.Venugopala Rao</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/33.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 18 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. P.V.Venugopala Rao</button>  </td></tr>
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'> Dr. P.V.Venugopala Rao</b></a></td></tr> -->
         
                     <tr><td style='font-size:12px;'>Senior Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>pinnintivenu@rediff.com</td></tr>
-                    <tr> <td><button   id="profile" value= 18 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 18 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                    
 
 
@@ -449,6 +518,9 @@
                 </div>
            </div> 
        </div>
+
+       <br>
+       
        <div class="row">
             <div class="col-lg-3">
                 <div class='staff'>
@@ -457,12 +529,15 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/12.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>Dr. Nanda C.</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/12.jpeg' height='50' width='40'/></td>
+                        
+                        <td><button id="profile" value= 19 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. Nanda C.</button>  </td></tr>
+                        <!-- <td><a href='sarala.php'><b style='font-size:15px;'>Dr. Nanda C.</b></a></td></tr> -->
             
                         <tr><td style='font-size:12px;'>Scientist</td></tr>
             
                         <tr>  <td style='font-size:13px;'>nanda.gpb@gmail.com</td></tr>
-                        <tr> <td><button   id="profile" value= 19 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                        <!-- <tr> <td><button   id="profile" value= 19 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                         
 
 
@@ -479,12 +554,16 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/36.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'> Dr. T. Kiran Kumar</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/36.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 20 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. T. Kiran Kumar</button>  </td></tr>
+                  
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'> Dr. T. Kiran Kumar</b></a></td></tr> -->
         
                     <tr><td style='font-size:12px;'>Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>kiranagro1@gmail.com</td></tr>
-                    <tr> <td><button   id="profile" value= 20 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 20 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                    
                     </table>
               </div>
@@ -498,18 +577,23 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/34.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Dr. K. Prabhakara Rao</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/34.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 21 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. K. Prabhakara Rao</button>  </td></tr>
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'>Dr. K. Prabhakara Rao</b></a></td></tr> -->
         
                     <tr><td style='font-size:12px;'>Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>prabhakarabt@yahoo.co.in</td></tr>
-                    <tr> <td><button   id="profile" value= 21 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 21 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
 
                     </table>
                    </div>
                 </div>
            </div> 
        </div>
+       <br>
+
        <div class="row">
             <div class="col-lg-3">
                 <div class='staff'>
@@ -518,12 +602,15 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/8.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> Shri Sunil Mandi</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/8.jpeg' height='50' width='40'/></td>
+                        
+                        <td><button id="profile" value= 22 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Shri Sunil Mandi</button>  </td></tr>
+                        <!-- <td><a href='sarala.php'><b style='font-size:15px;'> Shri Sunil Mandi</b></a></td></tr> -->
             
                         <tr><td style='font-size:12px;'>Scientist</td></tr>
             
                         <tr>  <td style='font-size:13px;'>mandi.sunil@gmail.com</td></tr>
-                        <tr> <td><button   id="profile" value= 22 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                        <!-- <tr> <td><button   id="profile" value= 22 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                        
 
 
@@ -539,12 +626,15 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/35.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>  Dr. J. Poorna Bindu</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/35.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 23 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. J. Poorna Bindu</button>  </td></tr>
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'>  Dr. J. Poorna Bindu</b></a></td></tr> -->
         
                     <tr><td style='font-size:12px;'>Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>j.poornabindu@gmail.com</td></tr>
-                    <tr> <td><button   id="profile" value= 23 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 23 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                   
 
 
@@ -560,12 +650,15 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/48.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'> Shri Viswanatha Reddy, K.</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/48.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 24 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Shri Viswanatha Reddy, K</button>  </td></tr>
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'> Shri Viswanatha Reddy, K.</b></a></td></tr> -->
         
                     <tr><td style='font-size:12px;'>Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>vishu.uas@gmail.com, vishwanatha.reddy@</td></tr>
-                    <tr> <td><button   id="profile" value= 24 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 24 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                    
 
 
@@ -574,6 +667,8 @@
                 </div>
            </div> 
        </div>
+       <br>
+
        <div class="row">
             <div class="col-lg-3">
                 <div class='staff'>
@@ -582,12 +677,16 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/46.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>Dr. A. Srinivas</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/46.jpeg' height='50' width='40'/></td>
+                        
+                        <td><button id="profile" value= 25 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. A. Srinivas</button>  </td></tr>
+                       
+                        <!-- <td><a href='sarala.php'><b style='font-size:15px;'>Dr. A. Srinivas</b></a></td></tr> -->
             
-                        <tr><td style='font-size:12px;'>Scientist & OIC, MSU & CTRI RS, DINHATA</td></tr>
+                        <tr><td style='font-size:11px;'>Scientist & OIC, MSU & CTRI RS, DINHATA</td></tr>
             
                         <tr>  <td style='font-size:13px;'>seenu.adhi@gmail.com, srinivas.ade@icar.</td></tr>
-                        <tr> <td><button   id="profile" value= 25 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                        <!-- <tr> <td><button   id="profile" value= 25 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                         
 
 
@@ -603,12 +702,15 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/38.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Dr. Hema Baliwada</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/38.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 26 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. Hema Baliwada</button>  </td></tr>
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'>Dr. Hema Baliwada</b></a></td></tr> -->
         
                     <tr><td style='font-size:12px;'>Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>hema.baliwada@gmail.com</td></tr>
-                    <tr> <td><button   id="profile" value= 26 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 26 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                     
 
 
@@ -624,12 +726,16 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/42.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>   Dr. Vallepu Venkateswarlu</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/42.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 27 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. Vallepu Venkateswarlu</button>  </td></tr>
+                
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'>   Dr. Vallepu Venkateswarlu</b></a></td></tr> -->
         
                     <tr><td style='font-size:12px;'>Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>venkiiari@gmail.com</td></tr>
-                    <tr> <td><button   id="profile" value= 27 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 27 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                  
 
 
@@ -639,6 +745,9 @@
                 </div>
            </div> 
        </div>
+
+       <br>
+
        <div class="row">
             <div class="col-lg-3">
                 <div class='staff'>
@@ -647,12 +756,15 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/40.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> Mrs. B. Sailaja Jayasekharan</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/40.jpeg' height='50' width='40'/></td>
+                        
+                        <td><button id="profile" value= 28 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Mrs. B. Sailaja Jayasekharan</button>  </td></tr>
+                        <!-- <td><a href='sarala.php'><b style='font-size:15px;'> Mrs. B. Sailaja Jayasekharan</b></a></td></tr> -->
             
                         <tr><td style='font-size:12px;'>Scientist</td></tr>
             
                         <tr>  <td style='font-size:13px;'>sailaja8489@gmail.com</td></tr>
-                        <tr> <td><button   id="profile" value= 28 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                        <!-- <tr> <td><button   id="profile" value= 28 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                     
                         </table>
                     </div>
@@ -666,12 +778,15 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/052.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Anindita Paul</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/052.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 29 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Anindita Paul</button>  </td></tr>
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'>Anindita Paul</b></a></td></tr> -->
         
                     <tr><td style='font-size:12px;'>Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>aninditapaul20@gmail.com</td></tr>
-                    <tr> <td><button   id="profile" value= 29 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 29 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                     
                     </table>
               </div>
@@ -685,12 +800,15 @@
 
                     <table border='0' height='50' width='320'>
         
-                    <tr><td rowspan='3' align='center'><img src='uploads/staff/050.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'> Dr. M. Venkatesan</b></a></td></tr>
+                    <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/050.jpeg' height='50' width='40'/></td>
+                    
+                    <td><button id="profile" value= 30 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. M. Venkatesan</button>  </td></tr>
+                    <!-- <td><a href='sredhar.php'><b style='font-size:15px;'> Dr. M. Venkatesan</b></a></td></tr> -->
         
                     <tr><td style='font-size:12px;'>Scientist</td></tr>
         
                     <tr>  <td style='font-size:13px;'>venkygreenindia@gmail.com</td></tr>
-                    <tr> <td><button   id="profile" value= 30 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
+                    <!-- <tr> <td><button   id="profile" value= 30 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
                    
 
 
@@ -701,8 +819,10 @@
        </div>
     
   </div>
-
-        <!-- <button   id="profile1" value=1 class="btn btn-link" onclick="profile(this.id,this.value)">Profile</button>
+  <!-- end of rows -->
+<br>
+ 
+  <!-- <button   id="profile1" value=1 class="btn btn-link" onclick="profile(this.id,this.value)">Profile</button>
         <button  id="profile2" value=2  class="btn btn-link"  onclick="profile(this.id,this.value)">Profile</button> -->
         
     </body>
