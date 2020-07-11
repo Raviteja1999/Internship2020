@@ -9,12 +9,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1024">
     
     <title>Document</title>
 
 </head>
 <style>
+
+    .photoprofile{
+        padding:3px;
+        width:100px;
+        height:60px;
+    }
+
     #sidemenu{
       height: 100%;
         width:0;
@@ -83,8 +90,8 @@
 
    <div id="main">
         
-   <h4 style="color:blue; text-align:left;"><a href="index.php" style="color:blue;">Home</a>&gt;Staff&gt;Technical</h4>		
-  
+   <h4 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;Staff&gt;Technical</h4>		
+<br>  
 
         <div class="row">
             <div class="col-lg-3">
@@ -94,7 +101,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/204.jpeg' height='50' width='40'/></td><td><a href=''><b style='font-size:15px;'>	J.V.R. Satyavani</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/204.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	J.V.R. Satyavani</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Chief Technical Officer</td></tr>
             
@@ -113,7 +122,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/212.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	C. Mahadeva</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/212.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	C. Mahadeva</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Chief Technical Officer</td></tr>
             
@@ -133,7 +144,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/224.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	C.V.K. Reddy</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/224.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	C.V.K. Reddy</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Chief Technical Officer</td></tr>
             
@@ -158,7 +171,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/228.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	D.V.L. Satyavathi</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/228.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	D.V.L. Satyavathi</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Chief Technical Officer</td></tr>
             
@@ -177,7 +192,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/230.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Dr. Pallaki Nagesh</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/230.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Dr. Pallaki Nagesh</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Chief Technical Officer</td></tr>
             
@@ -197,7 +214,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/232.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Dr. S.S. Sreenivas</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/232.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>Dr. S.S. Sreenivas</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Chief Technical Officer</td></tr>
             
@@ -221,7 +240,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/234.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Dr. P.V.V.S. Siva Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/234.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Dr. P.V.V.S. Siva Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Assistant Chief Technical Officer</td></tr>
             
@@ -240,7 +261,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/242.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	G. Nagesh Kanth Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/242.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	G. Nagesh Kanth Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Assistant Chief Technical Officer</td></tr>
             
@@ -260,7 +283,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/284.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	C. Muruganantham</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/284.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	C. Muruganantham</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Assistant Chief Technical Officer</td></tr>
             
@@ -284,7 +309,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/244.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	M.N.P. Kumar</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/244.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	M.N.P. Kumar</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Assistant Chief Technical Officer</td></tr>
             
@@ -303,7 +330,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/250.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Dr. S.K. Dam</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/250.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Dr. S.K. Dam</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Assistant Chief Technical Officer</td></tr>
             
@@ -323,7 +352,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/256.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	T. Venkatesh</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/256.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	T. Venkatesh</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Assistant Chief Technical Officer</td></tr>
             
@@ -347,7 +378,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/258.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	N.D. Suresh</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/258.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	N.D. Suresh</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Assistant Chief Technical Officer</td></tr>
             
@@ -366,7 +399,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/262.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	R. Rajendran</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/262.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	R. Rajendran</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Assistant Chief Technical Officer</td></tr>
             
@@ -386,7 +421,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/238.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	K. Santinandivelu</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/238.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	K. Santinandivelu</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Officer</td></tr>
             
@@ -410,7 +447,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/246.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>B. Krishna Kumari</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/246.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>B. Krishna Kumari</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Officer</td></tr>
             
@@ -429,7 +468,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/248.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	K. Padmaja</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/248.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	K. Padmaja</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Officer</td></tr>
             
@@ -449,7 +490,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/264.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	J. Vasanthi</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/264.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	J. Vasanthi</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Officer</td></tr>
             
@@ -473,7 +516,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/282.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	V. Annadurai</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/282.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	V. Annadurai</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Officer</td></tr>
             
@@ -492,7 +537,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/263.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	V.V. Shivaram</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/263.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	V.V. Shivaram</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -512,7 +559,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/268.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	N. Sreedhar</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/268.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	N. Sreedhar</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -536,7 +585,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/276.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	N. Sambasiva Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/276.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	N. Sambasiva Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -555,7 +606,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/292.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	G. Srinivasa Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/292.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	G. Srinivasa Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -575,7 +628,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/294.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	M. Trinadh</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/294.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	M. Trinadh</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -599,7 +654,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/298.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	G.S.N. Murthy</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/298.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	G.S.N. Murthy</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -618,7 +675,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/304.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Y. Yesu</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/304.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Y. Yesu</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -638,7 +697,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/306.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Md. Elias</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/306.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Md. Elias</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -662,7 +723,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/308.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	B.V. Srinivas</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/308.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	B.V. Srinivas</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -681,7 +744,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/314.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	T. Venkata Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/314.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	T. Venkata Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -701,7 +766,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/318.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Shambu Gowda</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/318.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Shambu Gowda</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -725,7 +792,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/320.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Chikkanna Setty</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/320.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Chikkanna Setty</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -744,7 +813,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/322.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Sanna Swamy</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/322.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Sanna Swamy</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -764,7 +835,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/324.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	D.K. Eshwara</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/324.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	D.K. Eshwara</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -788,7 +861,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/326.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	M.V. Jaya Krishna</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/326.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	M.V. Jaya Krishna</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -807,7 +882,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/328.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	M. Mathaiah</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/328.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	M. Mathaiah</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -827,7 +904,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/330.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	P. Eswara Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/330.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	P. Eswara Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Officer</td></tr>
             
@@ -851,7 +930,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/332.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	M.M. Ali</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/332.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	M.M. Ali</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -870,7 +951,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/340.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	N. Johnson</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/340.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	N. Johnson</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -890,7 +973,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/342.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	M.S. Asokan</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/342.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	M.S. Asokan</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -914,7 +999,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/344.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	K.V.V. Satyanarayana</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/344.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	K.V.V. Satyanarayana</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -933,7 +1020,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/348.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	S. Ramakrishna</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/348.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	S. Ramakrishna</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -953,7 +1042,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/354.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Ch. Sudhakara Babu</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/354.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Ch. Sudhakara Babu</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -977,7 +1068,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/ksridevi.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Kalaparthi Sridevi</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/ksridevi.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>Kalaparthi Sridevi</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -996,7 +1089,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/simhachalam.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Simhachalam Simma</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/simhachalam.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Simhachalam Simma</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1016,7 +1111,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/358.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Sk. Ameer Ali</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/358.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Sk. Ameer Ali</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -1040,7 +1137,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/360.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	A. Suresh Babu</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/360.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	A. Suresh Babu</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -1059,7 +1158,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/362.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	D. Vara Prasad</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/362.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	D. Vara Prasad</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -1079,7 +1180,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/364.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	T. Srinivasa Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/364.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	T. Srinivasa Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1103,7 +1206,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/366.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Y. Venkateswara Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/366.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Y. Venkateswara Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1122,7 +1227,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/370.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	B. Suresh Kumar</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/370.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	B. Suresh Kumar</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -1142,7 +1249,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/372.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	C. Puttamallaiah</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/372.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	C. Puttamallaiah</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -1166,7 +1275,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/shravankumar.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Karri Shravankumar</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/shravankumar.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>Karri Shravankumar</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1185,7 +1296,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/374.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Gopala Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/374.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Gopala Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -1205,7 +1318,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/375.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Srilakshmi Peruri</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/375.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Srilakshmi Peruri</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1229,7 +1344,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/377.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	S. Bhaskar Naik</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/377.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	S. Bhaskar Naik</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1248,7 +1365,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/379.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Veeranna Kamuni</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/379.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Veeranna Kamuni</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1268,7 +1387,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/380.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Y.V. Subrahmanyam</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/380.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Y.V. Subrahmanyam</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1292,7 +1413,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/381.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Naresh Kumar Mangilipelli</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/381.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Naresh Kumar Mangilipelli</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1311,7 +1434,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/382.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	M. Srinivas</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/382.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	M. Srinivas</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technician</td></tr>
             
@@ -1331,7 +1456,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/384.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	N. Endaiah</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/384.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	N. Endaiah</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technician</td></tr>
             
@@ -1355,7 +1482,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/385.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Aasi Divya</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/385.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Aasi Divya</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1374,7 +1503,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/386.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Arvind Isukapatla</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/386.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Arvind Isukapatla</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1394,7 +1525,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/vsagar.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Vidyasgar Kamaka</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/vsagar.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>Vidyasgar Kamaka</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1418,7 +1551,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/387.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Ramu Nambari</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/387.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Ramu Nambari</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1437,7 +1572,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/388.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Anshul Sharma</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/388.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Anshul Sharma</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1457,7 +1594,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/389.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Pappu Sateesh</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/389.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>Pappu Sateesh</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1481,7 +1620,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/390.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	B. Durga Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/390.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	B. Durga Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1500,7 +1641,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/391.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Dr. P.S. Shameer</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/391.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Dr. P.S. Shameer</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1520,7 +1663,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/392.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	A.L.N. Murthy</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/392.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	A.L.N. Murthy</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1544,7 +1689,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/394.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	G. Govinda Raju</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/394.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	G. Govinda Raju</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1563,7 +1710,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/396.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Y. Udaya Kumar</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/396.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Y. Udaya Kumar</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1583,7 +1732,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/398.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	K. Malakondaiah</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/398.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	K. Malakondaiah</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technical Assistant</td></tr>
             
@@ -1607,7 +1758,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/400.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	A. Mutyam</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/400.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	A. Mutyam</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technician</td></tr>
             
@@ -1626,7 +1779,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/402.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	T. Nagamani</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/402.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	T. Nagamani</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technician</td></tr>
             
@@ -1646,7 +1801,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/404.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	V. Subba Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/404.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	V. Subba Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technical Assistant</td></tr>
             
@@ -1670,7 +1827,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/406.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	S. Rama Raju</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/406.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	S. Rama Raju</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technician</td></tr>
             
@@ -1689,7 +1848,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/412.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	B. Yesu</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/412.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	B. Yesu</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technician</td></tr>
             
@@ -1709,7 +1870,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/414.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	E. Veerabhadra Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/414.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	E. Veerabhadra Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technician</td></tr>
             
@@ -1733,7 +1896,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/418.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	D. Yesurathnam</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/418.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	D. Yesurathnam</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technician</td></tr>
             
@@ -1752,7 +1917,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/424.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Ch. Laxmana Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/424.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Ch. Laxmana Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -1772,7 +1939,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/426.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	M. Mohana Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/426.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	M. Mohana Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -1796,7 +1965,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/430.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	J.K. Joy Barman</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/430.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	J.K. Joy Barman</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Senior Technician</td></tr>
             
@@ -1815,7 +1986,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/432.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	R. Indrani</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/432.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	R. Indrani</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -1835,7 +2008,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/586.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	G.V. Ramana</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/586.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	G.V. Ramana</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -1859,7 +2034,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/526.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	D. Balarama Reddy</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/526.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	D. Balarama Reddy</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -1878,7 +2055,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>P. Janakiramaiah</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>P. Janakiramaiah</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -1898,7 +2077,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>O. Rathamma</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>O. Rathamma</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -1922,7 +2103,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>V. Jayamma</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>V. Jayamma</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -1941,7 +2124,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/V%20Parameswara%20Rao.JPG' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Vyndam Parameswara Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/V%20Parameswara%20Rao.JPG' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>Vyndam Parameswara Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -1961,7 +2146,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/D%20Srinivasa%20Rao.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Devabathula Srinivasa Rao</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/D%20Srinivasa%20Rao.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Devabathula Srinivasa Rao</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -1985,7 +2172,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/Phani%20Kumar.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Anantatmakula S.R.R. Phani Kumar</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/Phani%20Kumar.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>Anantatmakula S.R.R. Phani Kumar</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -2004,7 +2193,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/GNS%20Ganesh.JPG' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Guttula Naga Satya Ganesh</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/GNS%20Ganesh.JPG' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Guttula Naga Satya Ganesh</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -2024,7 +2215,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/Thella%20Ramesh.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Thella Ramesh</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/Thella%20Ramesh.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>Thella Ramesh</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -2048,7 +2241,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/Pallikonda%20Krishna.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Pallikonda Krishna</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/Pallikonda%20Krishna.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Pallikonda Krishna</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -2067,7 +2262,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/Godavarthi%20SM%20Annapoorna.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Godavarthi S.M. Annapoorna</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/Godavarthi%20SM%20Annapoorna.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Godavarthi S.M. Annapoorna</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -2087,7 +2284,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/Antharvedi%20Usha%20Angel.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Antharvedi Usha Angel</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/Antharvedi%20Usha%20Angel.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>Antharvedi Usha Angel</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -2111,7 +2310,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/Gurani%20Satya%20Harish.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Gurani Satya Harish</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/Gurani%20Satya%20Harish.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Gurani Satya Harish</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -2130,7 +2331,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/Nikhil%20CM.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Nikhil, C.M.</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/Nikhil%20CM.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Nikhil, C.M.</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -2150,7 +2353,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/Kolli%20Satyanarayana.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Kolli Satyanarayana</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/Kolli%20Satyanarayana.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>Kolli Satyanarayana</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -2175,7 +2380,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/Kshitish%20Kumar%20Mishra.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>Kshitish Kumar Mishra</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/Kshitish%20Kumar%20Mishra.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>Kshitish Kumar Mishra</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -2194,7 +2401,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/Muliki%20Deepak%20Kumar.jpg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Muliki Deepak Kumar</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/Muliki%20Deepak%20Kumar.jpg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Muliki Deepak Kumar</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             
@@ -2214,7 +2423,9 @@
 
                         <table border='0' height='50' width='320'>
             
-                        <tr><td rowspan='3' align='center'><img src='uploads/staff/476.jpeg' height='50' width='40'/></td><td><a href='sredhar.php'><b style='font-size:15px;'>	Kambala Giribabu</b></a></td></tr>
+                        <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/476.jpeg' height='50' width='40'/></td>
+                     
+                        <td><a href=''><b style='font-size:15px;'>	Kambala Giribabu</b></a></td></tr>
             
                         <tr><td style='font-size:12px;'>Technician</td></tr>
             

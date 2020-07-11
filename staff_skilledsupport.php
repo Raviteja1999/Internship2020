@@ -8,13 +8,20 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=1024">
    
    <title>Document</title>
    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
 
 </head>
 <style>
+
+.photoprofile{
+    padding:3px;
+    width:100px;
+    height:60px;
+  }
+
    #sidemenu{
      height: 100%;
        width:0;
@@ -82,12 +89,11 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/508.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>	K.A.J. Kennedy</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/508.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	K.A.J. Kennedy</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
                        <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=1 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                        
                        
            
@@ -98,12 +104,11 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/524.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>	Ch. Papa</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/524.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	Ch. Papa</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=2 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                    </table>
                   
             
@@ -114,12 +119,11 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/528.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>	Y. Jayalakshmi </b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/528.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	Y. Jayalakshmi </b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
                        <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=3 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                           </table>
        
        </div> 
@@ -128,12 +132,11 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/530.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>	A. Nageswara Rao</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/530.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	A. Nageswara Rao</b></td></tr>
            
                        <tr><td style='font-size:12px;'SSS></td></tr>
                        <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=4 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                       
                        </table>
                  
@@ -142,12 +145,11 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/532.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>	A. Srinivas</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/532.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	A. Srinivas</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=5 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                   </table>
                   
             
@@ -156,12 +158,11 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/534.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>P. Ramana </b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/534.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>P. Ramana </b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
                        <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=6 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                          </table>
        
        </div> 
@@ -170,13 +171,12 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/538.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>	K. Sankurudu</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/538.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	K. Sankurudu</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=7 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                        </table>
                  
        </div> 
@@ -184,13 +184,12 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/540.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>	K.V. Narasimha Raju</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/540.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	K.V. Narasimha Raju</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
        
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=8 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                    </table>
                   
             
@@ -199,12 +198,11 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/542.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>	G. Prasada Rao </b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/542.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	G. Prasada Rao </b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
                        <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=9 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                         </table>
        
        </div> 
@@ -213,13 +211,12 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/544.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>	K.V.S.S. Bhaskara Rao</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/544.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	K.V.S.S. Bhaskara Rao</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=10 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                        </table>
                  
        </div> 
@@ -227,13 +224,12 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/546.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>	K. Satyanarayana</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/546.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	K. Satyanarayana</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
        
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=11 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                    </table>
                   
             
@@ -242,12 +238,11 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/548.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> 	V.V.P.L. Acharyulu</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/548.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'> 	V.V.P.L. Acharyulu</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=12 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                         </table>
        
        </div> 
@@ -258,13 +253,12 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/550.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>	B.S.S. Sai</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/550.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	B.S.S. Sai</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=13 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-           
+                      
                        </table>
                  
        </div> 
@@ -272,13 +266,12 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/556.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>	N. Kanakanandam</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/556.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	N. Kanakanandam</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
        
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=14 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                    </table>
                   
             
@@ -287,12 +280,11 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/560.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> Y.S.V. Subba Rao</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/560.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'> Y.S.V. Subba Rao</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=15 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                         </table>
        
        </div> 
@@ -301,13 +293,12 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/566.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>E. Radhakrishna</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/566.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>E. Radhakrishna</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=16 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-           
+                      
                        </table>
                  
        </div> 
@@ -315,13 +306,12 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/568.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>B. Koteswara Rao</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/568.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>B. Koteswara Rao</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
        
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=17 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                    </table>
                   
             
@@ -330,12 +320,11 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/570.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> 	P. Krishna</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/570.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'> 	P. Krishna</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=18 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                         </table>
        
        </div> 
@@ -344,13 +333,12 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/572.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>	P. Kota Babu</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/572.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	P. Kota Babu</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=19 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-           
+                      
                        </table>
 	
        </div> 
@@ -358,13 +346,12 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/574.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>P.V. Ramana</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/574.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>P.V. Ramana</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
        
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=20 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                    </table>
                   
             
@@ -373,12 +360,11 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/576.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>	N. Srinivasa Rao </b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/576.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>	N. Srinivasa Rao </b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=21 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                         </table>
        
        </div> 
@@ -387,13 +373,12 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/578.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>Y.V. Narayana</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/578.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>Y.V. Narayana</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=22 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-           
+                      
                        </table>
                  
        </div> 
@@ -401,13 +386,12 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/580.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>A. Daniel Raju</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/580.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>A. Daniel Raju</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
        
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=23 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                    </table>
                   
             
@@ -416,12 +400,11 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/582.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> Y. Subrahmanyam</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/582.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'> Y. Subrahmanyam</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=24 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                         </table>
        
        </div> 
@@ -430,13 +413,12 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/588.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>Ch. Satyanarayana</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/588.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>Ch. Satyanarayana</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=25 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-           
+                      
                        </table>
                  
        </div> 
@@ -444,13 +426,12 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/674.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>P.Y. Narasimha Rao</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/674.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>P.Y. Narasimha Rao</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
        
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=26 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                    </table>
                   
             
@@ -459,12 +440,11 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/676.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>Devamma </b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/676.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>Devamma </b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=27 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                         </table>
        
        </div> 
@@ -473,13 +453,12 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/678.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>Chikka Bhagya</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/678.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>Chikka Bhagya</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=28 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-           
+                      
                        </table>
                  
        </div> 
@@ -487,13 +466,12 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/680.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>Jayamma</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/680.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>Jayamma</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
        
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=29 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                    </table>
                   
             
@@ -502,12 +480,11 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/682.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> Byre Gowda</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/682.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'> Byre Gowda</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=30 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                         </table>
        
        </div> 
@@ -516,13 +493,12 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/694.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'> A.K. Chisim</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/694.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'> A.K. Chisim</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=31 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-           
+                      
                        </table>
                  
        </div> 
@@ -534,13 +510,12 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/698.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>Md. Mohammed Ali</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/698.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>Md. Mohammed Ali</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
        
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=32 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
-       
+                  
                    </table>
                   
             
@@ -549,12 +524,11 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/700.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>Narayan Chandra Barman </b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/700.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>Narayan Chandra Barman </b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=33 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                         </table>
        
        </div> 
@@ -565,12 +539,11 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/718.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'> Y.V. Subba Rao</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/718.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'> Y.V. Subba Rao</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=34 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                        </table>
                  
        </div> 
@@ -578,12 +551,11 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/720.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>Ch. Chinnayamma</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/720.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>Ch. Chinnayamma</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
        
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=35 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                    </table>
                   
                   
@@ -595,11 +567,10 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/722.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'>Devarapalli Babji </b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/722.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>Devarapalli Babji </b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=36 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                        </table>
        
        </div> 
@@ -609,12 +580,11 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/724.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>Nandyala Nageswara Rao</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/724.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>Nandyala Nageswara Rao</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=37 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                        </table>
                  
        </div> 
@@ -622,11 +592,10 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/726.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>Kalepu Kantham</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/726.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>Kalepu Kantham</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=38 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                    
                    </table>
                   
@@ -636,11 +605,10 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/728.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> Neelapu Ramayamma</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/728.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'> Neelapu Ramayamma</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=39 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                         </table>
        
        </div> 
@@ -649,12 +617,11 @@ margin:0 ;
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/730.jpeg' height='50' width='40'/></td><td><a href='scientists/profile1.json'><b style='font-size:15px;'>J. Veerraju</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/730.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>J. Veerraju</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
            
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=40 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                        </table>
                  
        </div> 
@@ -662,12 +629,11 @@ margin:0 ;
         <div class="col-lg-3">
           <table border='0' height='50' width='320'>
        
-                   <tr><td rowspan='3' align='center'><img src='uploads/staff/732.jpeg' height='50' width='40'/></td><td><a href='sreedhar.php'><b style='font-size:15px;'>B.V. Rama Rao</b></a></td></tr>
+                   <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/732.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'>B.V. Rama Rao</b></td></tr>
        
                    <tr><td style='font-size:12px;'>SSS</td></tr>
        
                    <tr>  <td style='font-size:13px;'></td></tr>
-                   <tr> <td><button   id="profile" value=41 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                    </table>
                   
             
@@ -676,11 +642,10 @@ margin:0 ;
            <div class="col-lg-3">
                 <table border='0' height='50' width='320'>
            
-                       <tr><td rowspan='3' align='center'><img src='uploads/staff/734.jpeg' height='50' width='40'/></td><td><a href='sarala.php'><b style='font-size:15px;'> S. Krishna</b></a></td></tr>
+                       <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/734.jpeg' height='50' width='40'/></td><td><b style='font-size:15px;'> S. Krishna</b></td></tr>
            
                        <tr><td style='font-size:12px;'>SSS</td></tr>
                        <tr>  <td style='font-size:13px;'></td></tr>
-                       <tr> <td><button   id="profile" value=42 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>
                         </table>
        
        </div> 
@@ -696,7 +661,7 @@ margin:0 ;
          include "footerreader.php";
         ?> 
         
-<div id="sidemenu">
+<!-- <div id="sidemenu">
     <div class="row1" id="tophead" >
    
     <div id="topheadcontent">
@@ -722,11 +687,11 @@ margin:0 ;
     <div id="displayprofile"></div>
 
     </div>
-</div>
+</div> -->
 
 </html>
 
-<script>
+<!-- <script>
 
  function profile(getid, getvalue){
     document.getElementById("sidemenu").style.width="100%";
@@ -847,4 +812,4 @@ margin:0 ;
 
      }
 
-</script>
+</script> -->

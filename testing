@@ -1,1 +1,1 @@
-<td><button id="profile" value= 2 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Dr. U. Sreedhar</button>  </td></tr>
+<td><button id="profile" value= 2 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>      </button>  </td></tr>
