@@ -77,10 +77,7 @@ if(viewMode == "desktop"){
 background-color:black;
 } */
 
- 
-#mobile-slide{
-  display:hidden;
-} 
+
 
 </style>
 
@@ -141,16 +138,17 @@ background-color:black;
 
 
 
+
 <div id="mobile-slide">
 
-
-  <div id="carouselId" class="carousel slide" data-ride="carousel" >
+<!-- 
+  <div id="carouselIdmobile" class="carousel slide" data-ride="carousel" >
     <ol class="carousel-indicators" id="mycarouselindicator" >
-      <li data-target="#carouselId" id="carouselId" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselId" id="carouselId" data-slide-to="1"></li>
-      <li data-target="#carouselId" id="carouselId" data-slide-to="2"></li>
-      <li data-target="#carouselId" id="carouselId" data-slide-to="3"></li>
-      <li data-target="#carouselId" id="carouselId" data-slide-to="4"></li>
+      <li data-target="#carouselIdmobile" id="carouselId" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselIdmobile" id="carouselId" data-slide-to="1"></li>
+      <li data-target="#carouselIdmobile" id="carouselId" data-slide-to="2"></li>
+      <li data-target="#carouselIdmobile" id="carouselId" data-slide-to="3"></li>
+      <li data-target="#carouselIdmobile" id="carouselId" data-slide-to="4"></li>
       
     </ol>
     <div class="carousel-inner text-center" role="listbox">
@@ -194,7 +192,7 @@ background-color:black;
     </div>
  
    <a class="carousel-control-prev ctrl" id="mycarouselcontrolprev" href="#carouselId"  data-slide="prev" type="hidden" style="width:50px;"  >
-   <!-- <span class=".carousel-control-prev-icon" aria-hidden="true"></span> -->
+   <span class=".carousel-control-prev-icon" aria-hidden="true"></span> 
    <i class="fa fa-angle-left" style="font-size:48px"></i>
     <span class="sr-only">Previous</span>
    </a>
@@ -206,27 +204,30 @@ background-color:black;
 
   
    </div>
-
-</div>
+  -->
+</div> 
 
 
 <script>
 
 $(document).ready(function () {
 
-var screen = $(window).width();
-console.log(screen);
+var screen = $(window);
+console.log(screen.width());
    
 
-
-
-if (screen < 1000) {
-    $("#mobile-slide").show();
-    $("#desktop-slide").hide();
+ if (screen.width() >= 1000) {
+     $("#mobile-slide").hide();
+     $("#desktop-slide").show();
+    
+  console.log("yes");
 }
 else {
-  $("#mobile-slide").hide();
-    $("#desktop-slide").show();
+   $("#mobile-slide").show();
+     $("#desktop-slide").hide();
+console.log("no");
+
+    
 }
 
 });
