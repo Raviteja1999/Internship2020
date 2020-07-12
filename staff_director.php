@@ -17,6 +17,12 @@
 
 </head>
 <style>
+    #main{
+        padding:100px;
+        
+    }
+    
+
     #sidemenu{
       height: 100%;
         width:0;
@@ -88,11 +94,16 @@
 
                 <div class='staff'>
 			<table border='0' height='50' width='320'>
-			<tr><td rowspan='3' align='center'><img src='uploads/staff/1.jpeg' height='60' width='60'/></td><td><a href='director.php'><b>Dr. D. DAMODAR REDDY</b></a></td></tr>
+            <tr><td rowspan='3' align='center'><img src='uploads/staff/1.jpeg' height='60' width='60'/></td>
+            
+            <td><button id="profile" value= 1 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> Dr. D. DAMODAR REDDY     </button>  </td></tr>
+
+            <!-- <td><a href='director.php'><b>Dr. D. DAMODAR REDDY</b></a></td></tr> -->
 			<tr><td>Director</td></tr>
 			<tr>  <td>ddreddy132@gmail.com</td></tr>
             </table></div></td></tr>
-         <tr> <td><button   id="profile1" value=1 class="btn btn-link" onclick="profile(this.id,this.value)">Profile</button>
+
+         <!-- <tr> <td><button   id="profile1" value=1 class="btn btn-link" onclick="profile(this.id,this.value)">Profile</button> -->
    
         </td></tr</table></div>
                </div>
@@ -185,7 +196,7 @@
         }
 
             
-        request.open('GET','scientists/profile'+ callvalue+'.json');  //change at this line
+        request.open('GET','directorprofile'+ callvalue+'.json');  //change at this line
         request.onload=function(){
             var obtaineddata= JSON.parse(request.responseText);
             displayprofilefunction(obtaineddata);
@@ -271,7 +282,17 @@
                     }
 
                     details+="<p>"+"</ul>";
-                        
+
+                    
+
+                      details +="<p><p>"+ "Honours  :<p> <ul>";
+
+                    for(j=0;j< data[i].Honours.length;j++){
+                        details+= '<t><t><t><li>' +data[i].Honours[j]+ "</li>";
+                    }
+
+                    details+="<p>"+"</ul>";
+
                     
                     
 

@@ -9,13 +9,21 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
       
     </head>
+    <style>
+        .content{
+            padding:25px;
+        }
+    </style>
     <body>
         
+    <div class="content">
+
+    
     <h2>PRIVACY STATEMENT</h2><br>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a general rule, this website does not collect Personal Information about you when you visit the site. You can generally
 
@@ -30,7 +38,9 @@ are not repsonsible for the content and privacy practices of these other website
 
 notices of those sites. </p>
 
-      
+
+
+</div>      
     
       
       </body> 
