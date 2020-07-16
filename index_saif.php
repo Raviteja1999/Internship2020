@@ -1,8 +1,8 @@
 <?php 
 include 'heading1.html';
  echo "<br>";
-       include "navfinal.html";
-     echo "<br>"
+      //  include "navfinal.html";
+    // echo "<br>"
  ?>
 
 
@@ -12,7 +12,7 @@ include 'heading1.html';
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=1024">
-        <title>Title Page</title>
+        <title>SAIF | CTRI,Rajahmundry</title>
     </head>
     <style>
 #navigation{
@@ -85,7 +85,13 @@ border-bottom:2px solid black;
 .instimage{
     text-align: center;
 }
-
+.homelink{
+  padding:5px;
+}
+.homelink>svg{
+  color:white;
+  
+}
 
     
     
@@ -96,7 +102,21 @@ border-bottom:2px solid black;
 <div id="navigation">
 
     <div id="sidenavbar">
-        <ul class="list-unstyled components mb-5">
+        <ul class="list-unstyled components mb-3">
+       
+        <a class="homelink" href="home.php" style="position:absolute">
+                  <!-- Home -->
+           <svg class="bi bi-house" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 00.5.5h9a.5.5 0 00.5-.5V7h1v6.5a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 012 13.5zm11-11V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 011.414 0l6.647 6.646a.5.5 0 01-.708.708L8 2.207 1.354 8.854a.5.5 0 11-.708-.708L7.293 1.5z" clip-rule="evenodd"/>
+          
+              </svg> 
+            
+            </a>
+          <br><br>
+
+
+            
             <li class="active"  onclick="fun(0)">
              <a href="#home_SAIF" >Home - SAIF </a>
             </li>

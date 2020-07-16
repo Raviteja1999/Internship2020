@@ -41,10 +41,14 @@
    .row1{
        float:0;
        margin:0 auto;
-    
        background-color: white;
    
    }
+
+   .col-lg-3{
+     padding:10px;
+   }
+   
 #tophead{
    position: fixed;
    font-size: 36px;

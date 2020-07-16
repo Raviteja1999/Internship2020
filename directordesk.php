@@ -10,8 +10,8 @@ include "navfinal.html";
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Title Page</title>
+        <meta name="viewport" content="width=1024">
+        <title>Director desk | CTRI,Rajahmundry</title>
 
        
     </head>
@@ -43,9 +43,9 @@ include "navfinal.html";
                   <div class="aboutfield row">
                       <div class="col-lg-1"></div>
                     <div class="image col-lg-2" style="text-align: center;">
-                        <img src="img/ddr-h.jpg" class="img-responsive" alt="Image">
+                        <img src="img/ddr-h.jpg" class="img-responsive" alt="Image" style="height:100px;width:100px;">
                         <div style="text-align: center;"><strong >Dr. D. Damodar Reddy<br> 
-                            Director</strong></div>
+                                  Director</strong></div>
                         </div>
                
                

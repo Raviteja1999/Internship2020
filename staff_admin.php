@@ -76,7 +76,9 @@ margin:0 ;
        width:200px;
    }
    
-  
+   .col-lg-3{
+     padding:10px;
+   }
 
 
 </style>

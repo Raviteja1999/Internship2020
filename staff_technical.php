@@ -40,11 +40,15 @@
 
     .row1{
         float:0;
-        margin:0 auto;
-     
-        background-color: white;
+        margin:0 auto; 
+       background-color: white;
     
     }
+
+    .col-lg-3{
+     padding:10px;
+   }
+
 #tophead{
     position: fixed;
     font-size: 36px;
@@ -104,7 +108,7 @@
                         <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/204.jpeg' height='50' width='40'/></td>
                      
                         <td><button id="profile" value= 1 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> J.V.R. Satyavani     </button>  </td></tr>
-                       <td><a href=''><b style='font-size:15px;'>	J.V.R. Satyavani</b></a></td></tr> 
+                       <!-- <td><a href=''><b style='font-size:15px;'>	J.V.R. Satyavani</b></a></td></tr>  -->
             
                         <tr><td style='font-size:12px;'>Chief Technical Officer</td></tr>
             

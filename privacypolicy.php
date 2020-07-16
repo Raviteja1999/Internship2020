@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=1024">
-        <title>Title Page</title>
+        <title>PRIVACY | CTRI,Rajahmundry</title>
 
       
     </head>

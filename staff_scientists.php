@@ -48,6 +48,10 @@
     
     }
 
+    .col-lg-3{
+     padding:10px;
+   }
+
 #tophead{
     position: fixed;
     font-size: 36px;
