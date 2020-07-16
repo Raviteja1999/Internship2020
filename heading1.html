@@ -3,10 +3,12 @@
 <html lang="">
     <head>
          <meta charset="utf-8">
+         <link rel="icon" type="image/png" href="images/fav.png">
+
          
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport"  content="width=1024"> 
-        <title>Title Page</title>
+        
 
         
          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
@@ -168,7 +170,7 @@
     
 
 
-        <div id="google_translate_element" class=" col-lg-2">
+         <div id="google_translate_element" class=" col-lg-2">
         
         <script type="text/javascript">
         function googleTranslateElementInit() {
@@ -178,7 +180,7 @@
         
         <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     
-          </div>
+          </div> 
           
  
           <div class="col-lg-2" id="theme">
@@ -188,8 +190,15 @@
             </span>
 
             <span class="" style="padding:0" >
+              <button class="btn btn-link style-white "  id ="white" style="font-size: 12px;">White</button>
+            </span>
+
+            <span class="" style="padding:0" >
               <button class="btn btn-link style-white "  id ="original" style="font-size: 12px;">Original</button>
             </span>
+
+            
+
 
             
 
@@ -197,7 +206,11 @@
 
                 let dark =localStorage.getItem('dark');
 
+                let white = localStorage.getItem('white');
+
                 const darktoogle = document.querySelector('#dark');
+
+                const whitetoogle = document.querySelector('#white');
 
                 const originaltoogle =document.querySelector('#original');
 
@@ -210,9 +223,25 @@
                      document.body.style.backgroundImage="none";
 
                   localStorage.setItem('dark','enabled');
+                  localStorage.setItem('white','disabled');
+
                 }
 
-                function disabledarktheme()
+
+                function enablewhitetheme()
+                {
+                 
+                 document.body.style.backgroundColor="white";
+                     document.body.style.color = "black"; 
+                     document.body.style.backgroundImage="none";
+
+                  localStorage.setItem('dark','disabled');
+
+                  localStorage.setItem('white','enabled');
+                  
+                }
+
+                function enableoriginaltheme()
                 {
               
                   // document.body.classList.remove("darkmode");
@@ -221,16 +250,25 @@
                     document.body.style.color = "black"
 
                   localStorage.setItem('dark',null);
+                  localStorage.setItem('white',null);
 
                 }
+
+
 
                 if (dark === 'enabled') {
                     enabledarktheme();
                   }
-                  if(dark !== 'enabled')
+                  
+                 if(white === 'enabled'){
+                   enablewhitetheme();
+                 } 
+    
+                  if(dark !== 'enabled' || white !== 'enabled')
                   {
-                    disabledarktheme();
+                    enableoriginaltheme();
                   }
+
 
                 darktoogle.addEventListener( 'click',() =>{
 
@@ -244,15 +282,31 @@
 
                 });
 
+                 whitetoogle.addEventListener( 'click',() =>{
+
+                  white =localStorage.getItem('white');
+
+                  if(white !== 'enabled'){
+                    
+                    enablewhitetheme();
+                  
+                  }
+
+                });
+
+
                  originaltoogle.addEventListener( 'click',() =>{
 
                   dark =localStorage.getItem('dark');
 
-                  if(dark == 'enabled'){
+                  white = localStorage.getItem('white');
+
+                  if(dark == 'enabled' || white =='enabled'){
                    
-                    disabledarktheme();
+                    enableoriginaltheme();
 
                   }
+                  
 
                 });
                  
@@ -296,10 +350,10 @@
            <div class="croppic col-lg-2 "style=" float:none; padding:0;background:white;">
            
                
-             <img class="crops w3-animate-fading" src="img/slide1.jpg" style="width:100%">
-             <img class="crops w3-animate-fading" src="img/slide2.jpg" style="width:100%">
-             <img class="crops w3-animate-fading" src="img/slide3.jpg" style="width:100%">
-             <img class="crops w3-animate-fading" src="img/slide4.jpg" style="width:100%">
+             <img class="crops w3-animate-fading" src="img/crp1.jpg" style="width:100%;height:150px;">
+             <img class="crops w3-animate-fading" src="img/crp2.jpg" style="width:100%;height:150px;">
+             <img class="crops w3-animate-fading" src="img/crp3.jpg" style="width:100%;height:150px;">
+             <img class="crops w3-animate-fading" src="img/crp4.jpg" style="width:100%;height:150px;">
 
 
             </div>

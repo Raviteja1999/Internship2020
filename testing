@@ -1,1 +1,36 @@
 <td><button id="profile" value= 2 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>      </button>  </td></tr>
+
+
+  <!-- <h3>People</h3>
+    <ul>
+      <li>
+      <button id="profile" value= # class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>  Dr. D. DAMODAR REDDY   </button> 
+      </li>
+      <li>
+      <button id="profile" value= # class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>  Dr. S. Kasturi Krishna   </button> 
+      </li>
+      <li>
+      <button id="profile" value= # class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> Dr. C. Chandrasekhara Rao  </button> 
+      </li>
+      <li>
+      <button id="profile" value= # class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>  Dr. (Mrs.) K. Sarala  </button> 
+      </li>
+      <li>
+      <button id="profile" value= # class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>  Dr. U. Sreedhar  </button> 
+      </li>
+    </ul> -->
+
+
+   <!-- <li><a tabindex="-1" href="rti.php" target="new">Auto-Analyser</a></li>
+                         <li><a tabindex="-1" href="2.php">Smoke Machine</a></li>
+                         <li><a tabindex="-1" href="3.php" target="new">Gas Chromatograph Mass Spectrometry</a></li>
+                         <li><a tabindex="-1" href="4 - .php" target="new">High Performance Liquid Chromatograph</a></li> 
+                          <li><a tabindex="-1" href="5 .php">Atomic Absorption Spectrophotometer</a></li>
+                         <li><a tabindex="-1" href="6 .php">Total Organic Carbon Analyser
+</a></li>
+<li><a tabindex="-1" href="7.php">Spectro Photometer</a></li>
+  <li><a tabindex="-1" href="8.php">Master Cycler</a></li>
+   <li><a tabindex="-1" href="9.php">Centrifuge (Table top)</a></li>
+    <li><a tabindex="-1" href="10.php">Ultra Centrifuge</a></li>
+          <li><a tabindex="-1" href="12.php">Vaccum Concentrator</a></li>
+ <li><a tabindex="-1" href="13.php">pH meter</a></li> -->

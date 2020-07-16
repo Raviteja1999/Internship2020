@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=1024">
-        <title>Title Page</title>
+        <title>Kandukuru | CTRI,Rajahmundry</title>
 
       
     </head>
@@ -34,14 +34,14 @@
 <div id="content">
 <p>
 <h3 style="text-align: center; ">
-	<span style="color: rgb(165, 42, 42); "><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CTRI RESEARCH STATION, KANDUKUR</strong></span></span></h3>	
+	<span style="color: rgb(165, 42, 42); "><strong>CTRI RESEARCH STATION, KANDUKUR</strong></span></span></h3>	
 
 
-<h3>PRAKASAM DISTRICT-534 456,  Andhra Pradesh.Phone:08598-23554 </h3>
-<h3>Head of the station: Dr. M. ANURADHA</h3><br>
+<h5 style="text-align: center; ">PRAKASAM DISTRICT-534 456,  Andhra Pradesh.Phone:08598-23554 </h5>
+<h5 style="text-align: center; ">Head of the station: Dr. M. ANURADHA</h5><br>
 
-<h3 style="image-align: center; ">
-<img  style='height:320px;width:700px; border:3px solid black;' src="Kandukur.JPG" alt="kandukur"></h3>
+<h3 style="text-align: center; ">
+<img  style='height:320px;width:700px; border:3px solid black;' src="images/Kandukur.JPG" alt="kandukur"></h3>
 
 <p style="line-height:1.5;">CTRI Research Station, Kandukur in Prakasam district of Andhra Pradesh was established in 1977 
 to conduct research on flue-cured virginia tobacco grown in Southern Light Soils(SLS) of Andhra Pradesh. 
@@ -75,7 +75,7 @@ The research station has 42.2 ha of land with good infrasturctural facilities to
 	<span style="font-size:16px;">7. To disseminate knowledge on improved crop production and protection technologies among the tobacco farmers through extension programmes. </span></p>
 
 <p>
-	&nbsp;</p>
+	</p>
 
 </div>
 	

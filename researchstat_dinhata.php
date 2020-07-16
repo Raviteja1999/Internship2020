@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=1024">
-        <title>Title Page</title>
+        <title>Dinhata | CTRI,Rajahmundry</title>
 
       
     </head>
@@ -37,14 +37,14 @@
     <p>
     
     <h3 style="text-align: center; ">
-        <span style="color: rgb(165, 42, 42); "><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CTRI RESEARCH STATION, DINHATA</strong></span></span></h3>	
+        <span style="color: rgb(165, 42, 42); "><strong>CTRI RESEARCH STATION, DINHATA</strong></span></span></h3>	
     
-    <h3>COOCH BEHAR DISTRICT - 736 135,  WEST BENGAL. Phone : 03581-255008 </h3>
-    <h3>Name of the Head (in-charge): Sri SUNIL MANDI</h3>
-    <h3>Email: mandi.sunil@gmail.com</h3><br>
-    <p class="table1">
-    <h3 style="image-align: center;">
-    <img style='height:320px;width:700px; border:3px solid black;' src="Dinhata.JPG" alt="Dinhata"></h3></p>
+    <h5 style="text-align: center; ">COOCH BEHAR DISTRICT - 756 135,  WEST BENGAL. Phone : 03581-255008 </h5>
+    <h5 style="text-align: center; ">Name of the Head (in-charge): Sri SUNIL MANDI</h5>
+    <h5 style="text-align: center; ">Email: mandi.sunil@gmail.com</h5><br>
+    
+    <h3 style="text-align: center;">
+    <img style='height:320px;width:700px; border:3px solid black;' src="images/Dinhata.JPG" alt="Dinhata"></h3>
     
     <p style=line-height:1.5;> Before the partition of Bengal (During pre-independence period) Cigar wrapper 
     tobacco used to be grown in Rangpur district, now Bangladesh. As a result of the 
@@ -67,7 +67,7 @@
     
     
     <p>
-        &nbsp;</p>
+        </p>
     
     </div>
         

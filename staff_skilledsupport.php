@@ -10,7 +10,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=1024">
    
-   <title>Document</title>
+   <title>Supporting Staff | CTRI,Rajahmundry</title>
    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
 
 </head>
@@ -83,7 +83,8 @@ margin:0 ;
 </style>
 
 <body>
-
+<h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;Staff &gt;Skilled Supporting Staff</h5>		
+      
   <div id="main">
 <div class="row">
            <div class="col-lg-3">
@@ -127,8 +128,9 @@ margin:0 ;
                           </table>
        
        </div> 
-      </div>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <br> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -166,8 +168,8 @@ margin:0 ;
                          </table>
        
        </div> 
-      </div>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -206,8 +208,8 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -248,8 +250,8 @@ margin:0 ;
        </div> 
 
 
-      </div>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -288,8 +290,8 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -328,8 +330,8 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -368,8 +370,8 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -408,8 +410,8 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -448,8 +450,8 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -488,8 +490,8 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -532,10 +534,8 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      
-      
-      <div class="row">
+      <!-- </div>     -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -574,9 +574,8 @@ margin:0 ;
                        </table>
        
        </div> 
-      </div>
-      
-      <div class="row">
+      <!-- </div>  -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -612,8 +611,8 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            

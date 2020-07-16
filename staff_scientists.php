@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1024">
     
-    <title>Document</title>
+    <title>Scientists | CTRI,Rajahmundry</title>
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
 
 
@@ -86,7 +86,8 @@
 </style>
 
 <body>
-
+<h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;Staff &gt;Scientists</h5>		
+      
    <div id="main">
      <div class="row">
             <div class="col-lg-3">
@@ -150,11 +151,12 @@
                     </div>
                </div>
         </div> 
-        </div>
+      
+    <!-- </div> -->
 
-        <br>
+        <!-- <br> -->
 
-        <div class="row">
+        <!-- <div class="row"> -->
 
          <div class="col-lg-3">
             <div class='staff'>
@@ -219,11 +221,13 @@
                    </div>
                 </div>
            </div> 
-       </div>
-       
-       <br>
 
-       <div class="row">
+       <!-- </div> -->
+       
+       <!-- <br> -->
+
+       <!-- <div class="row"> -->
+
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -294,11 +298,13 @@
                    </div>
                 </div>
            </div> 
-       </div>
+     
+        <!-- </div> -->
 
-       <br>
+       <!-- <br> -->
        
-       <div class="row">
+       <!-- <div class="row"> -->
+
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -367,11 +373,13 @@
                    </div>
                 </div>
            </div> 
-       </div>
+     
+        <!-- </div> -->
 
-       <br>
+       <!-- <br> -->
 
-       <div class="row">
+       <!-- <div class="row"> -->
+
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -441,11 +449,13 @@
                    </div>
                 </div>
            </div> 
-       </div>
-       
-       <br>
 
-       <div class="row">
+
+    <!-- </div> -->
+       
+       <!-- <br> -->
+
+       <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -517,11 +527,11 @@
                    </div>
                 </div>
            </div> 
-       </div>
+       <!-- </div> -->
 
-       <br>
+       <!-- <br> -->
        
-       <div class="row">
+       <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -591,10 +601,10 @@
                    </div>
                 </div>
            </div> 
-       </div>
-       <br>
+       <!-- </div> -->
+       <!-- <br> -->
 
-       <div class="row">
+       <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -666,10 +676,10 @@
                    </div>
                 </div>
            </div> 
-       </div>
-       <br>
+       <!-- </div> -->
+       <!-- <br> -->
 
-       <div class="row">
+       <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -744,11 +754,11 @@
                    </div>
                 </div>
            </div> 
-       </div>
+       <!-- </div> -->
 
-       <br>
+       <!-- <br> -->
 
-       <div class="row">
+       <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -818,7 +828,8 @@
            </div> 
        </div>
     
-  </div>
+  </div> 
+
   <!-- end of rows -->
 <br>
  

@@ -86,8 +86,11 @@
 
 <body>
 
+<h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;Staff &gt;Director</h5>		
     
 <div id="main">
+
+
      <div class="row">
             <div class="col-lg-3">
                 <div class='staff'>

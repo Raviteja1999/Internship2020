@@ -28,7 +28,7 @@ include "navfinal.html";
     
     <div class="content" >
 	
-<h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;About Us&gt;Site Map</h5>		
+<h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;Site Map</h5>		
 
 <!-- <input type="button" id="btn" value="Print" onclick="printDiv();" style="float:right"> -->
 <div id="content">

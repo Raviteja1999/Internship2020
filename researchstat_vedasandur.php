@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=1024">
-        <title>Title Page</title>
+        <title>VEDASANDUR | CTRI,Rajahmundry</title>
 
       
     </head>
@@ -37,10 +37,10 @@
     <h3 style="text-align: center; ">
         <span style="color: rgb(165, 42, 42); "><strong>CTRI RESEARCH STATION, VEDASANDUR</strong></span></span></h3>	
     
-    <h3>DINDIGUL DISTRICT - 624 710,  Tamil Nadu. Phone : 04551-60243 </h3>
-    <h3>Name of the Head (in-charge): Dr M KUMARESAN</h3><br>
+    <h5 style="text-align: center; ">DINDIGUL DISTRICT - 624 710,  Tamil Nadu. Phone : 04551-60243 </h5>
+    <h5 style="text-align: center; ">Name of the Head (in-charge): Dr M KUMARESAN</h5><br>
     
-    <h3 style="image-align: center; ">
+    <h3 style="text-align: center; ">
     <img  style='height:320px;width:700px' src="images/vedasandur.jpg" alt="vedasandur"></h3>
     
     <p>The CTRI Research Station, Vedasandur was established in the year 1948 under the 
@@ -60,7 +60,7 @@
         <span style="font-size:14px;">3. To produce and distribute genetically pure and quality seeds and seedlings to Tamil Nadu tobacco farmers. </span></p>
     
     <p>
-        &nbsp;</p>
+        </p>
     
     </div>
         

@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1024">
     
-    <title>Document</title>
+    <title>Technical | CTRI,Rajahmundry</title>
 
 </head>
 <style>
@@ -94,7 +94,7 @@
 <br>  
 
         <div class="row">
-            <div class="col-lg-3">
+             <div class="col-lg-3">
                 <div class='staff'>
 
                     <div class='staff'>
@@ -104,17 +104,17 @@
                         <tr><td rowspan='3' align='center' class="photoprofile"><img src='uploads/staff/204.jpeg' height='50' width='40'/></td>
                      
                         <td><button id="profile" value= 1 class="btn btn-link" onclick="profile(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> J.V.R. Satyavani     </button>  </td></tr>
-                        <!-- <td><a href=''><b style='font-size:15px;'>	J.V.R. Satyavani</b></a></td></tr> -->
+                       <td><a href=''><b style='font-size:15px;'>	J.V.R. Satyavani</b></a></td></tr> 
             
                         <tr><td style='font-size:12px;'>Chief Technical Officer</td></tr>
             
                         <tr>  <td style='font-size:13px;'>satyavani.kota@gmail.com</td></tr>
-                        <!-- <tr> <td><button   id="profile" value= 1 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr> -->
+                        <!-- <tr> <td><button   id="profile" value= 1 class="btn btn-link" onclick="profile(this.id,this.value)">View Profile</button></td></tr>-->
             
                         </table></div>
             </div>
 
-        </div>
+        </div> 
 
        <div class="col-lg-3">
                 <div class='staff'>
@@ -163,11 +163,11 @@
         </div> 
       
         
-    </div> 
+    <!-- </div>  -->
     <!--Row1 end-->
-           <br>
+           <!-- <br> -->
 
-    <div class="row">
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -237,10 +237,10 @@
         </div> 
       
         
-    </div> 
-    <br>
+    <!-- </div>  -->
+    <!-- <br> -->
     <!--Row2 end-->
-    <div class="row">
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -309,11 +309,11 @@
             
         </div> 
       
-    </div> 
+    <!-- </div>  -->
      <!--Row3 end-->
-     <br>
+     <!-- <br> -->
 
-    <div class="row">
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -382,10 +382,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row4 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -454,10 +454,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row5 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -526,10 +526,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row6 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -598,10 +598,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row7 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -670,10 +670,10 @@
             
         </div> 
       
-    </div> 
+    <!-- </div>  -->
      <!--Row8 end-->
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -742,10 +742,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row9 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -814,10 +814,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row10 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -886,10 +886,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row11 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -958,10 +958,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row12 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1030,10 +1030,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row13 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1102,10 +1102,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row14 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1174,10 +1174,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row15 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1246,10 +1246,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row16 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1318,11 +1318,11 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row17 end--> 
-     <br>
+     <!-- <br> -->
 
-    <div class="row">
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1391,10 +1391,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
      <!--Row18 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1463,10 +1463,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
     <!--Row19 end-->  
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1535,11 +1535,11 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
     <!--Row20 end-->  
-    <br>
+    <!-- <br> -->
 
-    <div class="row">
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1608,10 +1608,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
     <!--Row21 end-->  
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1680,10 +1680,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
     <!--Row22 end-->  
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1752,10 +1752,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
     <!--Row23 end-->  
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1824,10 +1824,10 @@
             
         </div> 
       
-   </div>
+   <!-- </div> -->
    <!--Row24 end-->  
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1896,10 +1896,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
     <!--Row25 end-->  
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -1968,10 +1968,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
     <!--Row26 end-->  
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -2040,10 +2040,10 @@
             
         </div> 
       
-     </div>
+     <!-- </div> -->
      <!--Row27 end-->  
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -2112,10 +2112,10 @@
             
         </div> 
       
-     </div> 
+     <!-- </div>  -->
      <!--Row28 end--> 
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -2184,10 +2184,10 @@
             
         </div> 
       
-     </div>
+     <!-- </div> -->
      <!--Row29 end-->  
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -2256,10 +2256,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
     <!--Row30 end-->  
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -2328,11 +2328,11 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
     <!--Row31 end-->  
-    <br>
+    <!-- <br> -->
 
-    <div class="row">
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -2401,10 +2401,10 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
     <!--Row32 end-->  
-<br>
-    <div class="row">
+<!-- <br> -->
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -2473,11 +2473,11 @@
             
         </div> 
       
-    </div>
+    <!-- </div> -->
     <!--Row33 end-->  
-<br>
+<!-- <br> -->
 
-    <div class="row">
+    <!-- <div class="row"> -->
             <div class="col-lg-3">
                 <div class='staff'>
 
@@ -2549,6 +2549,7 @@
         
     </div> 
     <!--Row34 end--> 
+    <!-- row ends -->
 
 
         <!-- <button   id="profile1" value=1 class="btn btn-link" onclick="profile(this.id,this.value)">Profile</button>

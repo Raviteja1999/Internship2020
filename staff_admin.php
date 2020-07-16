@@ -10,7 +10,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=1024">
    
-   <title>Document</title>
+   <title>Administration | CTRI,Rajahmundry</title>
    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
 
 </head>
@@ -82,6 +82,7 @@ margin:0 ;
 </style>
 
 <body>
+<h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;Staff &gt;Administration Staff</h5>		
 
   <div id="main">
     <div class="row">
@@ -135,10 +136,10 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <br>
+      <!-- </div> -->
+      <!-- <br> -->
       
-      <div class="row">
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -191,9 +192,9 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <br>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <br> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -244,9 +245,9 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <br>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <br> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -297,9 +298,9 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <br>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <br> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -350,9 +351,9 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <br>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <br> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -403,11 +404,11 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
+      <!-- </div> -->
 
-      <br>
+      <!-- <br> -->
 
-      <div class="row">
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -459,11 +460,11 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
+      <!-- </div> -->
 
-      <br>
+      <!-- <br> -->
 
-      <div class="row">
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -515,9 +516,9 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <br>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <br> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -569,9 +570,9 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <br>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <br> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -622,9 +623,9 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <br>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <br> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            
@@ -675,9 +676,9 @@ margin:0 ;
                         </table>
        
        </div> 
-      </div>
-      <br>
-      <div class="row">
+      <!-- </div> -->
+      <!-- <br> -->
+      <!-- <div class="row"> -->
            <div class="col-lg-3">
                <table border='0' height='50' width='320'>
            

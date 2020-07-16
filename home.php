@@ -225,7 +225,7 @@
                         
                         
                         </marquee>
-                        <a href="#" style="float: right;"><i>more</i></a>  	
+                        <!-- <a href="#" style="float: right;"><i>more</i></a>  	 -->
                                 
                             </div>
                         </div>

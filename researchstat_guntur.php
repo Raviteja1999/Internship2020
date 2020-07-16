@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=1024">
-        <title>Title Page</title>
+        <title>Guntur | CTRI,Rajahmundry</title>
 
       
     </head>
@@ -34,14 +34,14 @@
     <p>
     
     <h3 style="text-align: center; ">
-        <span style="color: rgb(165, 42, 42); "><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CTRI RESEARCH STATION, GUNTUR</strong></span></span></h3>	
+        <span style="color: rgb(165, 42, 42); "><strong>CTRI RESEARCH STATION, GUNTUR</strong></span></span></h3>	
     
     
-    <h3>GUNTUR DISTRICT - 522004,  Andhra Pradesh. Phone : 0863-231892 </h3>
-    <h3>Name of the Head (in-charge): Dr P. VENKATESWARULU</h3><br>
+    <h5 style="text-align: center; ">GUNTUR DISTRICT - 522004,  Andhra Pradesh. Phone : 0863-231892 </h5>
+    <h5 style="text-align: center; ">Name of the Head (in-charge): Dr P. VENKATESWARULU</h5><br>
     
-    <h3 style="image-align: center; ">
-    <img  style='height:320px;width:700px;  border:3px solid black;' src="guntur.jpg" alt="guntur"></h3>
+    <h3 style="text-align: center; ">
+    <img  style='height:320px;width:700px;  border:3px solid black;' src="images/guntur.jpg" alt="guntur"></h3>
     
     <p style="line-height:1.5;">The CTRI Research Station, Guntur was established in 1936 under aegis of Imperial 
     Agricultural Research Institute, New Delhi. In October 1965 it was brought under the 
@@ -65,7 +65,7 @@
         <span style="font-size:16px;">5.  To develop pest management modules for effective control of major insect pests. </span></p>
     
     <p>
-        &nbsp;</p>
+        </p>
     
     </div>
         

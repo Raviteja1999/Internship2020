@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=1024">
-        <title>Title Page</title>
+        <title> KALAVACHERLA | CTRI,Rajahmundry</title>
 
       
     </head>
@@ -36,11 +36,11 @@
     <h3 style="text-align: center; ">
         <span style="color: rgb(165, 42, 42); "><strong>BURLEY TOBACCO RESEARCH CENTRE, KALAVACHERLA</strong></span></span></h3>	
     
-    <h3>Rajanagaram Mandal - 533 294, East Godavari District,  Andhra Pradesh. Phone : 0883-2484330 </h3>
-    <h3>Name of the Head (in-charge): Dr S. Kasturi Krishna</h3><br>
+    <h5 style="text-align: center; ">Rajanagaram Mandal - 533 294, East Godavari District,  Andhra Pradesh. Phone : 0883-2484330 </h5>
+    <h5 style="text-align: center; ">Name of the Head (in-charge): Dr S. Kasturi Krishna</h5><br>
     
-    <h3 style="image-align: center; ">
-    <img  style='height:320px;width:700px; border:3px solid black;' src="burley.jpg" alt="burley"></h3>
+    <h3 style="text-align: center; ">
+    <img  style='height:320px;width:700px; border:3px solid black;' src="images/burley.jpg" alt="burley"></h3>
     
     <p style="line-height:1.5;">Burley tobacco, grown in the agency and upland areas of East Godavari, West Godavari,
      Visakhapatnam and Vizianagaram districts of Andhra Pradesh, is of exportable quality

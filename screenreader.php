@@ -9,13 +9,16 @@ include "navfinal.html";
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
         <title>Title Page</title>
 
 
        
     </head>
     <style>
+        .content{
+            padding:20px;
+        }
         #content{
             text-align:center;
             margin-left:10%;
@@ -30,10 +33,10 @@ include "navfinal.html";
     
         
 	<div class="content">
-	
-    <h3 style="color:blue; text-align:left;"><a href="index.php" style="color:blue;">Home</a>&gt;Screen Reader Access</h3>
-    <br>
+		
+       <br>
     
+       <h5 style="color:blue; text-align:left;"><a href="home.php" style="color:blue;">Home</a>&gt;Screenreader</h5>	
     <div id="content">
         
     
@@ -41,7 +44,8 @@ include "navfinal.html";
         
     <br>
     <p style="text-align: center; ">
-    <span style="font-size:16px;"><span style="color: rgb(128, 0, 0); "><b>SCREEN READER ACCESS</b></span></span>&nbsp;</p>
+    <h3>
+   <span style="color: rgb(128, 0, 0); "><b>SCREEN READER ACCESS</b></span>&nbsp;</p></h3>
     
     
     <table id="onborder">
@@ -106,6 +110,6 @@ include "navfinal.html";
      
     </body>
     <?php
-    include "footer.php";
+    include "footerreader.php";
     ?>
 </html>

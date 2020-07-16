@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=1024">
-        <title>Title Page</title>
+        <title> KANDUKUR | CTRI,Rajahmundry</title>
 
       
     </head>
@@ -33,14 +33,14 @@
     <p>
     
     <h3 style="text-align: center; ">
-        <span style="color: rgb(165, 42, 42); "><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CTRI-KRISHI VIGYAN KENDRA, KANDUKUR</strong></span></span></h3>	
+        <span style="color: rgb(165, 42, 42); "><strong>CTRI-KRISHI VIGYAN KENDRA, KANDUKUR</strong></span></span></h3>	
     
     
-    <h3>PRAKASAM DISTRICT-523 105,  Andhra Pradesh.Phone:08598-223553 </h3>
-    <h3>I/c Head, KVK: Dr. M. ANURADHA</h3><br>
+    <h5 style="text-align: center; ">PRAKASAM DISTRICT-523 105,  Andhra Pradesh.Phone:08598-223553 </h5>
+    <h5 style="text-align: center; ">I/c Head, KVK: Dr. M. ANURADHA</h5><br>
     
-    <h3 style="image-align: center; ">
-    <img  style='height:320px;width:700px; border:3px solid black;' src="kvkkan.jpg" alt="kandukur"></h3>
+    <h3 style="text-align: center; ">
+    <img  style='height:320px;width:700px; border:3px solid black;' src="images/kvkkan.jpg" alt="kandukur"></h3>
     
     <p style="line-height:1.5;">Krishi Vigyan Kendra was established in the year 2012 under the administrative control of ICAR-CTRI Rajahmundry at CTRI Research station premises, Kandukur in Prakasam district of Andhra Pradesh. </p>
     
@@ -69,7 +69,7 @@
         <span style="font-size:16px;">6.Organize extension activities to create awareness about improved agricultural technologies.</span></p>
     
     <p>
-        &nbsp;</p>
+        </p>
     
     </div>
         

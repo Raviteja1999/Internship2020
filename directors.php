@@ -20,9 +20,7 @@ include "navfinal.html";
         .content{
             padding:20px;
         }
-        #content{
-            text-align:center;
-        }
+      
       /* .table1{
        text-align:center;
         
@@ -48,34 +46,33 @@ include "navfinal.html";
     <br>
     
     <h3 style="text-align: center;">
-        <span style="color: rgb(128, 0, 0); "><strong><b>PRESENT DIRECTOR : Dr. D. DAMODAR REDDY, DIRECTOR&nbsp;</b></strong></span></h3>
+        <span style="color: rgb(128, 0, 0); "><strong>PRESENT DIRECTOR : Dr. D. DAMODAR REDDY, DIRECTOR&nbsp;</strong></span></h3>
     
         <p>
             &nbsp;</p>
             
-            <h3 style="image-align: center; ">
+            <h3 style="text-align: center; ">
             <img  style='height:250px;width:450px' src="images/ddr1.jpg" alt="ddr1"></h3>
             <p>
             &nbsp;</p>
         
                 
                 
-            
-                <p style="text-align: center; "><span style="font-size:16px; "><span style="color: rgb(128, 0, 0); "> Present Director</span></span></p>
-          
+            <h5> <p style="text-align: center; "><span style="color: rgb(128, 0, 0); "> Present Director</span></p>
+          </h5>   
              
                 <div class="tables">
 
                 <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                    <strong><span style="font-size:14px;"><span>Name</span></span></strong>
+                    <strong><span>Name</span></strong>
                     </div>
                     <div class="col">
-                    <strong><span style="font-size:14px;"><span>Tenure</span></span></strong>
+                    <strong><span>Tenure</span></strong>
                     </div>
                     <div class="col">
-                    <strong><span style="font-size:14px;"><span>Address</span></span></strong>
+                    <strong><span>Address</span></strong>
                     </div>
                     <div class="col"></div>
                 
@@ -84,35 +81,35 @@ include "navfinal.html";
                 <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                    <strong><span style="font-size:12px;"><span >Dr. D. DAMODAR REDDY</span></span></strong>
+                    <strong><span >Dr. D. DAMODAR REDDY</span></strong>
                     </div>
                     <div class="col">
-                    <strong><span style="font-size:12px;"><span >9th September, 2014 to till Date</span></span></strong>
+                    <strong><span >9th September, 2014 to till Date</span></strong>
                     </div>
                     <div class="col">
-                    <strong><span style="font-size:12px;"><span >Krishi Vihar<br />
+                    <strong><span >Krishi Vihar<br />
                         Korukonda Road<br />
-                        Rajahmundry - 533 105</span></span></strong>
+                        Rajahmundry - 533 105</span></strong>
                     </div>
                     <div class="col"></div>
                 
                 </div>  
                 
 
-                <p style="text-align: center; "><span style="font-size:16px; "><span style="color: rgb(128, 0, 0); "> Former Director</span></span></p>
-
+              <h5><p style="text-align: center; "><span style="color: rgb(128, 0, 0); "> Former Director</span></p>
+</h5>  
 
                 
                 <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                    <strong><span style="font-size:14px;"><span>Name</span></span></strong>
+                    <strong><span>Name</span></strong>
                     </div>
                     <div class="col">
-                    <strong><span style="font-size:14px;"><span>Tenure</span></span></strong>
+                    <strong><span>Tenure</span></strong>
                     </div>
                     <div class="col">
-                    <strong><span style="font-size:14px;"><span>Address</span></span></strong>
+                    <strong><span>Address</span></strong>
                     </div>
                     <div class="col"></div>
                 
@@ -122,15 +119,15 @@ include "navfinal.html";
                 <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                    <span style="font-size:12px;"><span >Dr. T.G.K. Murthy</span></span>
+                    <span >Dr. T.G.K. Murthy</span>
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span >1st February, 2012 to 8th September, 2014</span></span>
+                    <span >1st February, 2012 to 8th September, 2014</span>
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Krishi Vihar<br />
+                    <span class="style8" style="">Krishi Vihar<br />
                         Korukonda Road<br />
-                        Rajahmundry - 533 105</span></span></td>
+                        Rajahmundry - 533 105</span></td>
                     </div>
                     <div class="col"></div>
                 
@@ -139,16 +136,16 @@ include "navfinal.html";
                 <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Dr. V. Krishnamurthy </span></span>
+                    <span class="style8" style="">Dr. V. Krishnamurthy </span>
         
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">2006 - January, 2012</span></span>
+                    <span class="style8" style="">2006 - January, 2012</span>
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">H.No.24-8-2, Weavers colony<br />
+                    <span class="style8" style="">H.No.24-8-2, Weavers colony<br />
                         Opp. Agril. Market Yard<br />
-                        Rajahmundry - 533 105</span></span>
+                        Rajahmundry - 533 105</span>
                     </div>
                     <div class="col"></div>
                 
@@ -158,18 +155,18 @@ include "navfinal.html";
                 <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Dr.K. Deo Singh </span></span>
+                    <span class="style8" style="">Dr.K. Deo Singh </span>
       
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">2001 - 2005</span></span>
+                    <span class="style8" style="">2001 - 2005</span>
          
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">H.No.71-13-2, Ward No. 30 A,<br />
+                    <span class="style8" style="">H.No.71-13-2, Ward No. 30 A,<br />
                         Balajinagar, Behind Police Quarters<br />
                         Lalacheruvu<br />
-                        Rajahmundry - 533 105</span></span>
+                        Rajahmundry - 533 105</span>
             </div>
                     <div class="col"></div>
                 
@@ -178,19 +175,19 @@ include "navfinal.html";
                 <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Dr.K.Nagarajan </span></span>
+                    <span class="style8" style="">Dr.K.Nagarajan </span>
       
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">1996-2k</span></span>
+                    <span class="style8" style="">1996-2k</span>
        
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">41/A First Main (Near Kamakhya Theatre)<br />
+                    <span class="style8" style="">41/A First Main (Near Kamakhya Theatre)<br />
                         6th Cross, III Phase, V Block<br />
                         Banasankari III Stage<br />
                         Bangalore - 560 085<br />
-                        Karanataka</span></span>
+                        Karanataka</span>
                      </div>
                     <div class="col"></div>
                 
@@ -200,19 +197,19 @@ include "navfinal.html";
                 <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Dr.M.S. Chari </span></span>
+                    <span class="style8" style="">Dr.M.S. Chari </span>
         
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">1986-96</span></span>
+                    <span class="style8" style="">1986-96</span>
           
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Advisor, Pest Management,<br />
+                    <span class="style8" style="">Advisor, Pest Management,<br />
                         Centre for World Solidarity<br />
                         H.No.12-13438. Street No.1<br />
                         Taranaka,<br />
-                        Secunderabad - 500 017</span></span>
+                        Secunderabad - 500 017</span>
                      </div>
                     <div class="col"></div>
                 
@@ -222,14 +219,14 @@ include "navfinal.html";
                     <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Dr.N.C. Gopalachari </span></span></td>
+                    <span class="style8" style="">Dr.N.C. Gopalachari </span></td>
                  </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">1972-85</span></span></td>
+                    <span class="style8" style="">1972-85</span></td>
             
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Deceased</span></span></td>
+                    <span class="style8" style="">Deceased</span></td>
                    </div>
                     <div class="col"></div>
                 
@@ -239,30 +236,13 @@ include "navfinal.html";
                 <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                        <span style="font-size:12px;"><span class="style8" style="">Dr.D.M. Gopinath </span></span>
+                        <span class="style8" style="">Dr.D.M. Gopinath </span>
                  </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">1964-72</span></span>
+                    <span class="style8" style="">1964-72</span>
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Deceased</span></span>
-                   </div>
-                    <div class="col"></div>
-                
-                </div>
-
-
-
-                <div class="row">
-                <div class="col"></div>
-                    <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Dr.G.S. Murthy</span></span>
-                 </div>
-                    <div class="col">
-                     <span style="font-size:12px;"><span class="style8" style="">1958-63</span></span>
-                    </div>
-                    <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Deceased</span></span>
+                    <span class="style8" style="">Deceased</span>
                    </div>
                     <div class="col"></div>
                 
@@ -273,13 +253,13 @@ include "navfinal.html";
                 <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Dr.N.R. Bhat </span></span>
+                    <span class="style8" style="">Dr.G.S. Murthy</span>
                  </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">1955-58</span></span>
+                     <span class="style8" style="">1958-63</span>
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Deceased</span></span>
+                    <span class="style8" style="">Deceased</span>
                    </div>
                     <div class="col"></div>
                 
@@ -290,13 +270,30 @@ include "navfinal.html";
                 <div class="row">
                 <div class="col"></div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Dr.B.S. Kadam </span></span>
+                    <span class="style8" style="">Dr.N.R. Bhat </span>
                  </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">1947-54</span></span>
+                    <span class="style8" style="">1955-58</span>
                     </div>
                     <div class="col">
-                    <span style="font-size:12px;"><span class="style8" style="">Deceased</span></span>
+                    <span class="style8" style="">Deceased</span>
+                   </div>
+                    <div class="col"></div>
+                
+                </div>
+
+
+
+                <div class="row">
+                <div class="col"></div>
+                    <div class="col">
+                    <span class="style8" style="">Dr.B.S. Kadam </span>
+                 </div>
+                    <div class="col">
+                    <span class="style8" style="">1947-54</span>
+                    </div>
+                    <div class="col">
+                    <span class="style8" style="">Deceased</span>
                    </div>
                     <div class="col"></div>
                 
@@ -315,135 +312,135 @@ include "navfinal.html";
             <tbody >
                 <tr style="align:center;">
                     <th style="align:center;">
-                        <strong><span style="font-size:12px;"><span>Name</span></span></strong></th>
+                        <strong><span>Name</span></strong></th>
                     <th style="align:center;">
-                        <strong><span style="font-size:12px;"><span>Tenure</span></span></strong></th>
+                        <strong><span>Tenure</span></strong></th>
                     <th style="align:center;">
-                        <strong><span style="font-size:12px;"><span>Address</span></span></strong></th>
+                        <strong><span>Address</span></strong></th>
                 </tr>
                 <tr>
                     <td style="align:center;">
-                        <strong><span style="font-size:12px;"><span >Dr. D. DAMODAR REDDY</span></span></strong></td>
+                        <strong><span >Dr. D. DAMODAR REDDY</span></strong></td>
                     <td style="align:center;">
-                        <strong><span style="font-size:12px;"><span >9th September, 2014 to till Date</span></span></strong></td>
+                        <strong><span >9th September, 2014 to till Date</span></strong></td>
                     <td style="align:center;">
-                        <strong><span style="font-size:12px;"><span >Krishi Vihar<br />
+                        <strong><span >Krishi Vihar<br />
                         Korukonda Road<br />
-                        Rajahmundry - 533 105</span></span></strong></td>
+                        Rajahmundry - 533 105</span></strong></td>
                 </tr>
             </tbody>
             </table>
             
                 
    
-                <p style="text-align: center; ">	<span style="font-size:16px; "><span style="color: rgb(128, 0, 0); "> Former Director</span></span></p>
+                <p style="text-align: center; ">	<span style="color: rgb(128, 0, 0); "> Former Director</span></p>
     
            <table>
             <tbody>
                 
                 <tr>
                     <td style="align:center;">
-                        <strong><span style="font-size:12px;"><span class="style5" style="">Name</span></span></strong></td>
+                        <strong><span class="style5" style="">Name</span></strong></td>
                     <td style="align:center;">
-                        <strong><span style="font-size:12px;"><span class="style5" style="">Tenure</span></span></strong></td>
+                        <strong><span class="style5" style="">Tenure</span></strong></td>
                     <td style="align:center;">
-                        <strong><span style="font-size:12px;"><span class="style5" style="">Address</span></span></strong></td>
+                        <strong><span class="style5" style="">Address</span></strong></td>
                 </tr>
                 <tr>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">Dr. T.G.K. Murthy </span></span></td>
+                        <span class="style8" style="">Dr. T.G.K. Murthy </span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">1st February, 2012 to 8th September, 2014</span></span></td>
+                        <span class="style8" style="">1st February, 2012 to 8th September, 2014</span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">Krishi Vihar<br />
+                        <span class="style8" style="">Krishi Vihar<br />
                         Korukonda Road<br />
-                        Rajahmundry - 533 105</span></span></td>
+                        Rajahmundry - 533 105</span></td>
                 </tr>
                 <tr >
                     <td >
-                        <span style="font-size:12px;"><span class="style8" style="">Dr. V. Krishnamurthy </span></span></td>
+                        <span class="style8" style="">Dr. V. Krishnamurthy </span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">2006 - January, 2012</span></span></td>
+                        <span class="style8" style="">2006 - January, 2012</span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">H.No.24-8-2, Weavers colony<br />
+                        <span class="style8" style="">H.No.24-8-2, Weavers colony<br />
                         Opp. Agril. Market Yard<br />
-                        Rajahmundry - 533 105</span></span></td>
+                        Rajahmundry - 533 105</span></td>
                 </tr>
             
                 <tr >
                     <td >
-                        <span style="font-size:12px;"><span class="style8" style="">Dr.K. Deo Singh </span></span></td>
+                        <span class="style8" style="">Dr.K. Deo Singh </span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">2001 - 2005</span></span></td>
+                        <span class="style8" style="">2001 - 2005</span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">H.No.71-13-2, Ward No. 30 A,<br />
+                        <span class="style8" style="">H.No.71-13-2, Ward No. 30 A,<br />
                         Balajinagar, Behind Police Quarters<br />
                         Lalacheruvu<br />
-                        Rajahmundry - 533 105</span></span></td>
+                        Rajahmundry - 533 105</span></td>
                 </tr>
                 <tr class="generaltext">
                     <td >
-                        <span style="font-size:12px;"><span class="style8" style="">Dr.K.Nagarajan </span></span></td>
+                        <span class="style8" style="">Dr.K.Nagarajan </span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">1996-2k</span></span></td>
+                        <span class="style8" style="">1996-2k</span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">41/A First Main (Near Kamakhya Theatre)<br />
+                        <span class="style8" style="">41/A First Main (Near Kamakhya Theatre)<br />
                         6th Cross, III Phase, V Block<br />
                         Banasankari III Stage<br />
                         Bangalore - 560 085<br />
-                        Karanataka</span></span></td>
+                        Karanataka</span></td>
                 </tr>
                 <tr class="generaltext">
                     <td >
-                        <span style="font-size:12px;"><span class="style8" style="">Dr.M.S. Chari </span></span></td>
+                        <span class="style8" style="">Dr.M.S. Chari </span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">1986-96</span></span></td>
+                        <span class="style8" style="">1986-96</span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">Advisor, Pest Management,<br />
+                        <span class="style8" style="">Advisor, Pest Management,<br />
                         Centre for World Solidarity<br />
                         H.No.12-13438. Street No.1<br />
                         Taranaka,<br />
-                        Secunderabad - 500 017</span></span></td>
+                        Secunderabad - 500 017</span></td>
                 </tr>
                 <tr class="generaltext">
                     <td >
-                        <span style="font-size:12px;"><span class="style8" style="">Dr.N.C. Gopalachari </span></span></td>
+                        <span class="style8" style="">Dr.N.C. Gopalachari </span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">1972-85</span></span></td>
+                        <span class="style8" style="">1972-85</span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">Deceased</span></span></td>
+                        <span class="style8" style="">Deceased</span></td>
                 </tr>
                 <tr class="generaltext">
                     <td >
-                        <span style="font-size:12px;"><span class="style8" style="">Dr.D.M. Gopinath </span></span></td>
+                        <span class="style8" style="">Dr.D.M. Gopinath </span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">1964-72</span></span></td>
+                        <span class="style8" style="">1964-72</span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">Deceased</span></span></td>
+                        <span class="style8" style="">Deceased</span></td>
                 </tr>
                 <tr class="generaltext">
                     <td >
-                        <span style="font-size:12px;"><span class="style8" style="">Dr.G.S. Murthy</span></span></td>
+                        <span class="style8" style="">Dr.G.S. Murthy</span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">1958-63</span></span></td>
+                        <span class="style8" style="">1958-63</span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">Deceased</span></span></td>
+                        <span class="style8" style="">Deceased</span></td>
                 </tr>
                 <tr class="generaltext">
                     <td >
-                        <span style="font-size:12px;"><span class="style8" style="">Dr.N.R. Bhat </span></span></td>
+                        <span class="style8" style="">Dr.N.R. Bhat </span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">1955-58</span></span></td>
+                        <span class="style8" style="">1955-58</span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">Deceased</span></span></td>
+                        <span class="style8" style="">Deceased</span></td>
                 </tr>
                 <tr class="generaltext">
                     <td >
-                        <span style="font-size:12px;"><span class="style8" style="">Dr.B.S. Kadam </span></span></td>
+                        <span class="style8" style="">Dr.B.S. Kadam </span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">1947-54</span></span></td>
+                        <span class="style8" style="">1947-54</span></td>
                     <td>
-                        <span style="font-size:12px;"><span class="style8" style="">Deceased</span></span></td>
+                        <span class="style8" style="">Deceased</span></td>
                 </tr>
             </tbody>
         </table>

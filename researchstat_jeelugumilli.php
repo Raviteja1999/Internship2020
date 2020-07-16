@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=1024">
-        <title>Title Page</title>
+        <title> Jeelugumilli | CTRI,Rajahmundry</title>
 
       
     </head>
@@ -19,7 +19,7 @@
        padding:20px;
       word-spacing: 3px ;
       line-height: 1.5;
-  }
+     }
     </style>
     </head>
     <body>
@@ -31,15 +31,18 @@
     <br>
     
     <h3 style="text-align: center; ">
-       <span style="color: rgb(165, 42, 42); "><strong>CTRI RESEARCH STATION, JEELUGUMILLI</strong></span></span></h3>	
+       <span style="color: rgb(165, 42, 42); "><strong>CTRI RESEARCH STATION, JEELUGUMILLI</strong></span></span>
+      
+    </h3>	
+    <h5  style="text-align: center; ">West Godavari District-534456,  Andhra Pradesh. Phone : 08821- 83329</h5>
+    
+    <h5  style="text-align: center; ">Name of the Head(in-charge): Dr. S. KASTURI KRISHNA</h5><br>
     
     
-    <h3>West Godavari District-534456,  Andhra Pradesh. Phone : 08821- 83329</h3>
-    <br>
-    <h3>Name of the Head(in-charge): Dr. S. KASTURI KRISHNA</h3><br>
     
-    <h3 style="image-align: center; ">
-    <img style="height:320px; width:700px; border:3px solid black;" src="Jeelugumilli.JPG" alt="Jeelugumilli"></h3>
+    
+    <h3 style="text-align: center; ">
+    <img style="height:320px; width:700px; border:3px solid black;" src="images/Jeelugumilli.JPG" alt="Jeelugumilli"></h3>
     
     <p style= "line-height:1.5;">Exportable type of flue cured tobacco is grown in Northern light soils of Andhra Pradesh covering 
     East Godavari, West Godavari and parts of Khammam District in an area of 20,000 ha. Producing 
@@ -49,7 +52,7 @@
     Later during 1988, regular research station was started at Jeelugumilli, West Godavari District 
     to conduct systematic research on FCV tobacco.</p>
     
-    <h2><b>MANDATE</b></h2>
+    <h5><b>MANDATE</b></h5>
     
     
     <p>

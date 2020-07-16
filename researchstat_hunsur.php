@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=1024">
-        <title>Title Page</title>
+        <title> HUNSUR | CTRI,Rajahmundry</title>
 
       
     </head>
@@ -35,13 +35,13 @@
     <p>
     
     <h3 style="text-align: center; ">
-        <span style="color: rgb(165, 42, 42); "><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CTRI RESEARCH STATION, HUNSUR</strong></span></span></h3>	
+        <span style="color: rgb(165, 42, 42); "><strong>CTRI RESEARCH STATION, HUNSUR</strong></span></span></h3>	
     
-    <h3>MYSORE DISTRICT - 571 105,  Karnataka. Phone : 08222-252030</h3>
-    <h3>Head of the station: Dr.S. Ramakrishnan</h3><br>
+    <h5 style="text-align: center; ">MYSORE DISTRICT - 571 105,  Karnataka. Phone : 08222-252030</h5>
+    <h5 style="text-align: center; ">Head of the station: Dr.S. Ramakrishnan</h5><br>
     
-    <h3 style="image-align: center; ">
-    <img  style='height:320px;width:700px; border:3px solid black;' src="hunsur.JPG" alt="hunsur"></h3>
+    <h3 style="text-align: center; ">
+    <img  style='height:320px;width:700px; border:3px solid black;' src="images/hunsur.JPG" alt="hunsur"></h3>
     
     <p style="line-height:1.5;">The research station was established in 1957 under the second five year 
     plan with Plant Pathology and Agronomy disciplines keeping an objective of
@@ -71,7 +71,7 @@
     
     
     <p>
-        &nbsp;</p>
+        </p>
     
     </div>
         
