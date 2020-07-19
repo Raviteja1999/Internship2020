@@ -1,10 +1,4 @@
-   
-   
-   
-   
-   
-   
-   <?php
+<?php
         include "heading1.html";
         echo "<br>";
         include "navfinal.html";
@@ -20,42 +14,56 @@
             <title>Journals | CTRI,Rajahmundry</title>
 
         
+    <script src="https://jgateplus.com/cdn/js/jgateplussearch.js"></script>
+       
         </head>
+
+        <style>
+        .menu{
+         padding-left:25%;
+         padding-right: 25%;
+         
+        }
+        </style>
+
         <body>
 
         
-    <div class="moduletable" style="margin-top:6%;margin-bottom:6%" >
+    <div class="" style="margin-top:6%;margin-bottom:6%" >
 
     <h3 class="text-center" >Discover Journal Articles</h3>
 
-    <ul class="menu">
+    <div class="menu">
                             
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
-    </script> 
-    <script src="https://jgateplus.com/cdn/js/jgateplussearch.js"></script>
-    <div style="border: thin solid #c1cdd1; width: 90%; height: auto;">
+    <div style="border: thin solid #c1cdd1; height: auto;">
+
     <div id="searchBody">
 
-    <div class="row1" style="width: 80%; margin-left: 1%; margin-top: 1%;">
-    <div class="form-wrapper">
+ <div class="row1" style="margin:2%" >
+    <div class="form-wrapper" style="text-align: -webkit-center" >
     <table style="background-color: #c1cdd1; border-radius: 3px;">
-    <tr><td><input type="text" id="search" style="width:100px;"
-        onkeypress="if (event.keyCode == 13) { searchFunction(); }"
-        placeholder="Search-in-Journals" /></td><td>
-    <div id="submit" onclick="searchFunction()">
-        <img src=" https://jgateplus.com/cdn/images/jsearch3.png">
-    </div></td></tr></table>
+    <tbody class="text-center">
+    <tr>
+        <td><input type="text" id="search" style="width:200px;" onkeypress="if (event.keyCode == 13) { searchFunction(); }" placeholder="Search-in-Journals" /></td>
+        
+        <td><div id="submit" onclick="searchFunction()"> <img src=" https://jgateplus.com/cdn/images/jsearch3.png">  </div></td>
+    </tr>
+    </tbody>
+    </table>
+
     </div>
-    </div>
+    </div> 
+  
+  <br>
 
 
-    <div class="row1" style="margin-left: 3%;">
-    <span style="font-size: 10px;" class="searchBoxText"> 
-    <a href="https://jgateplus.com/search//?spage=advancedsearch#advancedsearch"
-        target="_blank"> Advanced Search </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-    <a href="https://jgateplus.com/search/journalFinder/" target="_blank"> 
-    Browse Journals A-Z</a>
+
+
+    <div class="row1 text-center" >
+    <span style="" class="searchBoxText "> 
+    <a href="https://jgateplus.com/search//?spage=advancedsearch#advancedsearch"  target="_blank"> Advanced Search </a> <br>
+    <a href="https://jgateplus.com/search/journalFinder/" target="_blank">   Browse Journals A-Z</a>
     </span>
     </div>
     </div>
@@ -63,7 +71,7 @@
 
 
 
-    </ul>
+    </div>
     </div>
 
         

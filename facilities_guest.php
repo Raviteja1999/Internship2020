@@ -20,8 +20,7 @@
       word-spacing: 3px ;
       line-height: 1.5;
   }
-
-    </style>
+   </style>
 
       <body>
       
@@ -36,32 +35,33 @@
     <span style="color: rgb(128, 0, 0); "><strong>GUEST HOUSE PER DAY PER BED CHARGES</strong> (</span></span><a href="files/guest.pdf">APPLICATION FORM</a>)&nbsp;</p>
     
     
-    <div class="table1" id="onborder">
-    <table >
-    <tbody>
+    <div id="onborder">
+    <table>
+    <tbody id="table1" style="border: 1px solid;">
     
-            <tr >
-                <td style="width:10%;">
+            <tr style="border: 1px solid;">
+                <td style="width:10%;" style="border: 1px solid;"> 
                     &nbsp;</td>
-                <td style="text-align:center; width:20%;">
+                <td style="text-align:center; width:20%;border: 1px solid;">
                     <strong><strong>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; SUIT </strong></strong></td>
-                <td style="text-align:center; width:15%;">
+                <td style="text-align:center; width:15%;border: 1px solid;">
                     <strong><strong>&nbsp;&nbsp; &nbsp;A.C. ROOM</strong></strong></td>
-                <td style="text-align:center; width:10%;">
+                <td style="text-align:center; width:10%;border: 1px solid;">
                     <strong><strong>&nbsp;&nbsp; &nbsp;DORMITORY </strong></strong></td>
             </tr>
             <tr class="generaltext">
-                <td class="generaltext">
-                    SERVING &amp; RETIRED OFFICERS OF NARS (ICAR / SAUs) ON OFFICIAL VISIT</td>
-                <td class="generaltext">
+                <td class="generaltext" style="border: 1px solid;">
+                    SERVING &amp; RETIRED O FFICERS OF NARS (ICAR / SAUs) ON OFFICIAL VISIT</td>
+                <td class="generaltext" style="border: 1px solid;">
                     &nbsp;&nbsp;&nbsp; &nbsp;Rs.250/-</td>
-                <td class="generaltext">
+                <td class="generaltext" style="border: 1px solid;">
                     &nbsp;&nbsp;&nbsp; &nbsp;Rs. 125/-</td>
-                <td class="generaltext">
+                <td class="generaltext" style="border: 1px solid;">
                     &nbsp;&nbsp;&nbsp; &nbsp;Rs. 50/-</td>
             </tr>
         </tbody>
     </table>
+    </div>
     <p>
         &nbsp;</p>
     <p>
@@ -82,7 +82,7 @@
     <p>
         &nbsp;</p>
     
-    </div>
+    
     </div>
         
        <br class="clear" />

@@ -50,7 +50,8 @@ include "navfinal.html";
                
                
               
-                   <div class="content1 col-lg-8" style="font-size: 14px; padding:2px;">
+                <p class="content1 col-lg-8" style="font-size: 14px; padding:2px; text-align:justify ">
+               
                 Government of India constituted Indian Central Tobacco Committee (ICTC) in 1945 keeping in view the important role played by tobacco in national economy and employment generation.
                 The Central Tobacco Research Institute was established in 1947 at Rajahmundry under the aegis of ICTC, Madras.
                 The function of CTRI was taken over by the Indian Council of Agricultural Research (ICAR) in 1965. 
@@ -59,8 +60,8 @@ include "navfinal.html";
                 Tobacco is one of the important high value commercial crops grown in an area of 0.47 million hectares over 15 states in India. Presently, India stands third in production of tobacco (800 million kg) in the world after China and Brazil. 
                 It provides employment directly and indirectly to 45.7 million people and contributed as much as Rs.22, 737 crore as excise duty and Rs.6,000 crore in terms of foreign exchange to the national exchequer. FCV, bidi, hookah, chewing, cigar-wrapper, cheroot, burley, Oriental, HDBRG, Lanka, Pikka, Natu etc. 
                 are the main types of tobacco grown in the country, with FCV and Burley tobacco being the main exportable types.
-
-            </div>
+             
+            </p>
             <div class="col-lg-1"></div>
                
         </div>
