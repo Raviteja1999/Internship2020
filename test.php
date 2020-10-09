@@ -140,52 +140,6 @@
 
      
 
-<?php
-//include "footerreader.php"
-?> 
-
--->
-
-<div class="row row2" >
-
-
-  <div id="left-content" class="col-lg-4">
-    <h3> Facilities  </h3>
-    <ul > 
-      <li><button id="device"  value= # class="btn btn-link" onclick="device(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Auto-Analyser      </button> </li>  
-
-      <li><a id="device"   class="btn btn-link" href="smoke-machine.php" style='font-size:15px;font-weight:bold;padding:0'>Smoke Machine</a> </li>       
-
-      <li><button id="device"  value= gas-chromatograph-mass-spectrometry class="btn btn-link" onclick="device(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Gas Chromatograph Mass Spectrometry      </button> </li>       
-
-      <li><button id="device"  value= # class="btn btn-link" onclick="device(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>High Performance Liquid Chromatograph      </button> </li>       
-
-      <li><button id="device"  value= # class="btn btn-link" onclick="device(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> Atomic Absorption Spectrophotometer     </button> </li>       
-
-      <li><button id="device"  value= # class="btn btn-link" onclick="device(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> Total Organic Carbon Analyser     </button> </li>       
-
-      <li><button id="device"  value= # class="btn btn-link" onclick="device(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> Spectro Photometer     </button> </li>       
-
-      <li><button id="device"  value= # class="btn btn-link" onclick="device(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Master Cycler      </button> </li> 
-
-      <li><button id="device"  value= # class="btn btn-link" onclick="device(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> Centrifuge (Table top)     </button> </li> 
-
-      <li><button id="device"  value= # class="btn btn-link" onclick="device(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>Ultra Centrifuge      </button> </li> 
-
-      <li><button id="device"  value= # class="btn btn-link" onclick="device(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'> Vaccum Concentrator     </button> </li> 
-
-      <li><button id="device"  value= # class="btn btn-link" onclick="device(this.id,this.value)" style='font-size:15px;font-weight:bold;padding:0'>pH meter     </button> </li> 
-             
-
-                     
-       </ul>
-          
-
-
-  </div>
-
-
-
 
 
 

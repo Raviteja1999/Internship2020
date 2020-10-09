@@ -21,14 +21,20 @@ include "navfinal.html";
             padding:20px;
         }
         #content{
-            text-align:center;
+           margin-left:15%;
+           margin-right:15%;
         }
 
         table {
             height:100px;
     width: 100%;
+  
 }
-    </style>
+  
+    tbody>tr,td{
+        border:1px solid black;
+    }
+        </style>
     <body>
     
     
@@ -38,6 +44,8 @@ include "navfinal.html";
     <br>		
     
   <input type="button" id="btn" class="btn btn-primary" value="Print" onclick="printDiv();" style="float:right"> 
+ 
+  <br><br>
     <div id="content">
 
         
