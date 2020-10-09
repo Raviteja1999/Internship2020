@@ -79,7 +79,12 @@ include "navfinal.html";
     
     <br/>
     
-    
+    <h2 style="text-align: left; ">
+	<span style="font-size:16px;"><span style="color: rgb(165, 42, 42); "><strong>TECHNOLOGIES DEVELOPED</strong></span></span></h2>
+
+<p><b>Technologies </b>(<a href="files/technology1.pdf">click here to Download</a>) </p>
+
+<br/>
     
     <h2 style="text-align: left; ">
         <span style="font-size:16px;"><span style="color: rgb(165, 42, 42); "><strong>RESULTS FRAMEWORK DOCUMENTS (RFD) </strong></span></span></h2>

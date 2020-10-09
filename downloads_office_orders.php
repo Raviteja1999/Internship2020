@@ -37,6 +37,13 @@
     
     
     <h3 style="text-align: center; "><span style="color: rgb(165, 42, 42); "><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OFFICE ORDERS</strong></span></h3><br />
+
+    <a href="covid2.pdf"> <p style="font-color:red;">Guidelines issued by MHA on the measures to be taken for containment of COVID-19 </p></a>   
+
+
+<a href="covid1.pdf"> <p style="font-color:red;">Office order on Preventive measures being implemented to contain the spread of COVID -19, dated 24.04.2020.</p></a>
+
+<a href="files/compen.pdf"><p style="font-color:red;">Statement of Applications received for appointment on compassionate basis&nbsp; </p></a>
     
     <a href="files/sportslist.pdf"><p style="font-color:red;">Sports Selection List&nbsp; </p></a>
     

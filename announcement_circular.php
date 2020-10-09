@@ -36,7 +36,7 @@
     
     <h3 style="text-align: center; "><span style="color: rgb(165, 42, 42); "><strong>CIRCULARS</strong></span></h3><br />
     
-   
+    <a href="files/bas.jpg"> <p style="font-color:red;">Biometric Attendance System</p></a>
 
     <a href="files/quarter.doc" <p style="font-color:red;">Form For Applying For Allotment Of Residential Quarters</p></a>
     
