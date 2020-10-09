@@ -39,7 +39,7 @@
 
 <h3 style="text-align: center; ">
 	<span style="font-size:20px;"><span style="color: rgb(165, 42, 42); "><strong>TRAINING MODULES</strong></span></span></h3>
-
+<b>
 <p>
 	<span style="font-size:16px;">Following Training programmes will be conducted. </span></p>
 <p>
@@ -59,7 +59,7 @@
 <p>
 	<span style="font-size:16px;">&bull;&nbsp; Energy conservation and integrated barn technique.&nbsp;</span></p>
 
-
+</b>
 <p>
 	&nbsp;</p>
 

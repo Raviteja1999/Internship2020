@@ -38,21 +38,35 @@
 
 <p>
 	&nbsp;</p>
+  <b>
+
 <p>
-	<span style="font-size:16px;">1. Smoke constituents viz., Tar, Nicotine and Carbon monoxide </span></p>
-		<p> <span style="font-size:16px;">2. Solanesol by HPLC </span></p>
+	<span style="font-size:14px;">1.   Smoke constituents viz., Tar, Nicotine and Carbon monoxide</span></p>
+
 <p>
-	<span style="font-size:16px;">3. Nicotine, Reducing sugars and Chlorides by Auto-analyzer </span></p>
+	<span style="font-size:14px;">2.   Estimation of Solanesol</span></p>
+
 <p>
-	<span style="font-size:16px;">4. Nitrogen, Phosphorus, Potassium, Calcium, Magnesium, Sulphur, Silica and Ash in leaf/ soil/ fertilizer </span></p>
+	<span style="font-size:14px;">3.   Estimation of Nicotine, Reducing sugars and Chlorides in tobacco leaf</span></p>
+
+
 <p>
-	<span style="font-size:16px;">5. Leaf physical quality parameters viz., Filling Value (FV) and Equilibrium Moisture Content (EMC) </span></p>
+	<span style="font-size:14px;">4.   Estimation of Nitrogen, Phosphorus, Potassium, Calcium, Magnesium, Sulphur in leaf and soil </span></p>
+
 <p>
-	<span style="font-size:16px;">6. Micronutrients viz., Zinc, Copper, Iron, Manganese &amp; Boron in leaf/ soil/ fertilizer by AAS</span></p>
+	<span style="font-size:14px;">5.   Estimation of Micronutrients viz., Zinc, Copper, Iron, & Manganese in leaf and soil by AAS</span></p>
+
 <p>
-	<span style="font-size:16px;">7. Soil properties and fertility -- pH, Electrical conductivity, Chlorides, Organic carbon, Available P &amp; K </span></p>
+	<span style="font-size:14px;">6.   Estimation of Soil physico-chemical and fertility parameters -- pH, Electrical Conductivity, Chlorides, Organic carbon, Available P & K</span></p>
+
 <p>
-	<span style="font-size:16px;">8. Water quality -- pH, Electrical conductivity, Chlorides &nbsp;</span></p>
+	<span style="font-size:14px;">7.   Estimation of Water quality parameters -- pH, Electrical conductivity and Chlorides  </span></p>
+
+<p>
+	<span style="font-size:14px;">8.   Pesticide residue analysis
+</span></p>
+ 
+</b>
 
 <p>
 	&nbsp;</p>

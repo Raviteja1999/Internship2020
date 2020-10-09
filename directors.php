@@ -20,11 +20,14 @@ include "navfinal.html";
         .content{
             padding:20px;
         }
-        .tables{
+
+        .table{
             margin-left:25%;
-            margin-right: 25%;
+            margin-right:25%;
         }
-    
+        .table>.row,.col{
+            border:1px solid black;
+        }
       
       .tables>.row,.col{
         border:1px solid black;
@@ -66,7 +69,7 @@ include "navfinal.html";
         
                 
                 
-            <h5> <p style="text-align: center; "><span style="color: rgb(128, 0, 0); font-size:30px "> Present Director</span></p>
+            <h5> <p style="text-align: center; "><span style="color: rgb(128, 0, 0); font-size:30px;"> Present Director</span></p>
           </h5>   
              
                 <div class="tables">
@@ -103,8 +106,8 @@ include "navfinal.html";
                 
                 </div>  
                 
-<br>
-              <h5><p style="text-align: center; "><span style="color: rgb(128, 0, 0); font-size:30px"> Former Director</span></p>
+
+              <h5><p style="text-align: center; "><span style="color: rgb(128, 0, 0);font-size:30px; "><br> Former Director</span></p>
 </h5>  
 
                 

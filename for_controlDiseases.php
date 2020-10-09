@@ -323,7 +323,17 @@
     <p>
         By pouring a mixture of mancozeb 20 g and carbendazim (bavistin) 5 g in 10 litres of water at the plant bases of infected plants and surrounding plants @ 75 to 100 ml. This solution can also be sprayed on the plants.</p>
     
-    
+        <h1>
+	<span style="font-size:12px;"><span style="color: rgb(128, 0, 0); ">Powdery mildew : <i>Erysiphe cichoracearum</i></span></span></h5>
+<h1>
+	<span style="color:#4b0082;"><span style="font-size:12px;">Control Measures</span></span></h5>
+<ul>
+	<li>
+		Apply sulphur powder (200 mesh) @ 40 kg/ha to soil between plant rows 6-8 weeks after planting. Ash or sand is to be mixed with sulphur for easy application. Care to be taken that sulphur does not fall on tobacco leaves. Recommended for black soils only.</li>
+	<li>
+		Spraying Karathane 0.2% or  carbendazim 0.05% just before the disease sets in and repeating the same at 10-12 days interval if necessary.</li>
+	<li>
+		Using resistant varieties like Swarna or Line 2359 developed at Central Tobacco Research Institute, in disease endemic areas.</li>
       <p>
         &nbsp;</p>
     
