@@ -27,7 +27,13 @@ include "navfinal.html";
         table {
             height:100px;
     width: 100%;
-}
+       }
+
+       tbody>tr,td{
+           border:1px solid black;
+
+       }
+
     </style>
     <body>
     
@@ -59,7 +65,7 @@ include "navfinal.html";
         <td>
         <span style="font-size:16px;"><span style="color: rgb(128, 0, 0); "><b> .&nbsp;  </b></span></span> <br> <span style="font-size:12px;"><span style="color: green; "> <b>  </b></span></span> <br />
       <b><span style="font-size:14px;"><span style="color:black; "> OFFICE ADDRESS:</span></span></b><br> <span style="font-size:12px;"><span style="color:black; ">Room No. 102, First Floor, <br> Krishi Bhawan<br> New Delhi - 110 001 <br><br>
-       <b>Telephone No: </b>   
+       <b>Telephone No: 011-23382375 </b>   
        
          </td>
 
@@ -67,7 +73,7 @@ include "navfinal.html";
         <td>
         <span style="font-size:16px;"><span style="color: rgb(128, 0, 0); "><b>Dr.&nbsp;  K. PRABHAKARA RAO</b></span></span> <br> <span style="font-size:12px;"><span style="color: green; "> <b> Scientist, Division of Crop Improvement</b></span></span> <br />
       <b><span style="font-size:14px;"><span style="color:black; "> OFFICE ADDRESS:</span></span></b><br> <span style="font-size:12px;"><span style="color:black; ">ICAR-Central Tobacco Research Institute <br> Bhaskar Nagar<br>Rajahmundry - 533 105  <br><br>
-       <b>Telephone No:</b>
+       <b>Telephone No: 0883-2449871 (Extn: 112)</b>
         </td>
        
         </tr>

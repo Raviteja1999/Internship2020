@@ -39,38 +39,52 @@
     <h3 style="text-align: center; ">
         <span style="color: rgb(165, 42, 42); "><strong>EQUIPMENTS</strong></span></span></h3>
     
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; Cigarette Smoking Machine </span></p>
-    
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; Briquette making Machine </span></p>
-    
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; NMR for seed oil estimation </span></p>
-    
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; GCMS- for measuring tobacco flavours </span></p>
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; Auto Analyser </span></p>
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; Gel Documentation System </span></p>
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; PCR Machine </span></p>
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; Electro phorisis unit </span></p>
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; Deep freezer </span></p>
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; High speed refrigerated centrifuge </span></p>
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; High performance liquid chromotography unit </span></p>
-    
-    
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; Gas chromotography unit </span></p>
-    
-    <p>
-        <span style="font-size:16px;">&bull;&nbsp; UV spectro photo meter  </span></p>
+        <p>
+	<span style="font-size:16px;">&bull;&nbsp; Cigarette Smoking Machine </span></p>
+
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; Automatic Weather Station </span></p>
+
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; Briquette making Machine </span></p>
+
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; Bio-Analyser</span></p>
+
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; Tissue lyzer</span></p>
+
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; Micro Plate Reader</span></p>
+
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; Total carbon analyzer</span></p>
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; NMR for seed oil estimation </span></p>
+
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; GCMS- for measuring tobacco flavours </span></p>
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; Auto Analyser </span></p>
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; Gel Documentation System </span></p>
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; PCR Machines </span></p>
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; Electro phorisis unit </span></p>
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; Deep freezer </span></p>
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; High speed refrigerated centrifuge </span></p>
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; High performance liquid chromotography unit </span></p>
+
+
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; Gas chromotography unit </span></p>
+
+<p>
+	<span style="font-size:16px;">&bull;&nbsp; UV spectro photo meter  </span></p>
     
       <p>
         &nbsp;</p>

@@ -53,11 +53,11 @@
                 <td class="generaltext" style="border: 1px solid;">
                     SERVING &amp; RETIRED O FFICERS OF NARS (ICAR / SAUs) ON OFFICIAL VISIT</td>
                 <td class="generaltext" style="border: 1px solid;">
+                    &nbsp;&nbsp;&nbsp; &nbsp;Rs.500/-</td>
+                <td class="generaltext" style="border: 1px solid;">
                     &nbsp;&nbsp;&nbsp; &nbsp;Rs.250/-</td>
                 <td class="generaltext" style="border: 1px solid;">
-                    &nbsp;&nbsp;&nbsp; &nbsp;Rs. 125/-</td>
-                <td class="generaltext" style="border: 1px solid;">
-                    &nbsp;&nbsp;&nbsp; &nbsp;Rs. 50/-</td>
+                    &nbsp;&nbsp;&nbsp; &nbsp;Rs.150/-</td>
             </tr>
         </tbody>
     </table>

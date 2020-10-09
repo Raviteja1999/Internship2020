@@ -20,6 +20,14 @@ include "navfinal.html";
         .content{
             padding:20px;
         }
+
+        .table{
+            margin-left:25%;
+            margin-right:25%;
+        }
+        .table>.row,.col{
+            border:1px solid black;
+        }
       
       /* .table1{
        text-align:center;
@@ -58,13 +66,13 @@ include "navfinal.html";
         
                 
                 
-            <h5> <p style="text-align: center; "><span style="color: rgb(128, 0, 0); "> Present Director</span></p>
+            <h5> <p style="text-align: center; "><span style="color: rgb(128, 0, 0); font-size:30px;"> Present Director</span></p>
           </h5>   
              
                 <div class="tables">
 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <strong><span>Name</span></strong>
                     </div>
@@ -74,12 +82,12 @@ include "navfinal.html";
                     <div class="col">
                     <strong><span>Address</span></strong>
                     </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div>
 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <strong><span >Dr. D. DAMODAR REDDY</span></strong>
                     </div>
@@ -91,17 +99,17 @@ include "navfinal.html";
                         Korukonda Road<br />
                         Rajahmundry - 533 105</span></strong>
                     </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div>  
                 
 
-              <h5><p style="text-align: center; "><span style="color: rgb(128, 0, 0); "> Former Director</span></p>
+              <h5><p style="text-align: center; "><span style="color: rgb(128, 0, 0);font-size:30px; "><br> Former Director</span></p>
 </h5>  
 
                 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <strong><span>Name</span></strong>
                     </div>
@@ -111,13 +119,13 @@ include "navfinal.html";
                     <div class="col">
                     <strong><span>Address</span></strong>
                     </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div>
 
 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <span >Dr. T.G.K. Murthy</span>
                     </div>
@@ -129,12 +137,12 @@ include "navfinal.html";
                         Korukonda Road<br />
                         Rajahmundry - 533 105</span></td>
                     </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div> 
 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <span class="style8" style="">Dr. V. Krishnamurthy </span>
         
@@ -147,13 +155,13 @@ include "navfinal.html";
                         Opp. Agril. Market Yard<br />
                         Rajahmundry - 533 105</span>
                     </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div> 
 
 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <span class="style8" style="">Dr.K. Deo Singh </span>
       
@@ -168,12 +176,12 @@ include "navfinal.html";
                         Lalacheruvu<br />
                         Rajahmundry - 533 105</span>
             </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div>
 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <span class="style8" style="">Dr.K.Nagarajan </span>
       
@@ -189,13 +197,13 @@ include "navfinal.html";
                         Bangalore - 560 085<br />
                         Karanataka</span>
                      </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div>
 
 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <span class="style8" style="">Dr.M.S. Chari </span>
         
@@ -211,13 +219,13 @@ include "navfinal.html";
                         Taranaka,<br />
                         Secunderabad - 500 017</span>
                      </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div>
 
 
                     <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <span class="style8" style="">Dr.N.C. Gopalachari </span></td>
                  </div>
@@ -228,13 +236,13 @@ include "navfinal.html";
                     <div class="col">
                     <span class="style8" style="">Deceased</span></td>
                    </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div>
 
 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                         <span class="style8" style="">Dr.D.M. Gopinath </span>
                  </div>
@@ -244,14 +252,14 @@ include "navfinal.html";
                     <div class="col">
                     <span class="style8" style="">Deceased</span>
                    </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div>
 
 
 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <span class="style8" style="">Dr.G.S. Murthy</span>
                  </div>
@@ -261,14 +269,14 @@ include "navfinal.html";
                     <div class="col">
                     <span class="style8" style="">Deceased</span>
                    </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div>
 
 
 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <span class="style8" style="">Dr.N.R. Bhat </span>
                  </div>
@@ -278,14 +286,14 @@ include "navfinal.html";
                     <div class="col">
                     <span class="style8" style="">Deceased</span>
                    </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div>
 
 
 
                 <div class="row">
-                <div class="col"></div>
+                <!-- <div class="col"></div> -->
                     <div class="col">
                     <span class="style8" style="">Dr.B.S. Kadam </span>
                  </div>
@@ -295,7 +303,7 @@ include "navfinal.html";
                     <div class="col">
                     <span class="style8" style="">Deceased</span>
                    </div>
-                    <div class="col"></div>
+                    <!-- <div class="col"></div> -->
                 
                 </div>
 

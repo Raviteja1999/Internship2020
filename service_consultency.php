@@ -38,22 +38,22 @@
 
 <p>
 	&nbsp;</p>
+  
+
 <p>
-	<span style="font-size:16px;">1. Soil fertility and fertilizer recommendations </span></p>
+	<span style="font-size:16px;"> 1.  Agri-Biomass Briquetting </span></p>
+
 <p>
-	<span style="font-size:16px;">2. Tobacco insect-pest management </span></p>
+	<span style="font-size:16px;"> 2. Evaluation of Pesticides and Fungicides </span></p>
+
+
 <p>
-	<span style="font-size:16px;">3. Post-harvest product management </span></p>
+	<span style="font-size:16px;"> 3. Soil fertility and Water quality assessment </span></p>
+
 <p>
-	<span style="font-size:16px;">4. Evaluation of pesticides and fungicides </span></p>
-<p>
-	<span style="font-size:16px;">5. Evaluation of fertilizers, biofertilizers and sucker control agents</span></p>
-<p>
-	<span style="font-size:16px;">6. Production and supply of Nuclear Polyhedrosis Virus (NPV) </span></p>
-<p>
-	<span style="font-size:16px;">7. Soil and water analysis </span></p>
-<p>
-	<span style="font-size:16px;">8. Leaf analysis&nbsp;</span></p>
+	<span style="font-size:16px;"> 4. Establishing Soil, Water and Plant nutrient analysis Lab </span></p>
+
+
 
 
 <p>
