@@ -53,6 +53,7 @@
 <p> <b>JANUARY-JUNE,2018</b>(<a href="files/news-2018.pdf">click here to download</a>)</p>
 <p> <b>JANUARY-JUNE,2017</b>(<a href="files/news17.pdf">click here to download</a>)</p>
 <p> <b>JULY-DECEMBER,2017</b>(<a href="files/news172.pdf">click here to download</a>)</p>
+<p> <b>ARCHIEVES</b> &nbsp; (<a href="archieve.php">click here to open</a>)</p>
 
 
 </div>
